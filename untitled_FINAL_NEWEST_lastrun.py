@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 20, 2026, at 15:33
+    on kwiecień 20, 2026, at 15:53
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -393,8 +393,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-3.0)
     suwak_badanie = visual.Slider(win=win, name='suwak_badanie',
-        startValue=3, size=(0.5, 0.1), pos=(0, -0.5), units='norm',
-        labels=None, ticks=(1, 2, 3, 4, 5), granularity=0.0,
+        startValue=3, size=(1, 0.1), pos=(0, -0.5), units='norm',
+        labels=None, ticks=(-50, 0, 50), granularity=0.0,
         style='slider', styleTweaks=[], opacity=None,
         labelColor=(-1.0000, 1.0000, 1.0000), markerColor='Red', lineColor='White', colorSpace='rgb',
         font='Noto Sans', labelHeight=0.05,
@@ -416,14 +416,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     fiksacja1 = visual.TextStim(win=win, name='fiksacja1',
         text='+',
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.03, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-7.0);
     fiksacja2 = visual.TextStim(win=win, name='fiksacja2',
         text='+',
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-8.0);
@@ -559,7 +559,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *label_text* updates
             
             # if label_text is starting this frame...
-            if label_text.status == NOT_STARTED and tThisFlip >= 0.7-frameTolerance:
+            if label_text.status == NOT_STARTED and tThisFlip >= 1.1-frameTolerance:
                 # keep track of start time/frame for later
                 label_text.frameNStart = frameN  # exact frame index
                 label_text.tStart = t  # local t and not account for scr refresh
@@ -578,8 +578,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             
             # if label_text is stopping this frame...
             if label_text.status == STARTED:
-                # is it time to stop? (based on local clock)
-                if tThisFlip > 1.7-frameTolerance:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > label_text.tStartRefresh + 2.5-frameTolerance:
                     # keep track of stop time/frame for later
                     label_text.tStop = t  # not accounting for scr refresh
                     label_text.tStopRefresh = tThisFlipGlobal  # on global time
@@ -593,7 +593,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *stim_image* updates
             
             # if stim_image is starting this frame...
-            if stim_image.status == NOT_STARTED and tThisFlip >= 2.6-frameTolerance:
+            if stim_image.status == NOT_STARTED and tThisFlip >= 4.6-frameTolerance:
                 # keep track of start time/frame for later
                 stim_image.frameNStart = frameN  # exact frame index
                 stim_image.tStart = t  # local t and not account for scr refresh
@@ -613,7 +613,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # if stim_image is stopping this frame...
             if stim_image.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > stim_image.tStartRefresh + 1-frameTolerance:
+                if tThisFlipGlobal > stim_image.tStartRefresh + 0.9-frameTolerance:
                     # keep track of stop time/frame for later
                     stim_image.tStop = t  # not accounting for scr refresh
                     stim_image.tStopRefresh = tThisFlipGlobal  # on global time
@@ -627,7 +627,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *suwak_badanie* updates
             
             # if suwak_badanie is starting this frame...
-            if suwak_badanie.status == NOT_STARTED and tThisFlip >= 3.6-frameTolerance:
+            if suwak_badanie.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
                 # keep track of start time/frame for later
                 suwak_badanie.frameNStart = frameN  # exact frame index
                 suwak_badanie.tStart = t  # local t and not account for scr refresh
@@ -651,7 +651,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *lewa_etykieta* updates
             
             # if lewa_etykieta is starting this frame...
-            if lewa_etykieta.status == NOT_STARTED and tThisFlip >= 3.6-frameTolerance:
+            if lewa_etykieta.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
                 # keep track of start time/frame for later
                 lewa_etykieta.frameNStart = frameN  # exact frame index
                 lewa_etykieta.tStart = t  # local t and not account for scr refresh
@@ -671,7 +671,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *prawa_etykieta* updates
             
             # if prawa_etykieta is starting this frame...
-            if prawa_etykieta.status == NOT_STARTED and tThisFlip >= 3.6-frameTolerance:
+            if prawa_etykieta.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
                 # keep track of start time/frame for later
                 prawa_etykieta.frameNStart = frameN  # exact frame index
                 prawa_etykieta.tStart = t  # local t and not account for scr refresh
@@ -710,8 +710,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             
             # if fiksacja1 is stopping this frame...
             if fiksacja1.status == STARTED:
-                # is it time to stop? (based on local clock)
-                if tThisFlip > 0.5-frameTolerance:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > fiksacja1.tStartRefresh + 1-frameTolerance:
                     # keep track of stop time/frame for later
                     fiksacja1.tStop = t  # not accounting for scr refresh
                     fiksacja1.tStopRefresh = tThisFlipGlobal  # on global time
@@ -725,7 +725,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *fiksacja2* updates
             
             # if fiksacja2 is starting this frame...
-            if fiksacja2.status == NOT_STARTED and tThisFlip >= 1.9-frameTolerance:
+            if fiksacja2.status == NOT_STARTED and tThisFlip >= 3.6-frameTolerance:
                 # keep track of start time/frame for later
                 fiksacja2.frameNStart = frameN  # exact frame index
                 fiksacja2.tStart = t  # local t and not account for scr refresh
@@ -744,8 +744,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             
             # if fiksacja2 is stopping this frame...
             if fiksacja2.status == STARTED:
-                # is it time to stop? (based on local clock)
-                if tThisFlip > 2.4-frameTolerance:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > fiksacja2.tStartRefresh + 1-frameTolerance:
                     # keep track of stop time/frame for later
                     fiksacja2.tStop = t  # not accounting for scr refresh
                     fiksacja2.tStopRefresh = tThisFlipGlobal  # on global time
@@ -759,7 +759,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *pytanie* updates
             
             # if pytanie is starting this frame...
-            if pytanie.status == NOT_STARTED and tThisFlip >= 3.6-frameTolerance:
+            if pytanie.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
                 # keep track of start time/frame for later
                 pytanie.frameNStart = frameN  # exact frame index
                 pytanie.tStart = t  # local t and not account for scr refresh

@@ -197,7 +197,7 @@
         <Param val="Noto Sans" valType="str" updates="constant" name="font"/>
         <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
         <Param val="0" valType="num" updates="constant" name="granularity"/>
-        <Param val="3" valType="code" updates="None" name="initVal"/>
+        <Param val="0" valType="code" updates="None" name="initVal"/>
         <Param val="" valType="list" updates="constant" name="labels"/>
         <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
         <Param val="suwak_badanie" valType="code" updates="None" name="name"/>
@@ -206,7 +206,7 @@
         <Param val="(0, -0.5)" valType="list" updates="constant" name="pos"/>
         <Param val="False" valType="bool" updates="constant" name="readOnly"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.5, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="(1, 0.1)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="5.5" valType="code" updates="None" name="startVal"/>
@@ -218,7 +218,7 @@
         <Param val="[]" valType="list" updates="constant" name="styleTweaks"/>
         <Param val="slider" valType="str" updates="constant" name="styles"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="(1, 2, 3, 4, 5)" valType="list" updates="constant" name="ticks"/>
+        <Param val="(-50, 0, 50)" valType="list" updates="constant" name="ticks"/>
         <Param val="norm" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
       </SliderComponent>
@@ -259,7 +259,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="Arial" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
         <Param val="prawa_etykieta" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -286,7 +286,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="Arial" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.4" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
         <Param val="fiksacja1" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -313,7 +313,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="Arial" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
         <Param val="fiksacja2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
