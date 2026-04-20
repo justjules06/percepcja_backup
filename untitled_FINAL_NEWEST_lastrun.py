@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 20, 2026, at 15:53
+    on kwiecień 20, 2026, at 16:14
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -393,8 +393,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-3.0)
     suwak_badanie = visual.Slider(win=win, name='suwak_badanie',
-        startValue=3, size=(1, 0.1), pos=(0, -0.5), units='norm',
-        labels=None, ticks=(-50, 0, 50), granularity=0.0,
+        startValue=0, size=(1, 0.1), pos=(0, -0.5), units='norm',
+        labels=None, ticks=(-50,-12.5, -25, -37.5, 0, 12.5, 25, 37.5, 50), granularity=0.0,
         style='slider', styleTweaks=[], opacity=None,
         labelColor=(-1.0000, 1.0000, 1.0000), markerColor='Red', lineColor='White', colorSpace='rgb',
         font='Noto Sans', labelHeight=0.05,
@@ -409,7 +409,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     prawa_etykieta = visual.TextStim(win=win, name='prawa_etykieta',
         text='',
         font='Arial',
-        pos=(0.55, -0.05), draggable=False, height=0.03, wrapWidth=None, ori=0.0, 
+        pos=(0.55, -0.05), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-6.0);
