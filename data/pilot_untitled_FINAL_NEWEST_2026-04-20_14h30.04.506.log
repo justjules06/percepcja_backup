@@ -1,0 +1,95 @@
+7.9826 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+7.9844 	INFO 	Loaded monitor calibration from ['2026_03_18 20:30']
+8.6544 	INFO 	Using renderer 'Intel(R) UHD Graphics' for graphics
+8.6544 	INFO 	OpenGL version supported by driver is 4..
+9.7631 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000187326E2020>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000187326E2080>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001873411CE50>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.7632 	EXP 	window1: backgroundImage = ''
+9.7632 	EXP 	window1: backgroundFit = 'none'
+9.8211 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.8383 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.8543 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.8708 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.8874 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9034 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9197 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9361 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9524 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9680 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9838 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0005 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0167 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0326 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0490 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0664 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0845 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0995 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.1139 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.1290 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.1448 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.1455 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.1546 	DEBUG 	Upload of Texture Font fontname complete
+10.2087 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2253 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2431 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2436 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.2514 	DEBUG 	Upload of Texture Font fontname complete
+10.2548 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.2549 	EXP 	window1: recordFrameIntervals = False
+10.5783 	EXP 	window1: recordFrameIntervals = True
+11.5259 	WARNING 	t of last frame was 384.85ms (=1/2)
+11.5919 	WARNING 	t of last frame was 65.99ms (=1/15)
+11.6444 	WARNING 	t of last frame was 20.92ms (=1/47)
+11.6908 	WARNING 	t of last frame was 29.42ms (=1/33)
+11.7235 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+12.7027 	EXP 	window1: recordFrameIntervals = False
+12.7027 	EXP 	Screen (0) actual frame rate measured at 59.89Hz
+12.7618 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.7788 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.7965 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.8149 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.8335 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.8507 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.8671 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.8844 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.8996 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.9148 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.9153 	DEBUG 	Uploading Texture Font fontname to graphics card
+12.9159 	DEBUG 	Upload of Texture Font fontname complete
+13.0930 	INFO 	keyboard.Keyboard is using ptb backend.
+13.0930 	EXP 	untitled_FINAL_NEWEST: status = STARTED
+13.1247 	EXP 	Created label_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='label_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.1662 	EXP 	Created stim_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='stim_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+13.1923 	EXP 	Created suwak_badanie = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-5, fillColor=None, flip=False, font='Noto Sans', granularity=0.0, labelColor=None, labelHeight=np.float64(0.05), labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='suwak_badanie', opacity=None, ori=0.0, pos=array([0. , 0.1]), readOnly=False, self=UNKNOWN, size=array([0.5, 0.1]), startValue=3, style='slider', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='norm', win=Window(...))
+0.0063 	EXP 	suwak_badanie: autoLog = True
+0.0063 	EXP 	suwak_badanie: styleTweaks = []
+0.0063 	EXP 	suwak_badanie: styleTweaks = []
+0.0063 	EXP 	suwak_badanie: styleTweaks = []
+0.0063 	EXP 	suwak_badanie: styleTweaks = []
+0.0063 	EXP 	suwak_badanie: contrast = 1.0
+0.0063 	EXP 	suwak_badanie: markerPos = 3
+0.0063 	EXP 	suwak_badanie: autoLog = True
+0.0184 	DEBUG 	Read excel file with openpyxl: conditions.xlsx
+0.0217 	EXP 	Imported conditions.xlsx as conditions, 32 conditions, 5 params
+0.0223 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'image_path': 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\ee7bd76502e1d9aea7c74fc5bea75be9.jpg', 'etykieta': 'test', 'left_label': 'radość', 'right_label': 'smutek', 'show_label': 1, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.1061 	EXP 	label_text: height = np.float64(0.05)
+0.1061 	EXP 	label_text: height = np.float64(0.05)
+0.1061 	EXP 	label_text: height = np.float64(0.05)
+0.1061 	EXP 	label_text: text = 'test'
+0.1061 	EXP 	stim_image: image = 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\ee7bd76502e1d9aea7c74fc5bea75be9.jpg'
+0.1061 	EXP 	suwak_badanie: markerPos = None
+0.1061 	EXP 	suwak_badanie: markerPos = 3
+0.1061 	EXP 	label_text: autoDraw = True
+1.0215 	EXP 	stim_image: autoDraw = True
+1.1215 	EXP 	label_text: autoDraw = False
+2.0011 	EXP 	suwak_badanie: autoDraw = True
+2.0353 	EXP 	stim_image: autoDraw = False
+3.9952 	EXP 	Device response: <KeyPress from None: t=3.9735472000029404, value=escape, duration=None>
+3.9958 	DATA 	Keypress: escape
+4.1177 	EXP 	Device response: <KeyPress from None: t=3.9735472000029404, value=escape, duration=0.14030820000334643>
+4.1178 	EXP 	untitled_FINAL_NEWEST: status = STOPPED
+4.1297 	EXP 	suwak_badanie: autoDraw = False
+4.1343 	EXP 	untitled_FINAL_NEWEST: status = STOPPED
+4.1398 	INFO 	saved data to 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\data\\pilot_untitled_FINAL_NEWEST_2026-04-20_14h30.04.506.csv'
+4.1436 	INFO 	saved data to C:\Users\julia\OneDrive\Pulpit\percepcja_psychopy\data\pilot_untitled_FINAL_NEWEST_2026-04-20_14h30.04.506.psydat
+4.7652 	DEBUG 	Saving data for untitled_FINAL_NEWEST ExperimentHandler
+4.8061 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

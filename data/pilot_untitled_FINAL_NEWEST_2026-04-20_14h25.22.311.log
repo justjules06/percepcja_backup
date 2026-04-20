@@ -1,0 +1,173 @@
+8.1339 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+8.1348 	INFO 	Loaded monitor calibration from ['2026_03_18 20:30']
+8.7167 	INFO 	Using renderer 'Intel(R) UHD Graphics' for graphics
+8.7167 	INFO 	OpenGL version supported by driver is 4..
+9.8856 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020B347A6980>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020B347A69E0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000020B2C191120>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.8858 	EXP 	window1: backgroundImage = ''
+9.8858 	EXP 	window1: backgroundFit = 'none'
+9.9363 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9543 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9729 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.9898 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0092 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0282 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0460 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0644 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0815 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.0976 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.1146 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.1345 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.1521 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.1693 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.1868 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2062 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2233 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2414 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2602 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2794 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2976 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2982 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.3114 	DEBUG 	Upload of Texture Font fontname complete
+10.3571 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.3746 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.3931 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.3938 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.4116 	DEBUG 	Upload of Texture Font fontname complete
+10.4151 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.4151 	EXP 	window1: recordFrameIntervals = False
+10.8286 	EXP 	window1: recordFrameIntervals = True
+11.6848 	WARNING 	t of last frame was 375.79ms (=1/2)
+12.8504 	EXP 	window1: recordFrameIntervals = False
+12.8505 	EXP 	Screen (0) actual frame rate measured at 60.13Hz
+12.8980 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.9121 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.9267 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.9411 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.9552 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.9696 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.9834 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.9983 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.0117 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.0263 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.0267 	DEBUG 	Uploading Texture Font fontname to graphics card
+13.0273 	DEBUG 	Upload of Texture Font fontname complete
+13.2022 	INFO 	keyboard.Keyboard is using ptb backend.
+13.2023 	EXP 	untitled_FINAL_NEWEST: status = STARTED
+13.2346 	EXP 	Created label_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='label_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.2756 	EXP 	Created stim_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='stim_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+13.3026 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-5, fillColor=None, flip=False, font='Noto Sans', granularity=0.0, labelColor=None, labelHeight=np.float64(0.05), labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([0. , 0.1]), readOnly=False, self=UNKNOWN, size=array([0.5, 0.1]), startValue=3, style='slider', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='norm', win=Window(...))
+0.0114 	EXP 	slider: autoLog = True
+0.0114 	EXP 	slider: styleTweaks = []
+0.0114 	EXP 	slider: styleTweaks = []
+0.0114 	EXP 	slider: styleTweaks = []
+0.0114 	EXP 	slider: styleTweaks = []
+0.0114 	EXP 	slider: contrast = 1.0
+0.0114 	EXP 	slider: markerPos = 3
+0.0114 	EXP 	slider: autoLog = True
+0.0227 	DEBUG 	Read excel file with openpyxl: conditions.xlsx
+0.0247 	EXP 	Imported conditions.xlsx as conditions, 32 conditions, 5 params
+0.0254 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'image_path': 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\ee7bd76502e1d9aea7c74fc5bea75be9.jpg', 'etykieta': 'test', 'left_label': 'radość', 'right_label': 'smutek', 'show_label': 1, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.1112 	EXP 	label_text: height = np.float64(0.05)
+0.1112 	EXP 	label_text: height = np.float64(0.05)
+0.1112 	EXP 	label_text: height = np.float64(0.05)
+0.1112 	EXP 	label_text: text = 'test'
+0.1112 	EXP 	stim_image: image = 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\ee7bd76502e1d9aea7c74fc5bea75be9.jpg'
+0.1112 	EXP 	slider: markerPos = None
+0.1112 	EXP 	slider: markerPos = 3
+0.1112 	EXP 	label_text: autoDraw = True
+1.0256 	EXP 	stim_image: autoDraw = True
+1.1267 	EXP 	label_text: autoDraw = False
+2.0068 	EXP 	slider: autoDraw = True
+2.0399 	EXP 	stim_image: autoDraw = False
+3.0804 	DATA 	Mouse: Left button down, pos=(395,334)
+3.1042 	EXP 	slider: markerPos = np.float64(2.9)
+3.1206 	EXP 	slider: markerPos = np.float64(2.92)
+3.1369 	EXP 	slider: markerPos = np.float64(2.92)
+3.1534 	EXP 	slider: markerPos = np.float64(2.98)
+3.1709 	EXP 	slider: markerPos = np.float64(3.02)
+3.1866 	EXP 	slider: markerPos = np.float64(3.1)
+3.2030 	EXP 	slider: markerPos = np.float64(3.22)
+3.2198 	EXP 	slider: markerPos = np.float64(3.4)
+3.2373 	EXP 	slider: markerPos = np.float64(3.54)
+3.2535 	EXP 	slider: markerPos = np.float64(3.66)
+3.2697 	EXP 	slider: markerPos = np.float64(3.88)
+3.2859 	EXP 	slider: markerPos = np.float64(4.08)
+3.3025 	EXP 	slider: markerPos = np.float64(4.24)
+3.3198 	EXP 	slider: markerPos = np.float64(4.4)
+3.3360 	EXP 	slider: markerPos = np.float64(4.48)
+3.3529 	EXP 	slider: markerPos = np.float64(4.54)
+3.3691 	EXP 	slider: markerPos = np.float64(4.58)
+3.3868 	EXP 	slider: markerPos = np.float64(4.6)
+3.4033 	EXP 	slider: markerPos = np.float64(4.6)
+3.4191 	EXP 	slider: markerPos = np.float64(4.62)
+3.4359 	EXP 	slider: markerPos = np.float64(4.62)
+3.4524 	EXP 	slider: markerPos = np.float64(4.62)
+3.4692 	EXP 	slider: markerPos = np.float64(4.62)
+3.4862 	EXP 	slider: markerPos = np.float64(4.62)
+3.5034 	EXP 	slider: markerPos = np.float64(4.62)
+3.5197 	EXP 	slider: markerPos = np.float64(4.62)
+3.5231 	DATA 	Mouse:  Left button up, pos=(481,326)
+3.5360 	EXP 	slider: markerPos = np.float64(4.62)
+3.5390 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'image_path': 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\ee7bd76502e1d9aea7c74fc5bea75be9.jpg', 'etykieta': 'test', 'left_label': 'strach', 'right_label': 'złość', 'show_label': 1, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+3.5535 	EXP 	label_text: autoDraw = False
+3.5535 	EXP 	stim_image: autoDraw = False
+3.5535 	EXP 	slider: autoDraw = False
+3.5535 	EXP 	label_text: text = 'test'
+3.5535 	EXP 	stim_image: image = 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\ee7bd76502e1d9aea7c74fc5bea75be9.jpg'
+3.5535 	EXP 	slider: markerPos = None
+3.5535 	EXP 	slider: markerPos = 3
+3.5535 	EXP 	label_text: autoDraw = True
+4.5504 	EXP 	stim_image: autoDraw = True
+4.5669 	EXP 	label_text: autoDraw = False
+5.5466 	EXP 	slider: autoDraw = True
+5.5633 	EXP 	stim_image: autoDraw = False
+6.0985 	DATA 	Mouse: Left button down, pos=(432,321)
+6.1117 	EXP 	slider: markerPos = np.float64(3.62)
+6.1285 	EXP 	slider: markerPos = np.float64(3.58)
+6.1451 	EXP 	slider: markerPos = np.float64(3.56)
+6.1622 	EXP 	slider: markerPos = np.float64(3.48)
+6.1788 	EXP 	slider: markerPos = np.float64(3.4)
+6.1946 	EXP 	slider: markerPos = np.float64(3.2800000000000002)
+6.2116 	EXP 	slider: markerPos = np.float64(3.04)
+6.2285 	EXP 	slider: markerPos = np.float64(2.86)
+6.2459 	EXP 	slider: markerPos = np.float64(2.44)
+6.2615 	EXP 	slider: markerPos = np.float64(2.2199999999999998)
+6.2788 	EXP 	slider: markerPos = np.float64(1.9799999999999998)
+6.2946 	EXP 	slider: markerPos = np.float64(1.54)
+6.3118 	EXP 	slider: markerPos = np.float64(1.4200000000000004)
+6.3278 	EXP 	slider: markerPos = np.float64(1.28)
+6.3453 	EXP 	slider: markerPos = np.float64(1.24)
+6.3609 	EXP 	slider: markerPos = np.float64(1.24)
+6.3778 	EXP 	slider: markerPos = np.float64(1.24)
+6.3959 	EXP 	slider: markerPos = np.float64(1.24)
+6.4116 	EXP 	slider: markerPos = np.float64(1.24)
+6.4283 	EXP 	slider: markerPos = np.float64(1.24)
+6.4450 	EXP 	slider: markerPos = np.float64(1.24)
+6.4616 	EXP 	slider: markerPos = np.float64(1.24)
+6.4778 	EXP 	slider: markerPos = np.float64(1.24)
+6.4942 	EXP 	slider: markerPos = np.float64(1.24)
+6.4970 	DATA 	Mouse:  Left button up, pos=(312,327)
+6.5107 	EXP 	slider: markerPos = np.float64(1.24)
+6.5146 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'image_path': 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\ee7bd76502e1d9aea7c74fc5bea75be9.jpg', 'etykieta': 'test', 'left_label': 'zaufanie', 'right_label': 'wstręt', 'show_label': 1, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+6.5284 	EXP 	label_text: autoDraw = False
+6.5284 	EXP 	stim_image: autoDraw = False
+6.5284 	EXP 	slider: autoDraw = False
+6.5284 	EXP 	label_text: text = 'test'
+6.5284 	EXP 	stim_image: image = 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\ee7bd76502e1d9aea7c74fc5bea75be9.jpg'
+6.5284 	EXP 	slider: markerPos = None
+6.5284 	EXP 	slider: markerPos = 3
+6.5284 	EXP 	label_text: autoDraw = True
+7.5262 	EXP 	stim_image: autoDraw = True
+7.5420 	EXP 	label_text: autoDraw = False
+8.5220 	EXP 	slider: autoDraw = True
+8.5391 	EXP 	stim_image: autoDraw = False
+8.6811 	EXP 	Device response: <KeyPress from None: t=8.673697799997171, value=escape, duration=None>
+8.6814 	DATA 	Keypress: escape
+8.8422 	EXP 	Device response: <KeyPress from None: t=8.673697799997171, value=escape, duration=0.16072700000950135>
+8.8423 	EXP 	untitled_FINAL_NEWEST: status = STOPPED
+8.8553 	EXP 	slider: autoDraw = False
+8.8601 	EXP 	untitled_FINAL_NEWEST: status = STOPPED
+8.8693 	INFO 	saved data to 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\data\\pilot_untitled_FINAL_NEWEST_2026-04-20_14h25.22.311.csv'
+8.8729 	INFO 	saved data to C:\Users\julia\OneDrive\Pulpit\percepcja_psychopy\data\pilot_untitled_FINAL_NEWEST_2026-04-20_14h25.22.311.psydat
+9.4766 	DEBUG 	Saving data for untitled_FINAL_NEWEST ExperimentHandler
+9.5181 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
