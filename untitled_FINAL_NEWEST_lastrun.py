@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 24, 2026, at 19:27
+    on kwiecień 24, 2026, at 20:04
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -202,7 +202,7 @@ def setupWindow(expInfo=None, win=None):
         # if not given a window to setup, make one
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
-            winType='pyglet', allowGUI=False, allowStencil=False,
+            winType='pyglet', allowGUI=False, allowStencil=True,
             monitor='testMonitor', color=(0.6549, 0.6549, 0.6549), colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
@@ -371,19 +371,37 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # Start Code - component code to be run after the window creation
     
+    # --- Initialize components for Routine "test_textbox" ---
+    textbox = visual.TextBox2(
+         win, text='Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.  \n\nTwoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu (wyrażonym w procentach) ta emocja jest nasilona. \n\n  -  Każdą próbę rozpocznie znak +. W tym momencie skup wzrok na środku ekranu. \n\n  -  Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model Sztucznej Inteligencji lub uśrednione wyniki uzyskane od poprzednich uczestników badania. W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. \n\n  -  Zdjęcie twarzy pojawi się tylko na krótką chwilę. Polegaj na swojej intuicji i pierwszym wrażeniu. \n \nPamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. \n\nNa następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. \n\n\n\nAby przejść dalej, naciśnij [SPACJA].', placeholder='Type here...', font='Arial',
+         ori=0.0, pos=(0, 0), draggable=False, units='norm',     letterHeight=0.05,
+         size=(2, 2), borderWidth=2.0,
+         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
+         opacity=None,
+         bold=False, italic=False,
+         lineSpacing=1.0, speechPoint=None,
+         padding=0.0, alignment='top-center',
+         anchor='center', overflow='visible',
+         fillColor=None, borderColor=None,
+         flipHoriz=False, flipVert=False, languageStyle='LTR',
+         editable=False,
+         name='textbox',
+         depth=0, autoLog=True,
+    )
+    
     # --- Initialize components for Routine "instrukcja" ---
     spacja_instr = keyboard.Keyboard(deviceName='defaultKeyboard')
     text_instr = visual.TextStim(win=win, name='text_instr',
-        text='Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.  \n\nTwoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu (wyrażonym w procentach) ta emocja jest nasilona. \n\n  -  Każdą próbę rozpocznie znak +. W tym momencie skup wzrok na środku ekranu. \n  -  Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model Sztucznej Inteligencji lub uśrednione wyniki uzyskane od poprzednich uczestników badania. W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. \n  -  Zdjęcie twarzy pojawi się tylko na krótką chwilę. Polegaj na swojej intuicji i pierwszym wrażeniu. \n \nPamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. \n\nNa następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. \n\n\n\nAby przejść dalej, naciśnij [SPACJĘ].',
+        text='Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.  \n\nTwoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu (wyrażonym w procentach) ta emocja jest nasilona. \n\n  -  Każdą próbę rozpocznie znak +. W tym momencie skup wzrok na środku ekranu. \n\n  -  Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model Sztucznej Inteligencji lub uśrednione wyniki uzyskane od poprzednich uczestników badania. W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. \n\n  -  Zdjęcie twarzy pojawi się tylko na krótką chwilę. Polegaj na swojej intuicji i pierwszym wrażeniu. \n \nPamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. \n\nNa następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. \n\n\n\nAby przejść dalej, naciśnij [SPACJA].',
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.03, wrapWidth=1.4, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.03, wrapWidth=1.5, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-2.0);
     
     # --- Initialize components for Routine "demo_suwaka" ---
     suwak_info = visual.TextStim(win=win, name='suwak_info',
-        text=' Po zniknięciu zdjęcia na ekranie pojawi się suwak umieszczony pomiędzy dwiema emocjami. Twoim zadaniem jest przesunięcie wskaźnika w miejsce, które najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Aby ruszyć wskaźnikiem suwaka nakieruj na niego kursorem i przytrzymując lewy przycisk myszy wybierz odpowiednie miejsce. \n\nPrzesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\n\nPozycję suwaka oznaczoną numerem 1 należy interpetować jako wskazanie ~80% radości i ~20% smutku. \n\nPozycję suwaka oznaczonego numerem 2 należy interpretować jako wskazanie ~40% radości i ~60% smutku. \n\nPozycję suwaka oznaczonego numerem 3 należy intepretować jako wskanie 50% radości i 50% smutku. \n\nAby przejść dalej, naciśnij [SPACJĘ].',
+        text='Po zniknięciu zdjęcia na ekranie pojawi się suwak, a na jego krańcach dwie emocje. Twoim zadaniem jest przesunięcie czerwonego wskaźnika w miejsce, które najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Nakieruj na wskażnik kursorem oraz przytrzymaj lewy przycisk myszy, by wybrać odpowiednie miejsce na suwaku. \n\nUWAGA: przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\n\nPozycję suwaka oznaczoną numerem 1 należy interpetować jako wskazanie ~80% radości i ~20% smutku. \n\nPozycję suwaka oznaczonego numerem 2 należy interpretować jako wskazanie ~40% radości i ~60% smutku. \n\nPozycję suwaka oznaczonego numerem 3 należy intepretować jako wskanie 50% radości i 50% smutku. \n\nAby przejść dalej, naciśnij [SPACJA].',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.03, wrapWidth=1.3, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
@@ -413,14 +431,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         text='+',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-2.0);
     pilot_suwak = visual.Slider(win=win, name='pilot_suwak',
         startValue=0, size=(1, 0.1), pos=(0, -0.5), units='norm',
         labels=None, ticks=(-50,-12.5, -25, -37.5, 0, 12.5, 25, 37.5, 50), granularity=0.0,
         style='slider', styleTweaks=[], opacity=None,
-        labelColor=(-1.0000, 1.0000, 1.0000), markerColor='Red', lineColor='White', colorSpace='rgb',
+        labelColor=(-1.0000, 1.0000, 1.0000), markerColor='Red', lineColor=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
         font='Noto Sans', labelHeight=0.05,
         flip=False, ori=0.0, depth=-3, readOnly=False)
     pilot_fiksacja2 = visual.TextStim(win=win, name='pilot_fiksacja2',
@@ -434,7 +452,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         text='Jaką emocję wyrażała ta twarz?',
         font='Arial',
         units='norm', pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-5.0);
     pilot_lewa_etykieta = visual.TextStim(win=win, name='pilot_lewa_etykieta',
@@ -487,7 +505,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         text='',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.3, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-2.0);
     stim_image = visual.ImageStim(
@@ -502,7 +520,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         startValue=0, size=(1, 0.1), pos=(0, -0.5), units='norm',
         labels=None, ticks=(-50,-12.5, -25, -37.5, 0, 12.5, 25, 37.5, 50), granularity=0.0,
         style='slider', styleTweaks=[], opacity=None,
-        labelColor=(-1.0000, 1.0000, 1.0000), markerColor='Red', lineColor='White', colorSpace='rgb',
+        labelColor=(-1.0000, 1.0000, 1.0000), markerColor='Red', lineColor=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
         font='Noto Sans', labelHeight=0.05,
         flip=False, ori=0.0, depth=-4, readOnly=False)
     lewa_etykieta = visual.TextStim(win=win, name='lewa_etykieta',
@@ -537,7 +555,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         text='Jaką emocję wyrażała ta twarz?',
         font='Arial',
         units='norm', pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-9.0);
     
@@ -579,6 +597,132 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     expInfo['expStart'] = data.getDateStr(
         format='%Y-%m-%d %Hh%M.%S.%f %z', fractionalSecondDigits=6
     )
+    
+    # --- Prepare to start Routine "test_textbox" ---
+    # create an object to store info about Routine test_textbox
+    test_textbox = data.Routine(
+        name='test_textbox',
+        components=[textbox],
+    )
+    test_textbox.status = NOT_STARTED
+    continueRoutine = True
+    # update component parameters for each repeat
+    textbox.reset()
+    # store start times for test_textbox
+    test_textbox.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
+    test_textbox.tStart = globalClock.getTime(format='float')
+    test_textbox.status = STARTED
+    thisExp.addData('test_textbox.started', test_textbox.tStart)
+    test_textbox.maxDuration = None
+    # keep track of which components have finished
+    test_textboxComponents = test_textbox.components
+    for thisComponent in test_textbox.components:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "test_textbox" ---
+    thisExp.currentRoutine = test_textbox
+    test_textbox.forceEnded = routineForceEnded = not continueRoutine
+    while continueRoutine and routineTimer.getTime() < 4.0:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *textbox* updates
+        
+        # if textbox is starting this frame...
+        if textbox.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            textbox.frameNStart = frameN  # exact frame index
+            textbox.tStart = t  # local t and not account for scr refresh
+            textbox.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(textbox, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'textbox.started')
+            # update status
+            textbox.status = STARTED
+            textbox.setAutoDraw(True)
+        
+        # if textbox is active this frame...
+        if textbox.status == STARTED:
+            # update params
+            pass
+        
+        # if textbox is stopping this frame...
+        if textbox.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > textbox.tStartRefresh + 4-frameTolerance:
+                # keep track of stop time/frame for later
+                textbox.tStop = t  # not accounting for scr refresh
+                textbox.tStopRefresh = tThisFlipGlobal  # on global time
+                textbox.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'textbox.stopped')
+                # update status
+                textbox.status = FINISHED
+                textbox.setAutoDraw(False)
+        
+        # check for quit (typically the Esc key)
+        if defaultKeyboard.getKeys(keyList=["escape"]):
+            thisExp.status = FINISHED
+        if thisExp.status == FINISHED or endExpNow:
+            endExperiment(thisExp, win=win)
+            return
+        # pause experiment here if requested
+        if thisExp.status == PAUSED:
+            pauseExperiment(
+                thisExp=thisExp, 
+                win=win, 
+                timers=[routineTimer, globalClock], 
+                currentRoutine=test_textbox,
+            )
+            # skip the frame we paused on
+            continue
+        
+        # has a Component requested the Routine to end?
+        if not continueRoutine:
+            test_textbox.forceEnded = routineForceEnded = True
+        # has the Routine been forcibly ended?
+        if test_textbox.forceEnded or routineForceEnded:
+            break
+        # has every Component finished?
+        continueRoutine = False
+        for thisComponent in test_textbox.components:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "test_textbox" ---
+    for thisComponent in test_textbox.components:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    # store stop times for test_textbox
+    test_textbox.tStop = globalClock.getTime(format='float')
+    test_textbox.tStopRefresh = tThisFlipGlobal
+    thisExp.addData('test_textbox.stopped', test_textbox.tStop)
+    # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
+    if test_textbox.maxDurationReached:
+        routineTimer.addTime(-test_textbox.maxDuration)
+    elif test_textbox.forceEnded:
+        routineTimer.reset()
+    else:
+        routineTimer.addTime(-4.000000)
+    thisExp.nextEntry()
     
     # --- Prepare to start Routine "instrukcja" ---
     # create an object to store info about Routine instrukcja
@@ -1042,7 +1186,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # Run 'Begin Routine' code from mouse_visible_5
     win.mouseVisible=True
     pilot_label_text.setOpacity(None)
-    pilot_label_text.setText('Model AI wykrył w tej twarzy 80%\n')
+    pilot_label_text.setText('Model AI wykrył w tej twarzy 80% smutku.\n\n')
     pilot_suwak.reset()
     pilot_lewa_etykieta.setText('radość')
     pilot_prawa_etykieta.setText('smutek')
