@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 24, 2026, at 17:37
+    on kwiecień 24, 2026, at 18:11
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -379,21 +379,21 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "instrukcja" ---
     spacja_instr = keyboard.Keyboard(deviceName='defaultKeyboard')
     text_instr = visual.TextStim(win=win, name='text_instr',
-        text='Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.  \n\nTwoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu (wyrażonym w procentach) ta emocja jest nasilona. \n\n  -  Każdą próbę rozpocznie znak \\"+\\" – w tym momencie skup wzrok na środku ekranu. \n  -  Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model Sztucznej Inteligencji lub uśrednione wyniki uzyskane od poprzednich uczestników badania. W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. \n  -  Zdjęcie twarzy pojawi się tylko na krótką chwilę. Polegaj na swojej intuicji i pierwszym wrażeniu. \n  -  Po zniknięciu zdjęcia na ekranie pojawi się suwak umieszczony pomiędzy dwiema emocjami. Twoim zadaniem jest przesunięcie wskaźnika w miejsce, które najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Aby ruszyć wskaźnikiem suwaka nakieruj na niego kursorem i przytrzymując lewy przycisk myszy wybierz odpowiednie miejsce. \n  -  Przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\nPamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. \n\nNa następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. \n\n\n\nAby przejść dalej, naciśnij [SPACJĘ].',
+        text='Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.  \n\nTwoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu (wyrażonym w procentach) ta emocja jest nasilona. \n\n  -  Każdą próbę rozpocznie znak +. W tym momencie skup wzrok na środku ekranu. \n  -  Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model Sztucznej Inteligencji lub uśrednione wyniki uzyskane od poprzednich uczestników badania. W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. \n  -  Zdjęcie twarzy pojawi się tylko na krótką chwilę. Polegaj na swojej intuicji i pierwszym wrażeniu. \n \nPamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. \n\nNa następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. \n\n\n\nAby przejść dalej, naciśnij [SPACJĘ].',
+        font='Arial',
+        pos=(0, 0), draggable=False, height=0.03, wrapWidth=1.3, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-2.0);
+    
+    # --- Initialize components for Routine "demo_suwaka" ---
+    suwak_info = visual.TextStim(win=win, name='suwak_info',
+        text=' Po zniknięciu zdjęcia na ekranie pojawi się suwak umieszczony pomiędzy dwiema emocjami. Twoim zadaniem jest przesunięcie wskaźnika w miejsce, które najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Aby ruszyć wskaźnikiem suwaka nakieruj na niego kursorem i przytrzymując lewy przycisk myszy wybierz odpowiednie miejsce. \n\nPrzesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\n\nPozycję suwaka oznaczoną numerem 1 należy interpetować jako wskazanie ~80% radości i ~20% smutku. \n\nPozycję suwaka oznaczonego numerem 2 należy interpretować jako wskazanie ~40% radości i ~60% smutku. \n\nPozycję suwaka oznaczonego numerem 3 należy intepretować jako wskanie 50% radości i 50% smutku. \n\nAby przejść dalej, naciśnij [SPACJĘ].',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.03, wrapWidth=1.3, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-1.0);
-    
-    # --- Initialize components for Routine "demo_suwaka" ---
-    suwak_info = visual.TextStim(win=win, name='suwak_info',
-        text='Pozycję suwaka oznaczoną numerem 1 należy interpetować jako wskazanie ~80% radości i ~20% smutku. \n\nPozycję suwaka oznaczonego numerem 2 należy interpretować jako wskazanie ~40% radości i ~60% smutku. \n\nPozycję suwaka oznaczonego numerem 3 należy intepretować jako wskanie 50% radości i 50% smutku. \n\nAby przejść dalej, naciśnij [SPACJĘ].',
-        font='Arial',
-        pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.3, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
-        languageStyle='LTR',
-        depth=0.0);
     spacja_suwak = keyboard.Keyboard(deviceName='defaultKeyboard')
     
     # --- Initialize components for Routine "info_trening" ---
@@ -401,12 +401,69 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     proba_testowa = visual.TextStim(win=win, name='proba_testowa',
         text='Próba treningowa \n\nZanim rozpocznie się właściwy eksperyment, zapraszamy do wykonania krótkiej próby treningowej. Ma ona charakter wyłącznie instruktażowy i pozwoli Ci przećwiczyć obsługę interaktywnego suwaka oraz zapoznać się z tempem zadania. Wynik tej części nie jest brany pod uwagę w końcowych wynikach badania. \n\nW ramach treningu zobaczysz jedną twarz, którą należy następnie ocenić, przesuwając suwak w odpowiednie miejsce na skali pomiędzy dwiema emocjami. Pamiętaj, aby polegać na swoim pierwszym wrażeniu. \n\nJeśli jesteś gotowy, naciśnij przycisk [SPACJA], aby rozpocząć. ',
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.04, wrapWidth=1.3, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-2.0);
+    
+    # --- Initialize components for Routine "trial_trening" ---
+    pilot_label_text = visual.TextStim(win=win, name='pilot_label_text',
+        text='',
+        font='Arial',
+        pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.3, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-1.0);
-    
-    # --- Initialize components for Routine "trial_trening" ---
+    pilot_fiksacja1 = visual.TextStim(win=win, name='pilot_fiksacja1',
+        text='+',
+        font='Arial',
+        pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-2.0);
+    pilot_suwak = visual.Slider(win=win, name='pilot_suwak',
+        startValue=0, size=(1, 0.1), pos=(0, -0.5), units='norm',
+        labels=None, ticks=(-50,-12.5, -25, -37.5, 0, 12.5, 25, 37.5, 50), granularity=0.0,
+        style='slider', styleTweaks=[], opacity=None,
+        labelColor=(-1.0000, 1.0000, 1.0000), markerColor='Red', lineColor='White', colorSpace='rgb',
+        font='Noto Sans', labelHeight=0.05,
+        flip=False, ori=0.0, depth=-3, readOnly=False)
+    pilot_fiksacja2 = visual.TextStim(win=win, name='pilot_fiksacja2',
+        text='+',
+        font='Arial',
+        pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-4.0);
+    pilot_pytanie = visual.TextStim(win=win, name='pilot_pytanie',
+        text='Jaką emocję wyrażała ta twarz?',
+        font='Arial',
+        pos=(0, 0.25), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-5.0);
+    pilot_lewa_etykieta = visual.TextStim(win=win, name='pilot_lewa_etykieta',
+        text='',
+        font='Arial',
+        units='norm', pos=[-0.55, -0.5], draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-6.0);
+    pilot_prawa_etykieta = visual.TextStim(win=win, name='pilot_prawa_etykieta',
+        text='',
+        font='Arial',
+        units='norm', pos=[0.5, -0.5], draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-7.0);
+    pilot_stim_image = visual.ImageStim(
+        win=win,
+        name='pilot_stim_image', 
+        image='C:/Users/julia/OneDrive/Obrazy/IMG_2397.JPEG', mask=None, anchor='center',
+        ori=0.0, pos=(0, 0), draggable=False, size=(0.75, 0.75),
+        color=[1,1,1], colorSpace='rgb', opacity=None,
+        flipHoriz=False, flipVert=False,
+        texRes=128.0, interpolate=True, depth=-8.0)
     
     # --- Initialize components for Routine "koniec_treningu" ---
     spacja_start = keyboard.Keyboard(deviceName='defaultKeyboard')
@@ -416,7 +473,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-1.0);
+        depth=-2.0);
     
     # --- Initialize components for Routine "trial" ---
     label_text = visual.TextStim(win=win, name='label_text',
@@ -444,14 +501,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     lewa_etykieta = visual.TextStim(win=win, name='lewa_etykieta',
         text='',
         font='Arial',
-        pos=[-1.1, -0.5], draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        pos=[-0.55, -0.08], draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-5.0);
     prawa_etykieta = visual.TextStim(win=win, name='prawa_etykieta',
         text='',
         font='Arial',
-        pos=(1.05, -0.5), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        pos=[0.55, -0.08], draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-6.0);
@@ -516,6 +573,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     instrukcja.status = NOT_STARTED
     continueRoutine = True
     # update component parameters for each repeat
+    # Run 'Begin Routine' code from mouse_visible_2
+    win.mouseVisible=True
     # create starting attributes for spacja_instr
     spacja_instr.keys = []
     spacja_instr.rt = []
@@ -641,6 +700,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     instrukcja.tStop = globalClock.getTime(format='float')
     instrukcja.tStopRefresh = tThisFlipGlobal
     thisExp.addData('instrukcja.stopped', instrukcja.tStop)
+    # Run 'End Routine' code from mouse_visible_2
+    win.mouseVisible=False
+    
     # check responses
     if spacja_instr.keys in ['', [], None]:  # No response was made
         spacja_instr.keys = None
@@ -661,6 +723,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     demo_suwaka.status = NOT_STARTED
     continueRoutine = True
     # update component parameters for each repeat
+    # Run 'Begin Routine' code from mouse_visible_3
+    win.mouseVisible=True
     # create starting attributes for spacja_suwak
     spacja_suwak.keys = []
     spacja_suwak.rt = []
@@ -786,6 +850,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     demo_suwaka.tStop = globalClock.getTime(format='float')
     demo_suwaka.tStopRefresh = tThisFlipGlobal
     thisExp.addData('demo_suwaka.stopped', demo_suwaka.tStop)
+    # Run 'End Routine' code from mouse_visible_3
+    win.mouseVisible=False
+    
     # check responses
     if spacja_suwak.keys in ['', [], None]:  # No response was made
         spacja_suwak.keys = None
@@ -810,6 +877,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     spacja_trening.keys = []
     spacja_trening.rt = []
     _spacja_trening_allKeys = []
+    # Run 'Begin Routine' code from mouse_visible_4
+    win.mouseVisible=True
     # store start times for info_trening
     info_trening.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     info_trening.tStart = globalClock.getTime(format='float')
@@ -938,6 +1007,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     if spacja_trening.keys != None:  # we had a response
         thisExp.addData('spacja_trening.rt', spacja_trening.rt)
         thisExp.addData('spacja_trening.duration', spacja_trening.duration)
+    # Run 'End Routine' code from mouse_visible_4
+    win.mouseVisible=False
+    
     thisExp.nextEntry()
     # the Routine "info_trening" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
@@ -946,11 +1018,18 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # create an object to store info about Routine trial_trening
     trial_trening = data.Routine(
         name='trial_trening',
-        components=[],
+        components=[pilot_label_text, pilot_fiksacja1, pilot_suwak, pilot_fiksacja2, pilot_pytanie, pilot_lewa_etykieta, pilot_prawa_etykieta, pilot_stim_image],
     )
     trial_trening.status = NOT_STARTED
     continueRoutine = True
     # update component parameters for each repeat
+    # Run 'Begin Routine' code from mouse_visible_5
+    win.mouseVisible=True
+    pilot_label_text.setOpacity(None)
+    pilot_label_text.setText('Model AI wykrył w tej twarzy 80%\n')
+    pilot_suwak.reset()
+    pilot_lewa_etykieta.setText('radość')
+    pilot_prawa_etykieta.setText('smutek')
     # store start times for trial_trening
     trial_trening.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     trial_trening.tStart = globalClock.getTime(format='float')
@@ -981,6 +1060,226 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         tThisFlipGlobal = win.getFutureFlipTime(clock=None)
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
+        
+        # *pilot_label_text* updates
+        
+        # if pilot_label_text is starting this frame...
+        if pilot_label_text.status == NOT_STARTED and tThisFlip >= 1.1-frameTolerance:
+            # keep track of start time/frame for later
+            pilot_label_text.frameNStart = frameN  # exact frame index
+            pilot_label_text.tStart = t  # local t and not account for scr refresh
+            pilot_label_text.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(pilot_label_text, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'pilot_label_text.started')
+            # update status
+            pilot_label_text.status = STARTED
+            pilot_label_text.setAutoDraw(True)
+        
+        # if pilot_label_text is active this frame...
+        if pilot_label_text.status == STARTED:
+            # update params
+            pass
+        
+        # if pilot_label_text is stopping this frame...
+        if pilot_label_text.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > pilot_label_text.tStartRefresh + 3-frameTolerance:
+                # keep track of stop time/frame for later
+                pilot_label_text.tStop = t  # not accounting for scr refresh
+                pilot_label_text.tStopRefresh = tThisFlipGlobal  # on global time
+                pilot_label_text.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'pilot_label_text.stopped')
+                # update status
+                pilot_label_text.status = FINISHED
+                pilot_label_text.setAutoDraw(False)
+        
+        # *pilot_fiksacja1* updates
+        
+        # if pilot_fiksacja1 is starting this frame...
+        if pilot_fiksacja1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            pilot_fiksacja1.frameNStart = frameN  # exact frame index
+            pilot_fiksacja1.tStart = t  # local t and not account for scr refresh
+            pilot_fiksacja1.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(pilot_fiksacja1, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'pilot_fiksacja1.started')
+            # update status
+            pilot_fiksacja1.status = STARTED
+            pilot_fiksacja1.setAutoDraw(True)
+        
+        # if pilot_fiksacja1 is active this frame...
+        if pilot_fiksacja1.status == STARTED:
+            # update params
+            pass
+        
+        # if pilot_fiksacja1 is stopping this frame...
+        if pilot_fiksacja1.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > pilot_fiksacja1.tStartRefresh + 1-frameTolerance:
+                # keep track of stop time/frame for later
+                pilot_fiksacja1.tStop = t  # not accounting for scr refresh
+                pilot_fiksacja1.tStopRefresh = tThisFlipGlobal  # on global time
+                pilot_fiksacja1.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'pilot_fiksacja1.stopped')
+                # update status
+                pilot_fiksacja1.status = FINISHED
+                pilot_fiksacja1.setAutoDraw(False)
+        
+        # *pilot_suwak* updates
+        
+        # if pilot_suwak is starting this frame...
+        if pilot_suwak.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
+            # keep track of start time/frame for later
+            pilot_suwak.frameNStart = frameN  # exact frame index
+            pilot_suwak.tStart = t  # local t and not account for scr refresh
+            pilot_suwak.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(pilot_suwak, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'pilot_suwak.started')
+            # update status
+            pilot_suwak.status = STARTED
+            pilot_suwak.setAutoDraw(True)
+        
+        # if pilot_suwak is active this frame...
+        if pilot_suwak.status == STARTED:
+            # update params
+            pass
+        
+        # Check pilot_suwak for response to end Routine
+        if pilot_suwak.getRating() is not None and pilot_suwak.status == STARTED:
+            continueRoutine = False
+        
+        # *pilot_fiksacja2* updates
+        
+        # if pilot_fiksacja2 is starting this frame...
+        if pilot_fiksacja2.status == NOT_STARTED and tThisFlip >= 3.6-frameTolerance:
+            # keep track of start time/frame for later
+            pilot_fiksacja2.frameNStart = frameN  # exact frame index
+            pilot_fiksacja2.tStart = t  # local t and not account for scr refresh
+            pilot_fiksacja2.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(pilot_fiksacja2, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'pilot_fiksacja2.started')
+            # update status
+            pilot_fiksacja2.status = STARTED
+            pilot_fiksacja2.setAutoDraw(True)
+        
+        # if pilot_fiksacja2 is active this frame...
+        if pilot_fiksacja2.status == STARTED:
+            # update params
+            pass
+        
+        # if pilot_fiksacja2 is stopping this frame...
+        if pilot_fiksacja2.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > pilot_fiksacja2.tStartRefresh + 1-frameTolerance:
+                # keep track of stop time/frame for later
+                pilot_fiksacja2.tStop = t  # not accounting for scr refresh
+                pilot_fiksacja2.tStopRefresh = tThisFlipGlobal  # on global time
+                pilot_fiksacja2.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'pilot_fiksacja2.stopped')
+                # update status
+                pilot_fiksacja2.status = FINISHED
+                pilot_fiksacja2.setAutoDraw(False)
+        
+        # *pilot_pytanie* updates
+        
+        # if pilot_pytanie is starting this frame...
+        if pilot_pytanie.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
+            # keep track of start time/frame for later
+            pilot_pytanie.frameNStart = frameN  # exact frame index
+            pilot_pytanie.tStart = t  # local t and not account for scr refresh
+            pilot_pytanie.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(pilot_pytanie, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'pilot_pytanie.started')
+            # update status
+            pilot_pytanie.status = STARTED
+            pilot_pytanie.setAutoDraw(True)
+        
+        # if pilot_pytanie is active this frame...
+        if pilot_pytanie.status == STARTED:
+            # update params
+            pass
+        
+        # *pilot_lewa_etykieta* updates
+        
+        # if pilot_lewa_etykieta is starting this frame...
+        if pilot_lewa_etykieta.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
+            # keep track of start time/frame for later
+            pilot_lewa_etykieta.frameNStart = frameN  # exact frame index
+            pilot_lewa_etykieta.tStart = t  # local t and not account for scr refresh
+            pilot_lewa_etykieta.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(pilot_lewa_etykieta, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'pilot_lewa_etykieta.started')
+            # update status
+            pilot_lewa_etykieta.status = STARTED
+            pilot_lewa_etykieta.setAutoDraw(True)
+        
+        # if pilot_lewa_etykieta is active this frame...
+        if pilot_lewa_etykieta.status == STARTED:
+            # update params
+            pass
+        
+        # *pilot_prawa_etykieta* updates
+        
+        # if pilot_prawa_etykieta is starting this frame...
+        if pilot_prawa_etykieta.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
+            # keep track of start time/frame for later
+            pilot_prawa_etykieta.frameNStart = frameN  # exact frame index
+            pilot_prawa_etykieta.tStart = t  # local t and not account for scr refresh
+            pilot_prawa_etykieta.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(pilot_prawa_etykieta, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'pilot_prawa_etykieta.started')
+            # update status
+            pilot_prawa_etykieta.status = STARTED
+            pilot_prawa_etykieta.setAutoDraw(True)
+        
+        # if pilot_prawa_etykieta is active this frame...
+        if pilot_prawa_etykieta.status == STARTED:
+            # update params
+            pass
+        
+        # *pilot_stim_image* updates
+        
+        # if pilot_stim_image is starting this frame...
+        if pilot_stim_image.status == NOT_STARTED and tThisFlip >= 4.6-frameTolerance:
+            # keep track of start time/frame for later
+            pilot_stim_image.frameNStart = frameN  # exact frame index
+            pilot_stim_image.tStart = t  # local t and not account for scr refresh
+            pilot_stim_image.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(pilot_stim_image, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'pilot_stim_image.started')
+            # update status
+            pilot_stim_image.status = STARTED
+            pilot_stim_image.setAutoDraw(True)
+        
+        # if pilot_stim_image is active this frame...
+        if pilot_stim_image.status == STARTED:
+            # update params
+            pass
+        
+        # if pilot_stim_image is stopping this frame...
+        if pilot_stim_image.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > pilot_stim_image.tStartRefresh + 0.9-frameTolerance:
+                # keep track of stop time/frame for later
+                pilot_stim_image.tStop = t  # not accounting for scr refresh
+                pilot_stim_image.tStopRefresh = tThisFlipGlobal  # on global time
+                pilot_stim_image.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'pilot_stim_image.stopped')
+                # update status
+                pilot_stim_image.status = FINISHED
+                pilot_stim_image.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1024,6 +1323,11 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     trial_trening.tStop = globalClock.getTime(format='float')
     trial_trening.tStopRefresh = tThisFlipGlobal
     thisExp.addData('trial_trening.stopped', trial_trening.tStop)
+    # Run 'End Routine' code from mouse_visible_5
+    win.mouseVisible=False
+    
+    thisExp.addData('pilot_suwak.response', pilot_suwak.getRating())
+    thisExp.addData('pilot_suwak.rt', pilot_suwak.getRT())
     thisExp.nextEntry()
     # the Routine "trial_trening" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
@@ -1037,6 +1341,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     koniec_treningu.status = NOT_STARTED
     continueRoutine = True
     # update component parameters for each repeat
+    # Run 'Begin Routine' code from mouse_visible_6
+    win.mouseVisible=True
     # create starting attributes for spacja_start
     spacja_start.keys = []
     spacja_start.rt = []
@@ -1162,6 +1468,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     koniec_treningu.tStop = globalClock.getTime(format='float')
     koniec_treningu.tStopRefresh = tThisFlipGlobal
     thisExp.addData('koniec_treningu.stopped', koniec_treningu.tStop)
+    # Run 'End Routine' code from mouse_visible_6
+    win.mouseVisible=False
+    
     # check responses
     if spacja_start.keys in ['', [], None]:  # No response was made
         spacja_start.keys = None
