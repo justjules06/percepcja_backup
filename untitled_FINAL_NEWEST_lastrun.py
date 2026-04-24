@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 20, 2026, at 16:14
+    on kwiecień 24, 2026, at 17:07
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -203,7 +203,7 @@ def setupWindow(expInfo=None, win=None):
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
             winType='pyglet', allowGUI=False, allowStencil=False,
-            monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
+            monitor='testMonitor', color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
             units='height',
@@ -211,7 +211,7 @@ def setupWindow(expInfo=None, win=None):
         )
     else:
         # if we have a window, just set the attributes which are safe to set
-        win.color = [0,0,0]
+        win.color = (-1.0000, -1.0000, -1.0000)
         win.colorSpace = 'rgb'
         win.backgroundImage = ''
         win.backgroundFit = 'none'
@@ -376,6 +376,16 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # Start Code - component code to be run after the window creation
     
+    # --- Initialize components for Routine "instrukcja" ---
+    text_instr = visual.TextStim(win=win, name='text_instr',
+        text='Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.  \n\nTwoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu (wyrażonym w procentach) ta emocja jest nasilona. \n\n  -  Każdą próbę rozpocznie znak \\"+\\" – w tym momencie skup wzrok na środku ekranu. \n  -  Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model Sztucznej Inteligencji lub uśrednione wyniki uzyskane od poprzednich uczestników badania. W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. \n  -  Zdjęcie twarzy pojawi się tylko na krótką chwilę. Polegaj na swojej intuicji i pierwszym wrażeniu. \n  -  Po zniknięciu zdjęcia na ekranie pojawi się suwak umieszczony pomiędzy dwiema emocjami. Twoim zadaniem jest przesunięcie wskaźnika w miejsce, które najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Aby ruszyć wskaźnikiem suwaka nakieruj na niego kursorem i przytrzymując lewy przycisk myszy wybierz odpowiednie miejsce. \n  -  Przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\nPamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. \n\nNa następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. \n\n\n\nAby przejść dalej, naciśnij [SPACJĘ].',
+        font='Arial',
+        pos=(0, 0), draggable=False, height=0.04, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=0.0);
+    spacja_instr = keyboard.Keyboard(deviceName='defaultKeyboard')
+    
     # --- Initialize components for Routine "trial" ---
     label_text = visual.TextStim(win=win, name='label_text',
         text='',
@@ -388,7 +398,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='stim_image', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(0.5, 0.5),
+        ori=0.0, pos=(0, 0), draggable=False, size=(0.75, 0.75),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-3.0)
@@ -464,6 +474,165 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     expInfo['expStart'] = data.getDateStr(
         format='%Y-%m-%d %Hh%M.%S.%f %z', fractionalSecondDigits=6
     )
+    
+    # --- Prepare to start Routine "instrukcja" ---
+    # create an object to store info about Routine instrukcja
+    instrukcja = data.Routine(
+        name='instrukcja',
+        components=[text_instr, spacja_instr],
+    )
+    instrukcja.status = NOT_STARTED
+    continueRoutine = True
+    # update component parameters for each repeat
+    # create starting attributes for spacja_instr
+    spacja_instr.keys = []
+    spacja_instr.rt = []
+    _spacja_instr_allKeys = []
+    # store start times for instrukcja
+    instrukcja.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
+    instrukcja.tStart = globalClock.getTime(format='float')
+    instrukcja.status = STARTED
+    thisExp.addData('instrukcja.started', instrukcja.tStart)
+    instrukcja.maxDuration = None
+    # keep track of which components have finished
+    instrukcjaComponents = instrukcja.components
+    for thisComponent in instrukcja.components:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "instrukcja" ---
+    thisExp.currentRoutine = instrukcja
+    instrukcja.forceEnded = routineForceEnded = not continueRoutine
+    while continueRoutine:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *text_instr* updates
+        
+        # if text_instr is starting this frame...
+        if text_instr.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            text_instr.frameNStart = frameN  # exact frame index
+            text_instr.tStart = t  # local t and not account for scr refresh
+            text_instr.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(text_instr, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'text_instr.started')
+            # update status
+            text_instr.status = STARTED
+            text_instr.setAutoDraw(True)
+        
+        # if text_instr is active this frame...
+        if text_instr.status == STARTED:
+            # update params
+            pass
+        
+        # if text_instr is stopping this frame...
+        if text_instr.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > text_instr.tStartRefresh + 1.0-frameTolerance:
+                # keep track of stop time/frame for later
+                text_instr.tStop = t  # not accounting for scr refresh
+                text_instr.tStopRefresh = tThisFlipGlobal  # on global time
+                text_instr.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'text_instr.stopped')
+                # update status
+                text_instr.status = FINISHED
+                text_instr.setAutoDraw(False)
+        
+        # *spacja_instr* updates
+        waitOnFlip = False
+        
+        # if spacja_instr is starting this frame...
+        if spacja_instr.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            spacja_instr.frameNStart = frameN  # exact frame index
+            spacja_instr.tStart = t  # local t and not account for scr refresh
+            spacja_instr.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(spacja_instr, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'spacja_instr.started')
+            # update status
+            spacja_instr.status = STARTED
+            # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(spacja_instr.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(spacja_instr.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if spacja_instr.status == STARTED and not waitOnFlip:
+            theseKeys = spacja_instr.getKeys(keyList=['space'], ignoreKeys=["escape"], waitRelease=False)
+            _spacja_instr_allKeys.extend(theseKeys)
+            if len(_spacja_instr_allKeys):
+                spacja_instr.keys = _spacja_instr_allKeys[-1].name  # just the last key pressed
+                spacja_instr.rt = _spacja_instr_allKeys[-1].rt
+                spacja_instr.duration = _spacja_instr_allKeys[-1].duration
+                # a response ends the routine
+                continueRoutine = False
+        
+        # check for quit (typically the Esc key)
+        if defaultKeyboard.getKeys(keyList=["escape"]):
+            thisExp.status = FINISHED
+        if thisExp.status == FINISHED or endExpNow:
+            endExperiment(thisExp, win=win)
+            return
+        # pause experiment here if requested
+        if thisExp.status == PAUSED:
+            pauseExperiment(
+                thisExp=thisExp, 
+                win=win, 
+                timers=[routineTimer, globalClock], 
+                currentRoutine=instrukcja,
+            )
+            # skip the frame we paused on
+            continue
+        
+        # has a Component requested the Routine to end?
+        if not continueRoutine:
+            instrukcja.forceEnded = routineForceEnded = True
+        # has the Routine been forcibly ended?
+        if instrukcja.forceEnded or routineForceEnded:
+            break
+        # has every Component finished?
+        continueRoutine = False
+        for thisComponent in instrukcja.components:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "instrukcja" ---
+    for thisComponent in instrukcja.components:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    # store stop times for instrukcja
+    instrukcja.tStop = globalClock.getTime(format='float')
+    instrukcja.tStopRefresh = tThisFlipGlobal
+    thisExp.addData('instrukcja.stopped', instrukcja.tStop)
+    # check responses
+    if spacja_instr.keys in ['', [], None]:  # No response was made
+        spacja_instr.keys = None
+    thisExp.addData('spacja_instr.keys',spacja_instr.keys)
+    if spacja_instr.keys != None:  # we had a response
+        thisExp.addData('spacja_instr.rt', spacja_instr.rt)
+        thisExp.addData('spacja_instr.duration', spacja_instr.duration)
+    thisExp.nextEntry()
+    # the Routine "instrukcja" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
     
     # set up handler to look after randomisation of conditions etc
     trials = data.TrialHandler2(

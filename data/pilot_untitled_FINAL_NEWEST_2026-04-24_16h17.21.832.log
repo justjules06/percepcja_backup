@@ -1,0 +1,358 @@
+17.8750 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+17.8761 	INFO 	Loaded monitor calibration from ['2026_03_18 20:30']
+18.5665 	INFO 	Using renderer 'Intel(R) UHD Graphics' for graphics
+18.5665 	INFO 	OpenGL version supported by driver is 4..
+20.1173 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A2D25E2CB0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A2D25E2830>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001A2D2983160>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.1174 	EXP 	window1: backgroundImage = ''
+20.1175 	EXP 	window1: backgroundFit = 'none'
+20.4027 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.4181 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.4319 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.4462 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.4606 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.4744 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.4915 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.5073 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.5211 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.5361 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.5515 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.5654 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.5810 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.5965 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6112 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6283 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6445 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6615 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6775 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.6932 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.7093 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.7099 	DEBUG 	Uploading Texture Font fontname to graphics card
+20.7413 	DEBUG 	Upload of Texture Font fontname complete
+20.7852 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8000 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8154 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8158 	DEBUG 	Uploading Texture Font fontname to graphics card
+20.8327 	DEBUG 	Upload of Texture Font fontname complete
+20.8349 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+20.8350 	EXP 	window1: recordFrameIntervals = False
+21.0580 	EXP 	window1: recordFrameIntervals = True
+21.7283 	WARNING 	t of last frame was 20.52ms (=1/48)
+22.7202 	EXP 	window1: recordFrameIntervals = False
+22.7203 	EXP 	Screen (0) actual frame rate measured at 60.21Hz
+22.7557 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.7725 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.7896 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.8049 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.8215 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.8372 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.8533 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.8701 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.8878 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.9053 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.9058 	DEBUG 	Uploading Texture Font fontname to graphics card
+22.9065 	DEBUG 	Upload of Texture Font fontname complete
+23.1179 	INFO 	keyboard.Keyboard is using ptb backend.
+23.1180 	EXP 	untitled_FINAL_NEWEST: status = STARTED
+23.1873 	EXP 	Created label_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='label_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.2465 	EXP 	Created stim_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='stim_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+23.2970 	EXP 	Created suwak_badanie = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-4, fillColor=None, flip=False, font='Noto Sans', granularity=0.0, labelColor=None, labelHeight=np.float64(0.05), labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='suwak_badanie', opacity=None, ori=0.0, pos=array([ 0. , -0.5]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=0, style='slider', styleTweaks=[], ticks=ndarray(...), units='norm', win=Window(...))
+23.2978 	EXP 	Created lewa_etykieta = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='lewa_etykieta', opacity=1, ori=0.0, pos=array([-0.55, -0.05]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.2992 	EXP 	Created prawa_etykieta = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='prawa_etykieta', opacity=1, ori=0.0, pos=array([ 0.55, -0.05]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.4193 	EXP 	Created fiksacja1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='fiksacja1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+23.4222 	EXP 	Created fiksacja2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='fiksacja2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+23.4458 	EXP 	Created pytanie = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='pytanie', opacity=1, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text='Jaką emocję przedstawiała twarz?', units='height', win=Window(...), wrapWidth=1)
+0.0044 	EXP 	suwak_badanie: autoLog = True
+0.0044 	EXP 	suwak_badanie: styleTweaks = []
+0.0044 	EXP 	suwak_badanie: styleTweaks = []
+0.0044 	EXP 	suwak_badanie: styleTweaks = []
+0.0044 	EXP 	suwak_badanie: styleTweaks = []
+0.0044 	EXP 	suwak_badanie: contrast = 1.0
+0.0044 	EXP 	suwak_badanie: markerPos = 0
+0.0044 	EXP 	suwak_badanie: autoLog = True
+0.0283 	DEBUG 	Read excel file with openpyxl: conditions.xlsx
+0.0337 	EXP 	Imported conditions.xlsx as conditions, 32 conditions, 9 params
+0.0345 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'image_path': 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 50,50\\SZ 50,50\\1K SZ 5050.png', 'etykieta': 'Model sztucznej inteligencji wykrył w tej twarzy 72% strachu .', 'left_label': 'strach', 'right_label': 'złość', 'show_label': 1, 'proporcja_zdjecia': '50/50', 'typ_etykiety': 'Procentowa AI', 'warunek': 'n/d', 'kierunek': 'Sugestia Lewo strach', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.1377 	EXP 	label_text: height = np.float64(0.05)
+0.1377 	EXP 	label_text: height = np.float64(0.05)
+0.1377 	EXP 	label_text: height = np.float64(0.05)
+0.1377 	EXP 	label_text: text = 'Model sztucznej inteligencji wykrył w tej twarzy 72% strachu .'
+0.1377 	EXP 	stim_image: image = 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 50,50\\SZ 50,50\\1K SZ 5050.png'
+0.1377 	EXP 	suwak_badanie: markerPos = None
+0.1377 	EXP 	suwak_badanie: markerPos = 0
+0.1377 	EXP 	lewa_etykieta: height = np.float64(0.05)
+0.1377 	EXP 	lewa_etykieta: height = np.float64(0.05)
+0.1377 	EXP 	lewa_etykieta: height = np.float64(0.05)
+0.1377 	EXP 	lewa_etykieta: text = 'strach'
+0.1377 	EXP 	prawa_etykieta: height = np.float64(0.05)
+0.1377 	EXP 	prawa_etykieta: height = np.float64(0.05)
+0.1377 	EXP 	prawa_etykieta: height = np.float64(0.05)
+0.1377 	EXP 	prawa_etykieta: text = 'złość'
+0.1377 	EXP 	fiksacja1: autoDraw = True
+1.1029 	EXP 	label_text: autoDraw = True
+1.1527 	EXP 	fiksacja1: autoDraw = False
+3.6127 	EXP 	label_text: autoDraw = False
+3.6127 	EXP 	fiksacja2: autoDraw = True
+4.6103 	EXP 	stim_image: autoDraw = True
+4.6344 	EXP 	fiksacja2: autoDraw = False
+5.5259 	EXP 	suwak_badanie: autoDraw = True
+5.5259 	EXP 	lewa_etykieta: autoDraw = True
+5.5259 	EXP 	prawa_etykieta: autoDraw = True
+5.5259 	EXP 	pytanie: autoDraw = True
+5.5453 	EXP 	stim_image: autoDraw = False
+6.9411 	DATA 	Mouse: Left button down, pos=(400,146)
+6.9530 	EXP 	suwak_badanie: markerPos = np.float64(0.2499999999999929)
+6.9698 	EXP 	suwak_badanie: markerPos = np.float64(0.7499999999999929)
+6.9865 	EXP 	suwak_badanie: markerPos = np.float64(3.0)
+7.0031 	EXP 	suwak_badanie: markerPos = np.float64(5.500000000000007)
+7.0200 	EXP 	suwak_badanie: markerPos = np.float64(7.999999999999993)
+7.0362 	EXP 	suwak_badanie: markerPos = np.float64(11.5)
+7.0525 	EXP 	suwak_badanie: markerPos = np.float64(15.0)
+7.0698 	EXP 	suwak_badanie: markerPos = np.float64(17.75)
+7.1027 	EXP 	suwak_badanie: markerPos = np.float64(19.75)
+7.1197 	EXP 	suwak_badanie: markerPos = np.float64(24.0)
+7.1526 	EXP 	suwak_badanie: markerPos = np.float64(27.750000000000014)
+7.1698 	EXP 	suwak_badanie: markerPos = np.float64(32.75)
+7.2022 	EXP 	suwak_badanie: markerPos = np.float64(33.25)
+7.2360 	EXP 	suwak_badanie: markerPos = np.float64(34.000000000000014)
+7.2693 	EXP 	suwak_badanie: markerPos = np.float64(34.5)
+7.2860 	EXP 	suwak_badanie: markerPos = np.float64(34.5)
+7.3026 	EXP 	suwak_badanie: markerPos = np.float64(34.5)
+7.3345 	EXP 	suwak_badanie: markerPos = np.float64(34.5)
+7.3520 	EXP 	suwak_badanie: markerPos = np.float64(34.5)
+7.3688 	EXP 	suwak_badanie: markerPos = np.float64(34.5)
+7.3854 	EXP 	suwak_badanie: markerPos = np.float64(34.5)
+7.3978 	DATA 	Mouse:  Left button up, pos=(538,149)
+7.4025 	EXP 	suwak_badanie: markerPos = np.float64(34.5)
+7.4365 	EXP 	suwak_badanie: markerPos = np.float64(34.5)
+7.4453 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'image_path': 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 80,20\\OZ 80,20\\1K OZ 8020.png', 'etykieta': 'Poprzedni badani wykryli w tej twarzy oczekiwanie.', 'left_label': 'zaskoczenie', 'right_label': 'oczekiwanie', 'show_label': 1, 'proporcja_zdjecia': '80/20 oczekiwanie', 'typ_etykiety': 'Kategorialna Ludzie', 'warunek': 'Zgodny', 'kierunek': 'Dominacja Prawo oczekiwanie', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+7.5693 	EXP 	label_text: autoDraw = False
+7.5693 	EXP 	stim_image: autoDraw = False
+7.5693 	EXP 	suwak_badanie: autoDraw = False
+7.5693 	EXP 	lewa_etykieta: autoDraw = False
+7.5693 	EXP 	prawa_etykieta: autoDraw = False
+7.5693 	EXP 	fiksacja1: autoDraw = False
+7.5693 	EXP 	fiksacja2: autoDraw = False
+7.5693 	EXP 	pytanie: autoDraw = False
+7.5693 	EXP 	label_text: height = np.float64(0.05)
+7.5693 	EXP 	label_text: height = np.float64(0.05)
+7.5693 	EXP 	label_text: height = np.float64(0.05)
+7.5693 	EXP 	label_text: text = 'Poprzedni badani wykryli w tej twarzy oczekiwanie.'
+7.5693 	EXP 	stim_image: image = 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 80,20\\OZ 80,20\\1K OZ 8020.png'
+7.5693 	EXP 	suwak_badanie: markerPos = None
+7.5693 	EXP 	suwak_badanie: markerPos = 0
+7.5693 	EXP 	lewa_etykieta: height = np.float64(0.05)
+7.5693 	EXP 	lewa_etykieta: height = np.float64(0.05)
+7.5693 	EXP 	lewa_etykieta: height = np.float64(0.05)
+7.5693 	EXP 	lewa_etykieta: text = 'zaskoczenie'
+7.5693 	EXP 	prawa_etykieta: height = np.float64(0.05)
+7.5693 	EXP 	prawa_etykieta: height = np.float64(0.05)
+7.5693 	EXP 	prawa_etykieta: height = np.float64(0.05)
+7.5693 	EXP 	prawa_etykieta: text = 'oczekiwanie'
+7.5693 	EXP 	fiksacja1: autoDraw = True
+8.5492 	EXP 	label_text: autoDraw = True
+8.5830 	EXP 	fiksacja1: autoDraw = False
+11.0591 	EXP 	label_text: autoDraw = False
+11.0591 	EXP 	fiksacja2: autoDraw = True
+12.0564 	EXP 	stim_image: autoDraw = True
+12.0728 	EXP 	fiksacja2: autoDraw = False
+12.9534 	EXP 	suwak_badanie: autoDraw = True
+12.9534 	EXP 	lewa_etykieta: autoDraw = True
+12.9534 	EXP 	prawa_etykieta: autoDraw = True
+12.9534 	EXP 	pytanie: autoDraw = True
+12.9700 	EXP 	stim_image: autoDraw = False
+14.0255 	DATA 	Mouse: Left button down, pos=(395,148)
+14.0506 	EXP 	suwak_badanie: markerPos = np.float64(-1.25)
+14.0676 	EXP 	suwak_badanie: markerPos = np.float64(-1.25)
+14.0842 	EXP 	suwak_badanie: markerPos = np.float64(-1.5)
+14.1004 	EXP 	suwak_badanie: markerPos = np.float64(-2.5)
+14.1172 	EXP 	suwak_badanie: markerPos = np.float64(-3.25)
+14.1335 	EXP 	suwak_badanie: markerPos = np.float64(-4.5)
+14.1507 	EXP 	suwak_badanie: markerPos = np.float64(-5.25)
+14.1672 	EXP 	suwak_badanie: markerPos = np.float64(-7.25)
+14.1835 	EXP 	suwak_badanie: markerPos = np.float64(-9.75)
+14.1997 	EXP 	suwak_badanie: markerPos = np.float64(-14.249999999999993)
+14.2170 	EXP 	suwak_badanie: markerPos = np.float64(-17.5)
+14.2334 	EXP 	suwak_badanie: markerPos = np.float64(-19.0)
+14.2503 	EXP 	suwak_badanie: markerPos = np.float64(-20.25)
+14.2666 	EXP 	suwak_badanie: markerPos = np.float64(-21.250000000000004)
+14.2829 	EXP 	suwak_badanie: markerPos = np.float64(-22.499999999999996)
+14.3004 	EXP 	suwak_badanie: markerPos = np.float64(-23.0)
+14.3163 	EXP 	suwak_badanie: markerPos = np.float64(-23.250000000000004)
+14.3330 	EXP 	suwak_badanie: markerPos = np.float64(-23.250000000000004)
+14.3492 	EXP 	suwak_badanie: markerPos = np.float64(-23.250000000000004)
+14.3660 	EXP 	suwak_badanie: markerPos = np.float64(-23.250000000000004)
+14.3828 	EXP 	suwak_badanie: markerPos = np.float64(-23.250000000000004)
+14.3996 	EXP 	suwak_badanie: markerPos = np.float64(-23.250000000000004)
+14.4164 	EXP 	suwak_badanie: markerPos = np.float64(-23.250000000000004)
+14.4325 	EXP 	suwak_badanie: markerPos = np.float64(-23.250000000000004)
+14.4358 	DATA 	Mouse:  Left button up, pos=(307,136)
+14.4497 	EXP 	suwak_badanie: markerPos = np.float64(-23.250000000000004)
+14.4552 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'image_path': 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 50,50\\RS 50,50\\1K RS 5050.png', 'etykieta': 'kontrolna', 'left_label': 'radość', 'right_label': 'smutek', 'show_label': 0, 'proporcja_zdjecia': '50/50', 'typ_etykiety': 'Kontrolna', 'warunek': 'kontrolny', 'kierunek': 'Brak', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+14.5321 	EXP 	label_text: autoDraw = False
+14.5321 	EXP 	stim_image: autoDraw = False
+14.5321 	EXP 	suwak_badanie: autoDraw = False
+14.5321 	EXP 	lewa_etykieta: autoDraw = False
+14.5321 	EXP 	prawa_etykieta: autoDraw = False
+14.5321 	EXP 	fiksacja1: autoDraw = False
+14.5321 	EXP 	fiksacja2: autoDraw = False
+14.5321 	EXP 	pytanie: autoDraw = False
+14.5321 	EXP 	label_text: height = np.float64(0.05)
+14.5321 	EXP 	label_text: height = np.float64(0.05)
+14.5321 	EXP 	label_text: height = np.float64(0.05)
+14.5321 	EXP 	label_text: text = 'kontrolna'
+14.5321 	EXP 	stim_image: image = 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 50,50\\RS 50,50\\1K RS 5050.png'
+14.5321 	EXP 	suwak_badanie: markerPos = None
+14.5321 	EXP 	suwak_badanie: markerPos = 0
+14.5321 	EXP 	lewa_etykieta: height = np.float64(0.05)
+14.5321 	EXP 	lewa_etykieta: height = np.float64(0.05)
+14.5321 	EXP 	lewa_etykieta: height = np.float64(0.05)
+14.5321 	EXP 	lewa_etykieta: text = 'radość'
+14.5321 	EXP 	prawa_etykieta: height = np.float64(0.05)
+14.5321 	EXP 	prawa_etykieta: height = np.float64(0.05)
+14.5321 	EXP 	prawa_etykieta: height = np.float64(0.05)
+14.5321 	EXP 	prawa_etykieta: text = 'smutek'
+14.5321 	EXP 	fiksacja1: autoDraw = True
+15.5463 	EXP 	fiksacja1: autoDraw = False
+15.5629 	EXP 	label_text: autoDraw = True
+18.0568 	EXP 	fiksacja2: autoDraw = True
+18.0729 	EXP 	label_text: autoDraw = False
+19.0707 	EXP 	stim_image: autoDraw = True
+19.0707 	EXP 	fiksacja2: autoDraw = False
+19.9681 	EXP 	suwak_badanie: autoDraw = True
+19.9681 	EXP 	lewa_etykieta: autoDraw = True
+19.9681 	EXP 	prawa_etykieta: autoDraw = True
+19.9681 	EXP 	pytanie: autoDraw = True
+19.9843 	EXP 	stim_image: autoDraw = False
+20.9683 	DATA 	Mouse: Left button down, pos=(399,141)
+20.9812 	EXP 	suwak_badanie: markerPos = np.float64(-0.25)
+20.9984 	EXP 	suwak_badanie: markerPos = np.float64(-0.25)
+21.0148 	EXP 	suwak_badanie: markerPos = np.float64(0.0)
+21.0312 	EXP 	suwak_badanie: markerPos = np.float64(0.0)
+21.0484 	EXP 	suwak_badanie: markerPos = np.float64(2.5)
+21.0648 	EXP 	suwak_badanie: markerPos = np.float64(5.25)
+21.0816 	EXP 	suwak_badanie: markerPos = np.float64(7.000000000000007)
+21.0976 	EXP 	suwak_badanie: markerPos = np.float64(9.5)
+21.1146 	EXP 	suwak_badanie: markerPos = np.float64(13.749999999999993)
+21.1314 	EXP 	suwak_badanie: markerPos = np.float64(19.75)
+21.1478 	EXP 	suwak_badanie: markerPos = np.float64(22.5)
+21.1645 	EXP 	suwak_badanie: markerPos = np.float64(24.75)
+21.1809 	EXP 	suwak_badanie: markerPos = np.float64(27.0)
+21.1976 	EXP 	suwak_badanie: markerPos = np.float64(27.750000000000014)
+21.2146 	EXP 	suwak_badanie: markerPos = np.float64(28.25)
+21.2309 	EXP 	suwak_badanie: markerPos = np.float64(28.25)
+21.2473 	EXP 	suwak_badanie: markerPos = np.float64(28.25)
+21.2643 	EXP 	suwak_badanie: markerPos = np.float64(28.25)
+21.2808 	EXP 	suwak_badanie: markerPos = np.float64(28.25)
+21.2972 	EXP 	suwak_badanie: markerPos = np.float64(28.25)
+21.3142 	EXP 	suwak_badanie: markerPos = np.float64(28.25)
+21.3306 	EXP 	suwak_badanie: markerPos = np.float64(28.750000000000014)
+21.3476 	EXP 	suwak_badanie: markerPos = np.float64(29.5)
+21.3643 	EXP 	suwak_badanie: markerPos = np.float64(30.749999999999986)
+21.3811 	EXP 	suwak_badanie: markerPos = np.float64(31.25)
+21.3978 	EXP 	suwak_badanie: markerPos = np.float64(32.0)
+21.4137 	EXP 	suwak_badanie: markerPos = np.float64(32.25)
+21.4305 	EXP 	suwak_badanie: markerPos = np.float64(32.75)
+21.4474 	EXP 	suwak_badanie: markerPos = np.float64(33.0)
+21.4640 	EXP 	suwak_badanie: markerPos = np.float64(33.5)
+21.4801 	EXP 	suwak_badanie: markerPos = np.float64(33.75)
+21.4968 	EXP 	suwak_badanie: markerPos = np.float64(33.75)
+21.5129 	EXP 	suwak_badanie: markerPos = np.float64(34.000000000000014)
+21.5299 	EXP 	suwak_badanie: markerPos = np.float64(34.000000000000014)
+21.5465 	EXP 	suwak_badanie: markerPos = np.float64(34.000000000000014)
+21.5631 	EXP 	suwak_badanie: markerPos = np.float64(34.000000000000014)
+21.5800 	EXP 	suwak_badanie: markerPos = np.float64(34.000000000000014)
+21.5967 	EXP 	suwak_badanie: markerPos = np.float64(34.000000000000014)
+21.6019 	DATA 	Mouse:  Left button up, pos=(536,145)
+21.6132 	EXP 	suwak_badanie: markerPos = np.float64(34.000000000000014)
+21.6168 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'image_path': 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 80,20\\ZW 80,20\\1K ZW 8020.png', 'etykieta': 'Poprzedni badani wykryli w tej twarzy 20% zaufania.', 'left_label': 'zaufanie', 'right_label': 'wstręt', 'show_label': 1, 'proporcja_zdjecia': '80/20 zaufania', 'typ_etykiety': 'Procentowa Ludzie', 'warunek': 'Niezgodny', 'kierunek': 'Dominacja Lewo zaufanie', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+21.6954 	EXP 	label_text: autoDraw = False
+21.6954 	EXP 	stim_image: autoDraw = False
+21.6954 	EXP 	suwak_badanie: autoDraw = False
+21.6954 	EXP 	lewa_etykieta: autoDraw = False
+21.6954 	EXP 	prawa_etykieta: autoDraw = False
+21.6954 	EXP 	fiksacja1: autoDraw = False
+21.6954 	EXP 	fiksacja2: autoDraw = False
+21.6954 	EXP 	pytanie: autoDraw = False
+21.6954 	EXP 	label_text: height = np.float64(0.05)
+21.6954 	EXP 	label_text: height = np.float64(0.05)
+21.6954 	EXP 	label_text: height = np.float64(0.05)
+21.6954 	EXP 	label_text: text = 'Poprzedni badani wykryli w tej twarzy 20% zaufania.'
+21.6954 	EXP 	stim_image: image = 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 80,20\\ZW 80,20\\1K ZW 8020.png'
+21.6954 	EXP 	suwak_badanie: markerPos = None
+21.6954 	EXP 	suwak_badanie: markerPos = 0
+21.6954 	EXP 	lewa_etykieta: height = np.float64(0.05)
+21.6954 	EXP 	lewa_etykieta: height = np.float64(0.05)
+21.6954 	EXP 	lewa_etykieta: height = np.float64(0.05)
+21.6954 	EXP 	lewa_etykieta: text = 'zaufanie'
+21.6954 	EXP 	prawa_etykieta: height = np.float64(0.05)
+21.6954 	EXP 	prawa_etykieta: height = np.float64(0.05)
+21.6954 	EXP 	prawa_etykieta: height = np.float64(0.05)
+21.6954 	EXP 	prawa_etykieta: text = 'wstręt'
+21.6954 	EXP 	fiksacja1: autoDraw = True
+22.6944 	EXP 	fiksacja1: autoDraw = False
+22.7273 	EXP 	label_text: autoDraw = True
+25.2202 	EXP 	fiksacja2: autoDraw = True
+25.2368 	EXP 	label_text: autoDraw = False
+26.2190 	EXP 	stim_image: autoDraw = True
+26.2190 	EXP 	fiksacja2: autoDraw = False
+27.1316 	EXP 	stim_image: autoDraw = False
+27.1316 	EXP 	suwak_badanie: autoDraw = True
+27.1316 	EXP 	lewa_etykieta: autoDraw = True
+27.1316 	EXP 	prawa_etykieta: autoDraw = True
+27.1316 	EXP 	pytanie: autoDraw = True
+27.6679 	DATA 	Mouse: Left button down, pos=(410,149)
+27.6803 	EXP 	suwak_badanie: markerPos = np.float64(2.5)
+27.6967 	EXP 	suwak_badanie: markerPos = np.float64(1.749999999999993)
+27.7127 	EXP 	suwak_badanie: markerPos = np.float64(0.7499999999999929)
+27.7297 	EXP 	suwak_badanie: markerPos = np.float64(-0.25)
+27.7467 	EXP 	suwak_badanie: markerPos = np.float64(-1.75)
+27.7632 	EXP 	suwak_badanie: markerPos = np.float64(-3.25)
+27.7799 	EXP 	suwak_badanie: markerPos = np.float64(-5.5)
+27.7966 	EXP 	suwak_badanie: markerPos = np.float64(-8.25)
+27.8131 	EXP 	suwak_badanie: markerPos = np.float64(-12.25)
+27.8298 	EXP 	suwak_badanie: markerPos = np.float64(-14.0)
+27.8465 	EXP 	suwak_badanie: markerPos = np.float64(-16.25)
+27.8628 	EXP 	suwak_badanie: markerPos = np.float64(-18.25)
+27.8794 	EXP 	suwak_badanie: markerPos = np.float64(-20.0)
+27.8960 	EXP 	suwak_badanie: markerPos = np.float64(-21.499999999999996)
+27.9136 	EXP 	suwak_badanie: markerPos = np.float64(-21.499999999999996)
+27.9294 	EXP 	suwak_badanie: markerPos = np.float64(-21.499999999999996)
+27.9460 	EXP 	suwak_badanie: markerPos = np.float64(-21.499999999999996)
+27.9546 	DATA 	Mouse:  Left button up, pos=(314,133)
+27.9625 	EXP 	suwak_badanie: markerPos = np.float64(-21.499999999999996)
+27.9796 	EXP 	suwak_badanie: markerPos = np.float64(-21.499999999999996)
+27.9848 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'image_path': 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 50,50\\ZO 50,50\\1K ZO 5050.png', 'etykieta': 'Poprzedni badani wykryli w tej twarzy 75% oczekiwania.', 'left_label': 'zaskoczenie', 'right_label': 'oczekiwanie', 'show_label': 1, 'proporcja_zdjecia': '50/50 ', 'typ_etykiety': 'Procentowa Ludzie', 'warunek': 'n/d', 'kierunek': 'Sugestia Prawo oczekiwanie', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+28.0621 	EXP 	label_text: autoDraw = False
+28.0621 	EXP 	stim_image: autoDraw = False
+28.0621 	EXP 	suwak_badanie: autoDraw = False
+28.0621 	EXP 	lewa_etykieta: autoDraw = False
+28.0621 	EXP 	prawa_etykieta: autoDraw = False
+28.0621 	EXP 	fiksacja1: autoDraw = False
+28.0621 	EXP 	fiksacja2: autoDraw = False
+28.0621 	EXP 	pytanie: autoDraw = False
+28.0621 	EXP 	label_text: height = np.float64(0.05)
+28.0621 	EXP 	label_text: height = np.float64(0.05)
+28.0621 	EXP 	label_text: height = np.float64(0.05)
+28.0621 	EXP 	label_text: text = 'Poprzedni badani wykryli w tej twarzy 75% oczekiwania.'
+28.0621 	EXP 	stim_image: image = 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 50,50\\ZO 50,50\\1K ZO 5050.png'
+28.0621 	EXP 	suwak_badanie: markerPos = None
+28.0621 	EXP 	suwak_badanie: markerPos = 0
+28.0621 	EXP 	lewa_etykieta: height = np.float64(0.05)
+28.0621 	EXP 	lewa_etykieta: height = np.float64(0.05)
+28.0621 	EXP 	lewa_etykieta: height = np.float64(0.05)
+28.0621 	EXP 	lewa_etykieta: text = 'zaskoczenie'
+28.0621 	EXP 	prawa_etykieta: height = np.float64(0.05)
+28.0621 	EXP 	prawa_etykieta: height = np.float64(0.05)
+28.0621 	EXP 	prawa_etykieta: height = np.float64(0.05)
+28.0621 	EXP 	prawa_etykieta: text = 'oczekiwanie'
+28.0621 	EXP 	fiksacja1: autoDraw = True
+28.9436 	EXP 	Device response: <KeyPress from None: t=28.898872299992945, value=escape, duration=None>
+28.9451 	DATA 	Keypress: escape
+29.0148 	EXP 	Device response: <KeyPress from None: t=28.898872299992945, value=escape, duration=0.11492000002181157>
+29.0148 	EXP 	untitled_FINAL_NEWEST: status = STOPPED
+29.0269 	EXP 	fiksacja1: autoDraw = False
+29.0297 	EXP 	untitled_FINAL_NEWEST: status = STOPPED
+29.0370 	INFO 	saved data to 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\data\\pilot_untitled_FINAL_NEWEST_2026-04-24_16h17.21.832.csv'
+29.0410 	INFO 	saved data to C:\Users\julia\OneDrive\Pulpit\percepcja_psychopy\data\pilot_untitled_FINAL_NEWEST_2026-04-24_16h17.21.832.psydat
+29.9838 	DEBUG 	Saving data for untitled_FINAL_NEWEST ExperimentHandler
+29.9919 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
