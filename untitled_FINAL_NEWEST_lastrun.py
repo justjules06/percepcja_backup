@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 24, 2026, at 18:11
+    on kwiecień 24, 2026, at 18:33
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -203,7 +203,7 @@ def setupWindow(expInfo=None, win=None):
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
             winType='pyglet', allowGUI=False, allowStencil=False,
-            monitor='testMonitor', color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
+            monitor='testMonitor', color=(0.6549, 0.6549, 0.6549), colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
             units='height',
@@ -211,16 +211,11 @@ def setupWindow(expInfo=None, win=None):
         )
     else:
         # if we have a window, just set the attributes which are safe to set
-        win.color = (-1.0000, -1.0000, -1.0000)
+        win.color = (0.6549, 0.6549, 0.6549)
         win.colorSpace = 'rgb'
         win.backgroundImage = ''
         win.backgroundFit = 'none'
         win.units = 'height'
-    if expInfo is not None:
-        # get/measure frame rate if not already in expInfo
-        if win._monitorFrameRate is None:
-            win._monitorFrameRate = win.getActualFrameRate(infoMsg='Attempting to measure frame rate of screen, please wait...')
-        expInfo['frameRate'] = win._monitorFrameRate
     win.hideMessage()
     if PILOTING:
         # show a visual indicator if we're in piloting mode
@@ -381,8 +376,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     text_instr = visual.TextStim(win=win, name='text_instr',
         text='Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.  \n\nTwoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu (wyrażonym w procentach) ta emocja jest nasilona. \n\n  -  Każdą próbę rozpocznie znak +. W tym momencie skup wzrok na środku ekranu. \n  -  Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model Sztucznej Inteligencji lub uśrednione wyniki uzyskane od poprzednich uczestników badania. W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. \n  -  Zdjęcie twarzy pojawi się tylko na krótką chwilę. Polegaj na swojej intuicji i pierwszym wrażeniu. \n \nPamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. \n\nNa następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. \n\n\n\nAby przejść dalej, naciśnij [SPACJĘ].',
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.03, wrapWidth=1.3, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        pos=(0, 0), draggable=False, height=0.03, wrapWidth=1.4, ori=0.0, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-2.0);
     
@@ -391,7 +386,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         text=' Po zniknięciu zdjęcia na ekranie pojawi się suwak umieszczony pomiędzy dwiema emocjami. Twoim zadaniem jest przesunięcie wskaźnika w miejsce, które najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Aby ruszyć wskaźnikiem suwaka nakieruj na niego kursorem i przytrzymując lewy przycisk myszy wybierz odpowiednie miejsce. \n\nPrzesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\n\nPozycję suwaka oznaczoną numerem 1 należy interpetować jako wskazanie ~80% radości i ~20% smutku. \n\nPozycję suwaka oznaczonego numerem 2 należy interpretować jako wskazanie ~40% radości i ~60% smutku. \n\nPozycję suwaka oznaczonego numerem 3 należy intepretować jako wskanie 50% radości i 50% smutku. \n\nAby przejść dalej, naciśnij [SPACJĘ].',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.03, wrapWidth=1.3, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-1.0);
     spacja_suwak = keyboard.Keyboard(deviceName='defaultKeyboard')
@@ -401,8 +396,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     proba_testowa = visual.TextStim(win=win, name='proba_testowa',
         text='Próba treningowa \n\nZanim rozpocznie się właściwy eksperyment, zapraszamy do wykonania krótkiej próby treningowej. Ma ona charakter wyłącznie instruktażowy i pozwoli Ci przećwiczyć obsługę interaktywnego suwaka oraz zapoznać się z tempem zadania. Wynik tej części nie jest brany pod uwagę w końcowych wynikach badania. \n\nW ramach treningu zobaczysz jedną twarz, którą należy następnie ocenić, przesuwając suwak w odpowiednie miejsce na skali pomiędzy dwiema emocjami. Pamiętaj, aby polegać na swoim pierwszym wrażeniu. \n\nJeśli jesteś gotowy, naciśnij przycisk [SPACJA], aby rozpocząć. ',
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.04, wrapWidth=1.3, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        pos=(0, 0), draggable=False, height=0.04, wrapWidth=1.4, ori=0.0, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-2.0);
     
@@ -411,7 +406,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         text='',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.3, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-1.0);
     pilot_fiksacja1 = visual.TextStim(win=win, name='pilot_fiksacja1',
@@ -432,28 +427,28 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         text='+',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-4.0);
     pilot_pytanie = visual.TextStim(win=win, name='pilot_pytanie',
         text='Jaką emocję wyrażała ta twarz?',
         font='Arial',
-        pos=(0, 0.25), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        units='norm', pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-5.0);
     pilot_lewa_etykieta = visual.TextStim(win=win, name='pilot_lewa_etykieta',
         text='',
         font='Arial',
-        units='norm', pos=[-0.55, -0.5], draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        units='norm', pos=[-0.6, -0.5], draggable=False, height=0.085, wrapWidth=None, ori=0.0, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-6.0);
     pilot_prawa_etykieta = visual.TextStim(win=win, name='pilot_prawa_etykieta',
         text='',
         font='Arial',
-        units='norm', pos=[0.5, -0.5], draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        units='norm', pos=[0.6, -0.5], draggable=False, height=0.085, wrapWidth=None, ori=0.0, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-7.0);
     pilot_stim_image = visual.ImageStim(
@@ -470,8 +465,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     start_badania = visual.TextStim(win=win, name='start_badania',
         text='Koniec treningu \n\nPrzechodzimy do właściwej części badania, które składa się z 4 bloków po 8 twarzy. Pomiędzy kolejnymi blokami ustanowiono przerwę. \n\nOd teraz Twoje odpowiedzi będą rejestrowane. Pamiętaj o skupieniu na punkcie fiksacji i poleganiu na pierwszym wrażeniu. \n\nNaciśnij przycisk [SPACJA], aby rozpocząć.',
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        units='norm', pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.4, ori=0.0, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-2.0);
     
@@ -501,15 +496,15 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     lewa_etykieta = visual.TextStim(win=win, name='lewa_etykieta',
         text='',
         font='Arial',
-        pos=[-0.55, -0.08], draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        units='norm', pos=[-0.65, -0.5], draggable=False, height=0.085, wrapWidth=None, ori=0.0, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-5.0);
     prawa_etykieta = visual.TextStim(win=win, name='prawa_etykieta',
         text='',
         font='Arial',
-        pos=[0.55, -0.08], draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        units='norm', pos=[0.65, -0.5], draggable=False, height=0.085, wrapWidth=None, ori=0.0, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-6.0);
     fiksacja1 = visual.TextStim(win=win, name='fiksacja1',
@@ -529,7 +524,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     pytanie = visual.TextStim(win=win, name='pytanie',
         text='Jaką emocję wyrażała ta twarz?',
         font='Arial',
-        pos=(0, 0.25), draggable=False, height=0.04, wrapWidth=None, ori=0.0, 
+        units='norm', pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-9.0);
