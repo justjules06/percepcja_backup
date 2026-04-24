@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 24, 2026, at 19:03
+    on kwiecień 24, 2026, at 19:27
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1694,13 +1694,15 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         trial.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
+        # Run 'Begin Routine' code from label_opacity
+        if etykieta == "test":
+            label_text.text = ""  # Czyści treść, nic się nie wyświetli
+            label_text.opacity = 0 # Na wszelki wypadek pełna przezroczystość
+        else:
+            label_text.text = etykieta # Przywraca tekst z Excela
+            label_text.opacity = 1
         # Run 'Begin Routine' code from mouse_visible
         win.mouseVisible=True
-        # Run 'Begin Routine' code from label_opacity
-        if show_label==1:
-            label_text.opacity==1
-        else:
-            label_text.opacity==0
         label_text.setOpacity(None)
         label_text.setText(etykieta
         )
