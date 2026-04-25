@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 25, 2026, at 20:19
+    on kwiecień 25, 2026, at 20:55
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -454,7 +454,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     pilot_stim_image = visual.ImageStim(
         win=win,
         name='pilot_stim_image', 
-        image='C:/Users/julia/OneDrive/Obrazy/IMG_2397.JPEG', mask=None, anchor='center',
+        image='photos/twarz_testowa.jpg', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), draggable=False, size=(0.75, 0.75),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -500,9 +500,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         texRes=128.0, interpolate=True, depth=-3.0)
     suwak_badanie = visual.Slider(win=win, name='suwak_badanie',
         startValue=0, size=(1, 0.1), pos=(0, -0.5), units='norm',
-        labels=None, ticks=(-50,-12.5, -25, -37.5, 0, 12.5, 25, 37.5, 50), granularity=0.0,
+        labels=None, ticks=(-50,-25, 0, 25, 50), granularity=0.0,
         style='slider', styleTweaks=[], opacity=None,
-        labelColor=(-1.0000, 1.0000, 1.0000), markerColor='Red', lineColor=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
+        labelColor=(-1.0000, 1.0000, 1.0000), markerColor=(1.0000, -1.0000, -1.0000), lineColor=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
         font='Noto Sans', labelHeight=0.05,
         flip=False, ori=0.0, depth=-4, readOnly=False)
     lewa_etykieta = visual.TextStim(win=win, name='lewa_etykieta',
