@@ -844,7 +844,7 @@
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="C:/Users/julia/OneDrive/Obrazy/IMG_2397.JPEG" valType="file" updates="constant" name="image"/>
+        <Param val="photos/twarz_testowa.jpg" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="pilot_stim_image" valType="code" updates="None" name="name"/>
@@ -1196,8 +1196,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="psychoJS.window.color = &quot;grey&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="win.color='grey'" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="psychoJS.window.color = &quot;lightgrey&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="win.color='lightgrey'" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="code" valType="code" updates="None" name="name"/>
       </CodeComponent>
@@ -1221,7 +1221,7 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="0.3" valType="code" updates="constant" name="stopVal"/>
+        <Param val="1" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>

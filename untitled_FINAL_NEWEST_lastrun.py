@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 25, 2026, at 19:54
+    on kwiecień 25, 2026, at 20:19
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1819,7 +1819,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *suwak_badanie* updates
             
             # if suwak_badanie is starting this frame...
-            if suwak_badanie.status == NOT_STARTED and tThisFlip >= show_label+0.85-frameTolerance:
+            if suwak_badanie.status == NOT_STARTED and tThisFlip >= show_label+1.85-frameTolerance:
                 # keep track of start time/frame for later
                 suwak_badanie.frameNStart = frameN  # exact frame index
                 suwak_badanie.tStart = t  # local t and not account for scr refresh
@@ -1843,7 +1843,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *lewa_etykieta* updates
             
             # if lewa_etykieta is starting this frame...
-            if lewa_etykieta.status == NOT_STARTED and tThisFlip >= show_label+0.85-frameTolerance:
+            if lewa_etykieta.status == NOT_STARTED and tThisFlip >= show_label+1.85-frameTolerance:
                 # keep track of start time/frame for later
                 lewa_etykieta.frameNStart = frameN  # exact frame index
                 lewa_etykieta.tStart = t  # local t and not account for scr refresh
@@ -1863,7 +1863,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *prawa_etykieta* updates
             
             # if prawa_etykieta is starting this frame...
-            if prawa_etykieta.status == NOT_STARTED and tThisFlip >= show_label+0.85-frameTolerance:
+            if prawa_etykieta.status == NOT_STARTED and tThisFlip >= show_label+1.85-frameTolerance:
                 # keep track of start time/frame for later
                 prawa_etykieta.frameNStart = frameN  # exact frame index
                 prawa_etykieta.tStart = t  # local t and not account for scr refresh
@@ -1917,7 +1917,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *pytanie* updates
             
             # if pytanie is starting this frame...
-            if pytanie.status == NOT_STARTED and tThisFlip >= show_label+0.85-frameTolerance:
+            if pytanie.status == NOT_STARTED and tThisFlip >= show_label+1.85-frameTolerance:
                 # keep track of start time/frame for later
                 pytanie.frameNStart = frameN  # exact frame index
                 pytanie.tStart = t  # local t and not account for scr refresh
@@ -2018,7 +2018,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # --- Run Routine "oddzielenie_triali" ---
         thisExp.currentRoutine = oddzielenie_triali
         oddzielenie_triali.forceEnded = routineForceEnded = not continueRoutine
-        while continueRoutine and routineTimer.getTime() < 0.3:
+        while continueRoutine and routineTimer.getTime() < 1.0:
             # if trial has changed, end Routine now
             if hasattr(thisTrial, 'status') and thisTrial.status == STOPPING:
                 continueRoutine = False
@@ -2052,7 +2052,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # if text is stopping this frame...
             if text.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text.tStartRefresh + 0.3-frameTolerance:
+                if tThisFlipGlobal > text.tStartRefresh + 1-frameTolerance:
                     # keep track of stop time/frame for later
                     text.tStop = t  # not accounting for scr refresh
                     text.tStopRefresh = tThisFlipGlobal  # on global time
@@ -2106,14 +2106,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         oddzielenie_triali.tStopRefresh = tThisFlipGlobal
         thisExp.addData('oddzielenie_triali.stopped', oddzielenie_triali.tStop)
         # Run 'End Routine' code from code
-        win.color='grey'
+        win.color='lightgrey'
         # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
         if oddzielenie_triali.maxDurationReached:
             routineTimer.addTime(-oddzielenie_triali.maxDuration)
         elif oddzielenie_triali.forceEnded:
             routineTimer.reset()
         else:
-            routineTimer.addTime(-0.300000)
+            routineTimer.addTime(-1.000000)
         # mark thisTrial as finished
         if hasattr(thisTrial, 'status'):
             thisTrial.status = FINISHED
