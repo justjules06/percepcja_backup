@@ -1,0 +1,241 @@
+9.7933 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+9.7943 	INFO 	Loaded monitor calibration from ['2026_03_18 20:30']
+10.4681 	INFO 	Using renderer 'Intel(R) UHD Graphics' for graphics
+10.4681 	INFO 	OpenGL version supported by driver is 4..
+11.6348 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E814A7160>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E814A7100>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0.6549, 0.6549, 0.6549]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000012EF74993F0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.6349 	EXP 	window1: backgroundImage = ''
+11.6350 	EXP 	window1: backgroundFit = 'none'
+11.6934 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.7096 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.7265 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.7445 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.7637 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.7806 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.7976 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.8163 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.8332 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.8499 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.8697 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.8894 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.9083 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.9273 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.9467 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.9635 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.9805 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.9974 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.0134 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.0292 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.0462 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.0629 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.0802 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.0987 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.1143 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.1301 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.1474 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.1637 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.1641 	DEBUG 	Uploading Texture Font fontname to graphics card
+12.1780 	DEBUG 	Upload of Texture Font fontname complete
+12.2241 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.2420 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.2427 	DEBUG 	Uploading Texture Font fontname to graphics card
+12.2561 	DEBUG 	Upload of Texture Font fontname complete
+12.5594 	INFO 	keyboard.Keyboard is using ptb backend.
+12.5594 	EXP 	untitled_FINAL_NEWEST: status = STARTED
+12.7761 	EXP 	Created text_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.03), italic=False, languageStyle='LTR', name='text_instr', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+12.8163 	EXP 	Created suwak_info = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.03), italic=False, languageStyle='LTR', name='suwak_info', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.3)
+12.8620 	EXP 	Created proba_testowa = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='proba_testowa', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.4)
+12.8710 	EXP 	Created pilot_label_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='pilot_label_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.3)
+12.8898 	EXP 	Created pilot_fiksacja1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.12), italic=False, languageStyle='LTR', name='pilot_fiksacja1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.9415 	EXP 	Created pilot_suwak = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=False, font='Noto Sans', granularity=0.0, labelColor=None, labelHeight=np.float64(0.05), labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='pilot_suwak', opacity=None, ori=0.0, pos=array([ 0. , -0.5]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=0, style='slider', styleTweaks=[], ticks=ndarray(...), units='norm', win=Window(...))
+12.9538 	EXP 	Created pilot_fiksacja2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='pilot_fiksacja2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.9758 	EXP 	Created pilot_pytanie = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='pilot_pytanie', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Jaką emocję wyrażała ta twarz?', units='norm', win=Window(...), wrapWidth=1)
+12.9825 	EXP 	Created pilot_lewa_etykieta = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.085, italic=False, languageStyle='LTR', name='pilot_lewa_etykieta', opacity=1, ori=0.0, pos=array([-0.6, -0.5]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+12.9873 	EXP 	Created pilot_prawa_etykieta = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.085, italic=False, languageStyle='LTR', name='pilot_prawa_etykieta', opacity=1, ori=0.0, pos=array([ 0.6, -0.5]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+13.1223 	EXP 	Created pilot_stim_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='C:/Users/julia/OneDrive/Obrazy/IMG_2397.JPEG', interpolate=True, mask=None, maskParams=None, name='pilot_stim_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.75, 0.75]), texRes=128.0, units='height', win=Window(...))
+13.1800 	EXP 	Created start_badania = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='start_badania', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.4)
+13.1913 	EXP 	Created przerwa_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='przerwa_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+13.1963 	EXP 	Created label_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='label_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.3)
+13.2066 	EXP 	Created stim_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='stim_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.75, 0.75]), texRes=128.0, units='height', win=Window(...))
+13.2436 	EXP 	Created suwak_badanie = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-4, fillColor=None, flip=False, font='Noto Sans', granularity=0.0, labelColor=None, labelHeight=np.float64(0.05), labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='suwak_badanie', opacity=None, ori=0.0, pos=array([ 0. , -0.5]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=0, style='slider', styleTweaks=[], ticks=ndarray(...), units='norm', win=Window(...))
+13.2496 	EXP 	Created lewa_etykieta = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.085, italic=False, languageStyle='LTR', name='lewa_etykieta', opacity=1, ori=0.0, pos=array([-0.65, -0.5 ]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+13.2562 	EXP 	Created prawa_etykieta = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.085, italic=False, languageStyle='LTR', name='prawa_etykieta', opacity=1, ori=0.0, pos=array([ 0.65, -0.5 ]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+13.2680 	EXP 	Created fiksacja2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='fiksacja2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+13.2815 	EXP 	Created pytanie = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='pytanie', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Jaką emocję wyrażała ta twarz?', units='norm', win=Window(...), wrapWidth=1)
+13.2890 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.3171 	EXP 	Created podziekowania_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='podziekowania_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.3007 	EXP 	pilot_suwak: autoLog = True
+0.3007 	EXP 	pilot_suwak: styleTweaks = []
+0.3007 	EXP 	pilot_suwak: styleTweaks = []
+0.3007 	EXP 	pilot_suwak: styleTweaks = []
+0.3007 	EXP 	pilot_suwak: styleTweaks = []
+0.3007 	EXP 	pilot_suwak: contrast = 1.0
+0.3007 	EXP 	pilot_suwak: markerPos = 0
+0.3007 	EXP 	pilot_suwak: autoLog = True
+0.3007 	EXP 	suwak_badanie: autoLog = True
+0.3007 	EXP 	suwak_badanie: styleTweaks = []
+0.3007 	EXP 	suwak_badanie: styleTweaks = []
+0.3007 	EXP 	suwak_badanie: styleTweaks = []
+0.3007 	EXP 	suwak_badanie: styleTweaks = []
+0.3007 	EXP 	suwak_badanie: contrast = 1.0
+0.3007 	EXP 	suwak_badanie: markerPos = 0
+0.3007 	EXP 	suwak_badanie: autoLog = True
+0.3455 	INFO 	Keyboard events cleared
+0.3454 	EXP 	text_instr: autoDraw = True
+1.4142 	EXP 	Device response: <KeyPress from None: t=1.391509099979885, value=space, duration=None>
+1.4189 	DATA 	Keypress: space
+1.4282 	INFO 	Keyboard events cleared
+1.4281 	EXP 	text_instr: autoDraw = False
+1.4281 	EXP 	suwak_info: autoDraw = True
+1.4677 	EXP 	Device response: <KeyPress from None: t=1.391509099979885, value=space, duration=0.06919750000815839>
+1.6026 	DATA 	Keypress: space
+1.6164 	EXP 	Device response: <KeyPress from None: t=1.6005353999789804, value=space, duration=None>
+1.6281 	INFO 	Keyboard events cleared
+1.6280 	EXP 	suwak_info: autoDraw = False
+1.6280 	EXP 	proba_testowa: autoDraw = True
+1.6835 	EXP 	Device response: <KeyPress from None: t=1.6005353999789804, value=space, duration=0.07521200005430728>
+1.7834 	EXP 	Device response: <KeyPress from None: t=1.7808102000271901, value=space, duration=None>
+1.8097 	DATA 	Keypress: space
+1.8264 	EXP 	proba_testowa: autoDraw = False
+1.8264 	EXP 	pilot_label_text: height = np.float64(0.05)
+1.8264 	EXP 	pilot_label_text: height = np.float64(0.05)
+1.8264 	EXP 	pilot_label_text: height = np.float64(0.05)
+1.8264 	EXP 	pilot_label_text: height = np.float64(0.05)
+1.8264 	EXP 	pilot_label_text: height = np.float64(0.05)
+1.8264 	EXP 	pilot_label_text: height = np.float64(0.05)
+1.8264 	EXP 	pilot_label_text: text = 'Model AI wykrył w tej twarzy 80% smutku.\n\n'
+1.8264 	EXP 	pilot_suwak: markerPos = None
+1.8264 	EXP 	pilot_suwak: markerPos = 0
+1.8264 	EXP 	pilot_lewa_etykieta: height = np.float64(0.085)
+1.8264 	EXP 	pilot_lewa_etykieta: height = np.float64(0.085)
+1.8264 	EXP 	pilot_lewa_etykieta: height = np.float64(0.085)
+1.8264 	EXP 	pilot_lewa_etykieta: text = 'radość'
+1.8264 	EXP 	pilot_prawa_etykieta: height = np.float64(0.085)
+1.8264 	EXP 	pilot_prawa_etykieta: height = np.float64(0.085)
+1.8264 	EXP 	pilot_prawa_etykieta: height = np.float64(0.085)
+1.8264 	EXP 	pilot_prawa_etykieta: text = 'smutek'
+1.8264 	EXP 	pilot_fiksacja1: autoDraw = True
+1.8471 	EXP 	Device response: <KeyPress from None: t=1.7808102000271901, value=space, duration=0.06459119997452945>
+2.3260 	EXP 	pilot_fiksacja1: autoDraw = False
+2.4925 	EXP 	pilot_label_text: autoDraw = True
+5.5002 	EXP 	pilot_label_text: autoDraw = False
+5.6838 	EXP 	pilot_fiksacja2: autoDraw = True
+6.1987 	EXP 	pilot_fiksacja2: autoDraw = False
+6.3991 	EXP 	pilot_stim_image: autoDraw = True
+7.2960 	EXP 	pilot_suwak: autoDraw = True
+7.2960 	EXP 	pilot_pytanie: autoDraw = True
+7.2960 	EXP 	pilot_lewa_etykieta: autoDraw = True
+7.2960 	EXP 	pilot_prawa_etykieta: autoDraw = True
+7.3115 	EXP 	pilot_stim_image: autoDraw = False
+7.9164 	DATA 	Mouse: Left button down, pos=(547,155)
+7.9269 	EXP 	pilot_suwak: markerPos = np.float64(36.75)
+7.9436 	EXP 	pilot_suwak: markerPos = np.float64(36.75)
+7.9601 	EXP 	pilot_suwak: markerPos = np.float64(36.75)
+7.9781 	EXP 	pilot_suwak: markerPos = np.float64(36.75)
+7.9820 	DATA 	Mouse:  Left button up, pos=(547,155)
+7.9939 	EXP 	pilot_suwak: markerPos = np.float64(36.75)
+8.0101 	INFO 	Keyboard events cleared
+8.0100 	EXP 	pilot_label_text: autoDraw = False
+8.0100 	EXP 	pilot_fiksacja1: autoDraw = False
+8.0100 	EXP 	pilot_suwak: autoDraw = False
+8.0100 	EXP 	pilot_fiksacja2: autoDraw = False
+8.0100 	EXP 	pilot_pytanie: autoDraw = False
+8.0100 	EXP 	pilot_lewa_etykieta: autoDraw = False
+8.0100 	EXP 	pilot_prawa_etykieta: autoDraw = False
+8.0100 	EXP 	pilot_stim_image: autoDraw = False
+8.0100 	EXP 	start_badania: autoDraw = True
+8.4819 	EXP 	Device response: <KeyPress from None: t=8.476685400004499, value=space, duration=None>
+8.5097 	DEBUG 	Read excel file with openpyxl: conditions.xlsx
+8.5166 	EXP 	Imported conditions.xlsx as conditions, 32 conditions, 9 params
+8.5172 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'image_path': 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 50,50\\SZ 50,50\\1K SZ 5050.png', 'etykieta': 'Model sztucznej inteligencji wykrył w tej twarzy 72% strachu .', 'left_label': 'strach', 'right_label': 'złość', 'show_label': 1, 'proporcja_zdjecia': '50/50', 'typ_etykiety': 'Procentowa AI', 'warunek': 'n/d', 'kierunek': 'Sugestia Lewo strach', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+8.5749 	EXP 	Device response: <KeyPress from None: t=8.476685400004499, value=space, duration=0.06990460003726184>
+8.5760 	DATA 	Keypress: space
+8.5914 	EXP 	start_badania: autoDraw = False
+8.5914 	EXP 	przerwa_text: autoDraw = False
+8.5914 	EXP 	label_text: height = np.float64(0.05)
+8.5914 	EXP 	label_text: height = np.float64(0.05)
+8.5914 	EXP 	label_text: height = np.float64(0.05)
+8.5914 	EXP 	label_text: text = 'Model sztucznej inteligencji wykrył w tej twarzy 72% strachu .'
+8.5914 	EXP 	label_text: height = np.float64(0.05)
+8.5914 	EXP 	label_text: height = np.float64(0.05)
+8.5914 	EXP 	label_text: height = np.float64(0.05)
+8.5914 	EXP 	label_text: text = 'Model sztucznej inteligencji wykrył w tej twarzy 72% strachu .'
+8.5914 	EXP 	stim_image: image = 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 50,50\\SZ 50,50\\1K SZ 5050.png'
+8.5914 	EXP 	suwak_badanie: markerPos = None
+8.5914 	EXP 	suwak_badanie: markerPos = 0
+8.5914 	EXP 	lewa_etykieta: height = np.float64(0.085)
+8.5914 	EXP 	lewa_etykieta: height = np.float64(0.085)
+8.5914 	EXP 	lewa_etykieta: height = np.float64(0.085)
+8.5914 	EXP 	lewa_etykieta: text = 'strach'
+8.5914 	EXP 	prawa_etykieta: height = np.float64(0.085)
+8.5914 	EXP 	prawa_etykieta: height = np.float64(0.085)
+8.5914 	EXP 	prawa_etykieta: height = np.float64(0.085)
+8.5914 	EXP 	prawa_etykieta: text = 'złość'
+8.5914 	EXP 	label_text: autoDraw = True
+9.6064 	EXP 	label_text: autoDraw = False
+9.7232 	EXP 	fiksacja2: autoDraw = True
+9.9887 	EXP 	fiksacja2: autoDraw = False
+10.1718 	EXP 	stim_image: autoDraw = True
+10.3869 	EXP 	suwak_badanie: autoDraw = True
+10.3869 	EXP 	lewa_etykieta: autoDraw = True
+10.3869 	EXP 	prawa_etykieta: autoDraw = True
+10.3869 	EXP 	pytanie: autoDraw = True
+11.3840 	EXP 	stim_image: autoDraw = False
+15.3598 	DATA 	Mouse: Left button down, pos=(527,148)
+15.3730 	EXP 	suwak_badanie: markerPos = np.float64(31.75)
+15.3903 	EXP 	suwak_badanie: markerPos = np.float64(31.75)
+15.3941 	DATA 	Mouse:  Left button up, pos=(527,148)
+15.4070 	EXP 	suwak_badanie: markerPos = np.float64(31.75)
+15.4230 	EXP 	label_text: autoDraw = False
+15.4230 	EXP 	stim_image: autoDraw = False
+15.4230 	EXP 	suwak_badanie: autoDraw = False
+15.4230 	EXP 	lewa_etykieta: autoDraw = False
+15.4230 	EXP 	prawa_etykieta: autoDraw = False
+15.4230 	EXP 	fiksacja2: autoDraw = False
+15.4230 	EXP 	pytanie: autoDraw = False
+15.4230 	EXP 	text: autoDraw = True
+15.7098 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'image_path': 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 80,20\\OZ 80,20\\1K OZ 8020.png', 'etykieta': 'Poprzedni badani wykryli w tej twarzy oczekiwanie.', 'left_label': 'zaskoczenie', 'right_label': 'oczekiwanie', 'show_label': 1, 'proporcja_zdjecia': '80/20 oczekiwanie', 'typ_etykiety': 'Kategorialna Ludzie', 'warunek': 'Zgodny', 'kierunek': 'Dominacja Prawo oczekiwanie', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+15.7718 	EXP 	text: autoDraw = False
+15.7718 	EXP 	text: autoDraw = False
+15.7718 	EXP 	przerwa_text: autoDraw = False
+15.7718 	EXP 	label_text: height = np.float64(0.05)
+15.7718 	EXP 	label_text: height = np.float64(0.05)
+15.7718 	EXP 	label_text: height = np.float64(0.05)
+15.7718 	EXP 	label_text: text = 'Poprzedni badani wykryli w tej twarzy oczekiwanie.'
+15.7718 	EXP 	label_text: height = np.float64(0.05)
+15.7718 	EXP 	label_text: height = np.float64(0.05)
+15.7718 	EXP 	label_text: height = np.float64(0.05)
+15.7718 	EXP 	label_text: text = 'Poprzedni badani wykryli w tej twarzy oczekiwanie.'
+15.7718 	EXP 	stim_image: image = 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\photos\\Twarze 80,20\\OZ 80,20\\1K OZ 8020.png'
+15.7718 	EXP 	suwak_badanie: markerPos = None
+15.7718 	EXP 	suwak_badanie: markerPos = 0
+15.7718 	EXP 	lewa_etykieta: height = np.float64(0.085)
+15.7718 	EXP 	lewa_etykieta: height = np.float64(0.085)
+15.7718 	EXP 	lewa_etykieta: height = np.float64(0.085)
+15.7718 	EXP 	lewa_etykieta: text = 'zaskoczenie'
+15.7718 	EXP 	prawa_etykieta: height = np.float64(0.085)
+15.7718 	EXP 	prawa_etykieta: height = np.float64(0.085)
+15.7718 	EXP 	prawa_etykieta: height = np.float64(0.085)
+15.7718 	EXP 	prawa_etykieta: text = 'oczekiwanie'
+15.7718 	EXP 	label_text: autoDraw = True
+16.7868 	EXP 	label_text: autoDraw = False
+16.9198 	EXP 	fiksacja2: autoDraw = True
+17.1693 	EXP 	fiksacja2: autoDraw = False
+17.3688 	EXP 	stim_image: autoDraw = True
+17.5679 	EXP 	suwak_badanie: autoDraw = True
+17.5679 	EXP 	lewa_etykieta: autoDraw = True
+17.5679 	EXP 	prawa_etykieta: autoDraw = True
+17.5679 	EXP 	pytanie: autoDraw = True
+18.5814 	EXP 	stim_image: autoDraw = False
+19.1535 	DATA 	Keypress: escape
+19.1682 	EXP 	Device response: <KeyPress from None: t=19.151171599980444, value=escape, duration=None>
+19.3008 	EXP 	Device response: <KeyPress from None: t=19.151171599980444, value=escape, duration=0.1408231999957934>
+19.3009 	EXP 	untitled_FINAL_NEWEST: status = STOPPED
+19.3132 	EXP 	suwak_badanie: autoDraw = False
+19.3132 	EXP 	lewa_etykieta: autoDraw = False
+19.3132 	EXP 	prawa_etykieta: autoDraw = False
+19.3132 	EXP 	pytanie: autoDraw = False
+19.3180 	EXP 	untitled_FINAL_NEWEST: status = STOPPED
+19.3318 	INFO 	saved data to 'C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\data\\pilot_untitled_FINAL_NEWEST_2026-04-25_19h55.07.727.csv'
+19.3354 	INFO 	saved data to C:\Users\julia\OneDrive\Pulpit\percepcja_psychopy\data\pilot_untitled_FINAL_NEWEST_2026-04-25_19h55.07.727.psydat
+19.7788 	DEBUG 	Saving data for untitled_FINAL_NEWEST ExperimentHandler
+19.8250 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

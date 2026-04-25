@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 25, 2026, at 19:42
+    on kwiecień 25, 2026, at 19:54
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1771,7 +1771,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # if label_text is stopping this frame...
             if label_text.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > label_text.tStartRefresh + 2.7-frameTolerance:
+                if tThisFlipGlobal > label_text.tStartRefresh + show_label-frameTolerance:
                     # keep track of stop time/frame for later
                     label_text.tStop = t  # not accounting for scr refresh
                     label_text.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1785,7 +1785,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *stim_image* updates
             
             # if stim_image is starting this frame...
-            if stim_image.status == NOT_STARTED and tThisFlip >= 4.3-frameTolerance:
+            if stim_image.status == NOT_STARTED and tThisFlip >= show_label + 0.65-frameTolerance:
                 # keep track of start time/frame for later
                 stim_image.frameNStart = frameN  # exact frame index
                 stim_image.tStart = t  # local t and not account for scr refresh
@@ -1819,7 +1819,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *suwak_badanie* updates
             
             # if suwak_badanie is starting this frame...
-            if suwak_badanie.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
+            if suwak_badanie.status == NOT_STARTED and tThisFlip >= show_label+0.85-frameTolerance:
                 # keep track of start time/frame for later
                 suwak_badanie.frameNStart = frameN  # exact frame index
                 suwak_badanie.tStart = t  # local t and not account for scr refresh
@@ -1843,7 +1843,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *lewa_etykieta* updates
             
             # if lewa_etykieta is starting this frame...
-            if lewa_etykieta.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
+            if lewa_etykieta.status == NOT_STARTED and tThisFlip >= show_label+0.85-frameTolerance:
                 # keep track of start time/frame for later
                 lewa_etykieta.frameNStart = frameN  # exact frame index
                 lewa_etykieta.tStart = t  # local t and not account for scr refresh
@@ -1863,7 +1863,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *prawa_etykieta* updates
             
             # if prawa_etykieta is starting this frame...
-            if prawa_etykieta.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
+            if prawa_etykieta.status == NOT_STARTED and tThisFlip >= show_label+0.85-frameTolerance:
                 # keep track of start time/frame for later
                 prawa_etykieta.frameNStart = frameN  # exact frame index
                 prawa_etykieta.tStart = t  # local t and not account for scr refresh
@@ -1883,7 +1883,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *fiksacja2* updates
             
             # if fiksacja2 is starting this frame...
-            if fiksacja2.status == NOT_STARTED and tThisFlip >= 3.6-frameTolerance:
+            if fiksacja2.status == NOT_STARTED and tThisFlip >= show_label + 0.2-frameTolerance:
                 # keep track of start time/frame for later
                 fiksacja2.frameNStart = frameN  # exact frame index
                 fiksacja2.tStart = t  # local t and not account for scr refresh
@@ -1903,7 +1903,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # if fiksacja2 is stopping this frame...
             if fiksacja2.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > fiksacja2.tStartRefresh + 0.5-frameTolerance:
+                if tThisFlipGlobal > fiksacja2.tStartRefresh + 0.25-frameTolerance:
                     # keep track of stop time/frame for later
                     fiksacja2.tStop = t  # not accounting for scr refresh
                     fiksacja2.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1917,7 +1917,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *pytanie* updates
             
             # if pytanie is starting this frame...
-            if pytanie.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
+            if pytanie.status == NOT_STARTED and tThisFlip >= show_label+0.85-frameTolerance:
                 # keep track of start time/frame for later
                 pytanie.frameNStart = frameN  # exact frame index
                 pytanie.tStart = t  # local t and not account for scr refresh
@@ -2018,7 +2018,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # --- Run Routine "oddzielenie_triali" ---
         thisExp.currentRoutine = oddzielenie_triali
         oddzielenie_triali.forceEnded = routineForceEnded = not continueRoutine
-        while continueRoutine and routineTimer.getTime() < 0.6:
+        while continueRoutine and routineTimer.getTime() < 0.3:
             # if trial has changed, end Routine now
             if hasattr(thisTrial, 'status') and thisTrial.status == STOPPING:
                 continueRoutine = False
@@ -2052,7 +2052,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # if text is stopping this frame...
             if text.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text.tStartRefresh + 0.6-frameTolerance:
+                if tThisFlipGlobal > text.tStartRefresh + 0.3-frameTolerance:
                     # keep track of stop time/frame for later
                     text.tStop = t  # not accounting for scr refresh
                     text.tStopRefresh = tThisFlipGlobal  # on global time
@@ -2113,7 +2113,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         elif oddzielenie_triali.forceEnded:
             routineTimer.reset()
         else:
-            routineTimer.addTime(-0.600000)
+            routineTimer.addTime(-0.300000)
         # mark thisTrial as finished
         if hasattr(thisTrial, 'status'):
             thisTrial.status = FINISHED
