@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 25, 2026, at 20:55
+    on kwiecień 25, 2026, at 21:34
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -418,7 +418,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         depth=-2.0);
     pilot_suwak = visual.Slider(win=win, name='pilot_suwak',
         startValue=0, size=(1, 0.1), pos=(0, -0.5), units='norm',
-        labels=None, ticks=(-50,-12.5, -25, -37.5, 0, 12.5, 25, 37.5, 50), granularity=0.0,
+        labels=None, ticks=(-50,-25,  0,  25,  50), granularity=0.0,
         style='slider', styleTweaks=[], opacity=None,
         labelColor=(-1.0000, 1.0000, 1.0000), markerColor='Red', lineColor=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
         font='Noto Sans', labelHeight=0.05,
@@ -522,7 +522,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     fiksacja2 = visual.TextStim(win=win, name='fiksacja2',
         text='+',
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.12, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-7.0);
@@ -1994,7 +1994,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         continueRoutine = True
         # update component parameters for each repeat
         # Run 'Begin Routine' code from code
-        win.color='black'
+        win.color='dimgrey'
         # store start times for oddzielenie_triali
         oddzielenie_triali.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         oddzielenie_triali.tStart = globalClock.getTime(format='float')
@@ -2018,7 +2018,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # --- Run Routine "oddzielenie_triali" ---
         thisExp.currentRoutine = oddzielenie_triali
         oddzielenie_triali.forceEnded = routineForceEnded = not continueRoutine
-        while continueRoutine and routineTimer.getTime() < 1.0:
+        while continueRoutine and routineTimer.getTime() < 3.5:
             # if trial has changed, end Routine now
             if hasattr(thisTrial, 'status') and thisTrial.status == STOPPING:
                 continueRoutine = False
@@ -2052,7 +2052,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # if text is stopping this frame...
             if text.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text.tStartRefresh + 1-frameTolerance:
+                if tThisFlipGlobal > text.tStartRefresh + 3.5-frameTolerance:
                     # keep track of stop time/frame for later
                     text.tStop = t  # not accounting for scr refresh
                     text.tStopRefresh = tThisFlipGlobal  # on global time
@@ -2113,7 +2113,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         elif oddzielenie_triali.forceEnded:
             routineTimer.reset()
         else:
-            routineTimer.addTime(-1.000000)
+            routineTimer.addTime(-3.500000)
         # mark thisTrial as finished
         if hasattr(thisTrial, 'status'):
             thisTrial.status = FINISHED
