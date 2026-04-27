@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 27, 2026, at 18:53
+    on kwiecień 27, 2026, at 18:55
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -393,7 +393,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "demo_suwaka" ---
     spacja_suwak = keyboard.Keyboard(deviceName='defaultKeyboard')
     textbox_3 = visual.TextBox2(
-         win, text='\n\n\n\nPo zniknięciu zdjęcia na ekranie pojawi się suwak, a na jego krańcach dwie emocje.\n\nUWAGA: przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\n\n    • Pozycja suwaka nr 1 oznacza znaczną przewagę radości z nieznacznym udziałem smutku. \n\n    • Pozycja suwaka nr 2 oznacza przewagę radości z udziałem smutku. \n\n    • Pozycja suwaka nr 3 oznacza równy udział radości i  smutku. \n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAby przejść dalej, naciśnij [SPACJA]', placeholder='Type here...', font='Arial',
+         win, text='\n\n\n\nPo zniknięciu zdjęcia na ekranie pojawi się suwak, a na jego krańcach dwie emocje.\n\nUWAGA: przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\n\n    • Pozycja suwaka nr 1 oznacza znaczną przewagę radości z nieznacznym udziałem smutku. \n\n    • Pozycja suwaka nr 2 oznacza przewagę smutku z udziałem radości.\n\n    • Pozycja suwaka nr 3 oznacza równy udział radości i smutku. \n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAby przejść dalej, naciśnij [SPACJA]', placeholder='Type here...', font='Arial',
          ori=0.0, pos=(0, 0.1), draggable=False, units='norm',     letterHeight=0.055,
          size=(1.8, 4), borderWidth=2.0,
          color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',

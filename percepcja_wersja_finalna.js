@@ -233,7 +233,7 @@ async function experimentInit() {
   textbox_3 = new visual.TextBox({
     win: psychoJS.window,
     name: 'textbox_3',
-    text: '\n\n\n\nPo zniknięciu zdjęcia na ekranie pojawi się suwak, a na jego krańcach dwie emocje.\n\nUWAGA: przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\n\n    • Pozycja suwaka nr 1 oznacza znaczną przewagę radości z nieznacznym udziałem smutku. \n\n    • Pozycja suwaka nr 2 oznacza przewagę radości z udziałem smutku. \n\n    • Pozycja suwaka nr 3 oznacza równy udział radości i  smutku. \n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAby przejść dalej, naciśnij [SPACJA]',
+    text: '\n\n\n\nPo zniknięciu zdjęcia na ekranie pojawi się suwak, a na jego krańcach dwie emocje.\n\nUWAGA: przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\n\n    • Pozycja suwaka nr 1 oznacza znaczną przewagę radości z nieznacznym udziałem smutku. \n\n    • Pozycja suwaka nr 2 oznacza przewagę smutku z udziałem radości.\n\n    • Pozycja suwaka nr 3 oznacza równy udział radości i smutku. \n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAby przejść dalej, naciśnij [SPACJA]',
     placeholder: 'Type here...',
     font: 'Arial',
     pos: [0, 0.1], 
