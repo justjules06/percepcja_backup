@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 25, 2026, at 22:48
+    on kwiecień 27, 2026, at 12:17
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1152,7 +1152,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *pilot_suwak* updates
         
         # if pilot_suwak is starting this frame...
-        if pilot_suwak.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
+        if pilot_suwak.status == NOT_STARTED and tThisFlip >= 5.9-frameTolerance:
             # keep track of start time/frame for later
             pilot_suwak.frameNStart = frameN  # exact frame index
             pilot_suwak.tStart = t  # local t and not account for scr refresh
@@ -1210,7 +1210,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *pilot_pytanie* updates
         
         # if pilot_pytanie is starting this frame...
-        if pilot_pytanie.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
+        if pilot_pytanie.status == NOT_STARTED and tThisFlip >= 5.9-frameTolerance:
             # keep track of start time/frame for later
             pilot_pytanie.frameNStart = frameN  # exact frame index
             pilot_pytanie.tStart = t  # local t and not account for scr refresh
@@ -1230,7 +1230,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *pilot_lewa_etykieta* updates
         
         # if pilot_lewa_etykieta is starting this frame...
-        if pilot_lewa_etykieta.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
+        if pilot_lewa_etykieta.status == NOT_STARTED and tThisFlip >= 5.9-frameTolerance:
             # keep track of start time/frame for later
             pilot_lewa_etykieta.frameNStart = frameN  # exact frame index
             pilot_lewa_etykieta.tStart = t  # local t and not account for scr refresh
@@ -1250,7 +1250,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *pilot_prawa_etykieta* updates
         
         # if pilot_prawa_etykieta is starting this frame...
-        if pilot_prawa_etykieta.status == NOT_STARTED and tThisFlip >= 5.5-frameTolerance:
+        if pilot_prawa_etykieta.status == NOT_STARTED and tThisFlip >= 5.9-frameTolerance:
             # keep track of start time/frame for later
             pilot_prawa_etykieta.frameNStart = frameN  # exact frame index
             pilot_prawa_etykieta.tStart = t  # local t and not account for scr refresh
@@ -1290,7 +1290,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if pilot_stim_image is stopping this frame...
         if pilot_stim_image.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > pilot_stim_image.tStartRefresh + 0.9-frameTolerance:
+            if tThisFlipGlobal > pilot_stim_image.tStartRefresh + 1.3-frameTolerance:
                 # keep track of stop time/frame for later
                 pilot_stim_image.tStop = t  # not accounting for scr refresh
                 pilot_stim_image.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1805,7 +1805,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # if stim_image is stopping this frame...
             if stim_image.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > stim_image.tStartRefresh + 1.2-frameTolerance:
+                if tThisFlipGlobal > stim_image.tStartRefresh + 1.3-frameTolerance:
                     # keep track of stop time/frame for later
                     stim_image.tStop = t  # not accounting for scr refresh
                     stim_image.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1819,7 +1819,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *suwak_badanie* updates
             
             # if suwak_badanie is starting this frame...
-            if suwak_badanie.status == NOT_STARTED and tThisFlip >= show_label+1.85-frameTolerance:
+            if suwak_badanie.status == NOT_STARTED and tThisFlip >= show_label+1.95-frameTolerance:
                 # keep track of start time/frame for later
                 suwak_badanie.frameNStart = frameN  # exact frame index
                 suwak_badanie.tStart = t  # local t and not account for scr refresh
@@ -1843,7 +1843,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *lewa_etykieta* updates
             
             # if lewa_etykieta is starting this frame...
-            if lewa_etykieta.status == NOT_STARTED and tThisFlip >= show_label+1.85-frameTolerance:
+            if lewa_etykieta.status == NOT_STARTED and tThisFlip >= show_label+1.95-frameTolerance:
                 # keep track of start time/frame for later
                 lewa_etykieta.frameNStart = frameN  # exact frame index
                 lewa_etykieta.tStart = t  # local t and not account for scr refresh
@@ -1863,7 +1863,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *prawa_etykieta* updates
             
             # if prawa_etykieta is starting this frame...
-            if prawa_etykieta.status == NOT_STARTED and tThisFlip >= show_label+1.85-frameTolerance:
+            if prawa_etykieta.status == NOT_STARTED and tThisFlip >= show_label+1.95-frameTolerance:
                 # keep track of start time/frame for later
                 prawa_etykieta.frameNStart = frameN  # exact frame index
                 prawa_etykieta.tStart = t  # local t and not account for scr refresh
@@ -1917,7 +1917,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *pytanie* updates
             
             # if pytanie is starting this frame...
-            if pytanie.status == NOT_STARTED and tThisFlip >= show_label+1.85-frameTolerance:
+            if pytanie.status == NOT_STARTED and tThisFlip >= show_label+1.95-frameTolerance:
                 # keep track of start time/frame for later
                 pytanie.frameNStart = frameN  # exact frame index
                 pytanie.tStart = t  # local t and not account for scr refresh
