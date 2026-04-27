@@ -68,7 +68,7 @@
     <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
     <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
     <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
-    <Param val="0" valType="code" updates="None" name="runMode"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
     <Param val="False" valType="bool" updates="None" name="rush"/>
     <Param val="time" valType="str" updates="None" name="sortColumns"/>
     <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
@@ -415,7 +415,7 @@
         <Param val="$(-1.0000, -1.0000, -1.0000)" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="False" valType="code" updates="constant" name="draggable"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="None" valType="str" updates="constant" name="flip"/>
@@ -433,11 +433,53 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.  &amp;#10;&amp;#10;Twoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu (wyrażonym w procentach) ta emocja jest nasilona. &amp;#10;&amp;#10;  -  Każdą próbę rozpocznie znak +. W tym momencie skup wzrok na środku ekranu. &amp;#10;&amp;#10;  -  Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model Sztucznej Inteligencji lub uśrednione wyniki uzyskane od poprzednich uczestników badania. W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. &amp;#10;&amp;#10;  -  Zdjęcie twarzy pojawi się tylko na krótką chwilę. Polegaj na swojej intuicji i pierwszym wrażeniu. &amp;#10; &amp;#10;Pamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. &amp;#10;&amp;#10;Na następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. &amp;#10;&amp;#10;&amp;#10;&amp;#10;Aby przejść dalej, naciśnij [SPACJA]." valType="str" updates="constant" name="text"/>
+        <Param val="Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.&amp;#10;&amp;#10;Twoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu (wyrażonym w procentach) ta emocja jest nasilona. &amp;#10;&amp;#10;Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model Sztucznej Inteligencji lub uśrednione wyniki uzyskane od poprzednich uczestników badania. Przeczytaj ją dokładnie. &amp;#10;&amp;#10;W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. &amp;#10;&amp;#10;Po zniknięciu informacji w centralnej części ekranu pojawi się znak +, skup na nim wzrok. &amp;#10;&amp;#10;Zdjęcie twarzy pojawi się tylko na krótką chwilę, dlatego przy ocenie polegaj na swojej intuicji i pierwszym wrażeniu. &amp;#10;&amp;#10;Po zniknięciu zdjęcia na ekranie pojawi się suwak umieszczony pomiędzy dwiema emocjami. Twoim zadaniem jest przesunięcie wskaźnika w miejsce, które Twoim zdaniem najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Aby ruszyć wskaźnikiem suwaka nakieruj na niego kursorem i przytrzymując lewy przycisk myszy wybierz odpowiednie miejsce. &amp;#10;&amp;#10;Puszczenie wskaźnika suwaka automatycznie prześle Twoją odpowiedź. &amp;#10;&amp;#10;Pamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. &amp;#10;Na następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. &amp;#10;  &amp;#10;Aby przejść dalej, naciśnij [SPACJĘ].&amp;#10;" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="1.5" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
+      <TextboxComponent name="textbox_2" plugin="None">
+        <Param val="center-left" valType="str" updates="constant" name="alignment"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="$(-1.0000, -1.0000, -1.0000)" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.055" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="1" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="textbox_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1.8, 4)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.&amp;#10;&amp;#10;Twoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu (wyrażonym w procentach) ta emocja jest nasilona. &amp;#10;&amp;#10;     • Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model Sztucznej Inteligencji lub uśrednione wyniki uzyskane od poprzednich uczestników badania. Przeczytaj ją dokładnie. &amp;#10;&amp;#10;     • W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. &amp;#10;&amp;#10;     • Po zniknięciu informacji w centralnej części ekranu pojawi się znak +, skup na nim wzrok. &amp;#10;&amp;#10;     • Zdjęcie twarzy pojawi się tylko na krótką chwilę, dlatego przy ocenie polegaj na swojej intuicji i pierwszym wrażeniu. &amp;#10;&amp;#10;     • Po zniknięciu zdjęcia na ekranie pojawi się suwak umieszczony pomiędzy dwiema emocjami. Twoim zadaniem jest przesunięcie wskaźnika w miejsce, które Twoim zdaniem najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Aby ruszyć wskaźnikiem suwaka nakieruj na niego kursorem i przytrzymując lewy przycisk myszy wybierz odpowiednie miejsce. &amp;#10;&amp;#10;     • Puszczenie wskaźnika suwaka automatycznie prześle Twoją odpowiedź. &amp;#10;&amp;#10;Pamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. &amp;#10;Na następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. &amp;#10;  &amp;#10;Aby przejść dalej, naciśnij [SPACJĘ].&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
     </Routine>
     <Routine name="demo_suwaka">
       <RoutineSettingsComponent name="demo_suwaka" plugin="None">
@@ -477,7 +519,7 @@
         <Param val="$(-1.0000, -1.0000, -1.0000)" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="False" valType="code" updates="constant" name="draggable"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="None" valType="str" updates="constant" name="flip"/>
@@ -495,7 +537,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="Po zniknięciu zdjęcia na ekranie pojawi się suwak, a na jego krańcach dwie emocje. Twoim zadaniem jest przesunięcie czerwonego wskaźnika w miejsce, które najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Nakieruj na wskażnik kursorem oraz przytrzymaj lewy przycisk myszy, by wybrać odpowiednie miejsce na suwaku. &amp;#10;&amp;#10;UWAGA: przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. &amp;#10;&amp;#10;&amp;#10;Pozycję suwaka oznaczoną numerem 1 należy interpetować jako wskazanie ~80% radości i ~20% smutku. &amp;#10;&amp;#10;Pozycję suwaka oznaczonego numerem 2 należy interpretować jako wskazanie ~40% radości i ~60% smutku. &amp;#10;&amp;#10;Pozycję suwaka oznaczonego numerem 3 należy intepretować jako wskanie 50% radości i 50% smutku. &amp;#10;&amp;#10;Aby przejść dalej, naciśnij [SPACJA]." valType="str" updates="constant" name="text"/>
+        <Param val="Po zniknięciu zdjęcia na ekranie pojawi się suwak, a na jego krańcach dwie emocje.&amp;#10;&amp;#10;UWAGA: przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. &amp;#10;&amp;#10;Pozycja suwaka nr 1 oznacza znaczną przewagę radości z nieznacznym udziałem smutku. &amp;#10;&amp;#10;Pozycja suwaka nr 2 oznacza  radości i ~60% smutku. &amp;#10;&amp;#10;Pozycja suwaka nr 3 oznacza  50% radości i 50% smutku. &amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;Aby przejść dalej, naciśnij [SPACJA]." valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="1.3" valType="num" updates="constant" name="wrapWidth"/>
@@ -519,6 +561,77 @@
         <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
       </KeyboardComponent>
+      <ImageComponent name="suwaki_instrukcja" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="photos/suwaki_instrukcja.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="suwaki_instrukcja" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1, 0.75)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <TextboxComponent name="textbox_3" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="$(-1.0000, -1.0000, -1.0000)" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.055" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="textbox_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0, 0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1.8, 4)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Po zniknięciu zdjęcia na ekranie pojawi się suwak, a na jego krańcach dwie emocje.&amp;#10;&amp;#10;UWAGA: przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. &amp;#10;&amp;#10;Pozycja suwaka nr 1 oznacza znaczną przewagę radości z nieznacznym udziałem smutku. &amp;#10;&amp;#10;Pozycja suwaka nr 2 oznacza  radości i ~60% smutku. &amp;#10;&amp;#10;Pozycja suwaka nr 3 oznacza  50% radości i 50% smutku. &amp;#10;&amp;#10; &amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;Aby przejść dalej, naciśnij [SPACJA]" valType="str" updates="constant" name="text"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
     </Routine>
     <Routine name="info_trening">
       <RoutineSettingsComponent name="info_trening" plugin="None">
@@ -660,7 +773,7 @@
         <Param val="Model AI wykrył w tej twarzy 80% smutku.&amp;#10;&amp;#10;" valType="str" updates="set every repeat" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
-        <Param val="1.3" valType="num" updates="constant" name="wrapWidth"/>
+        <Param val="2" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
       <TextComponent name="pilot_fiksacja1" plugin="None">
         <Param val="$(-1.0000, -1.0000, -1.0000)" valType="color" updates="constant" name="color"/>
@@ -713,7 +826,7 @@
         <Param val="(1, 0.1)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="5.9" valType="code" updates="None" name="startVal"/>
+        <Param val="6" valType="code" updates="None" name="startVal"/>
         <Param val="condition" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
@@ -771,7 +884,7 @@
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="5.9" valType="code" updates="None" name="startVal"/>
+        <Param val="6" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
@@ -798,7 +911,7 @@
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="5.9" valType="code" updates="None" name="startVal"/>
+        <Param val="6" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
@@ -825,7 +938,7 @@
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="5.9" valType="code" updates="None" name="startVal"/>
+        <Param val="6" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
