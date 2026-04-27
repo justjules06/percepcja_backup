@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on kwiecień 27, 2026, at 17:33
+    on kwiecień 27, 2026, at 18:06
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -392,16 +392,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "demo_suwaka" ---
     spacja_suwak = keyboard.Keyboard(deviceName='defaultKeyboard')
-    suwaki_instrukcja = visual.ImageStim(
-        win=win,
-        name='suwaki_instrukcja', units='norm', 
-        image='photos/suwaki_instrukcja.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, -0.2), draggable=False, size=(1, 0.75),
-        color=[1,1,1], colorSpace='rgb', opacity=None,
-        flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-2.0)
     textbox_3 = visual.TextBox2(
-         win, text='Po zniknięciu zdjęcia na ekranie pojawi się suwak, a na jego krańcach dwie emocje.\n\nUWAGA: przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\nPozycja suwaka nr 1 oznacza znaczną przewagę radości z nieznacznym udziałem smutku. \n\nPozycja suwaka nr 2 oznacza  radości i ~60% smutku. \n\nPozycja suwaka nr 3 oznacza  50% radości i 50% smutku. \n\n \n\n\n\n\n\n\n\n\n\n\n\n\nAby przejść dalej, naciśnij [SPACJA]', placeholder='Type here...', font='Arial',
+         win, text='\n\nPo zniknięciu zdjęcia na ekranie pojawi się suwak, a na jego krańcach dwie emocje.\n\nUWAGA: przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\nPozycja suwaka nr 1 oznacza znaczną przewagę radości z nieznacznym udziałem smutku. \n\nPozycja suwaka nr 2 oznacza przewagę radości z udziałem smutku. \n\nPozycja suwaka nr 3 oznacza równy udział radości i  smutku. \n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAby przejść dalej, naciśnij [SPACJA]', placeholder='Type here...', font='Arial',
          ori=0.0, pos=(0, 0.1), draggable=False, units='norm',     letterHeight=0.055,
          size=(1.8, 4), borderWidth=2.0,
          color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
@@ -414,8 +406,16 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
          flipHoriz=False, flipVert=False, languageStyle='LTR',
          editable=False,
          name='textbox_3',
-         depth=-3, autoLog=True,
+         depth=-2, autoLog=True,
     )
+    suwaki_interpretacja = visual.ImageStim(
+        win=win,
+        name='suwaki_interpretacja', units='norm', 
+        image='photos/suwaki_instrukcja.png', mask=None, anchor='center',
+        ori=0.0, pos=(0, -0.2), draggable=False, size=(1, 0.75),
+        color=[1,1,1], colorSpace='rgb', opacity=None,
+        flipHoriz=False, flipVert=False,
+        texRes=128.0, interpolate=True, depth=-3.0)
     
     # --- Initialize components for Routine "info_trening" ---
     spacja_trening = keyboard.Keyboard(deviceName='defaultKeyboard')
@@ -431,14 +431,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     pilot_label_text = visual.TextStim(win=win, name='pilot_label_text',
         text='',
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.05, wrapWidth=2.0, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-1.0);
     pilot_fiksacja1 = visual.TextStim(win=win, name='pilot_fiksacja1',
         text='+',
-        font='Arial',
-        pos=(0, 0), draggable=False, height=0.12, wrapWidth=None, ori=0.0, 
+        font='Courier New',
+        pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-2.0);
@@ -451,7 +451,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         flip=False, ori=0.0, depth=-3, readOnly=False)
     pilot_fiksacja2 = visual.TextStim(win=win, name='pilot_fiksacja2',
         text='+',
-        font='Arial',
+        font='Courier New',
         pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
@@ -459,7 +459,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     pilot_pytanie = visual.TextStim(win=win, name='pilot_pytanie',
         text='Jaką emocję wyrażała ta twarz?',
         font='Arial',
-        units='norm', pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-5.0);
@@ -547,8 +547,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         depth=-6.0);
     fiksacja2 = visual.TextStim(win=win, name='fiksacja2',
         text='+',
-        font='Arial',
-        pos=(0, 0), draggable=False, height=0.12, wrapWidth=None, ori=0.0, 
+        font='Courier New',
+        pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-7.0);
@@ -569,14 +569,12 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         languageStyle='LTR',
         depth=-1.0);
     
-    # --- Initialize components for Routine "pytanie_o_metryczke" ---
-    
     # --- Initialize components for Routine "podziekowanie" ---
     podziekowania_text = visual.TextStim(win=win, name='podziekowania_text',
-        text='To już wszystko. Dziękujemy za udział w eksperymencie! \nEwentualne pytania oraz uwagi prosimy kierować na adres: Julia Koc, julkoc5@st.amu.edu.pl ',
+        text='To już wszystko. Dziękujemy za udział w eksperymencie! \n\nEwentualne pytania oraz uwagi prosimy kierować na adres: Julia Koc, julkoc5@st.amu.edu.pl ',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
     
@@ -765,7 +763,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # create an object to store info about Routine demo_suwaka
     demo_suwaka = data.Routine(
         name='demo_suwaka',
-        components=[spacja_suwak, suwaki_instrukcja, textbox_3],
+        components=[spacja_suwak, textbox_3, suwaki_interpretacja],
     )
     demo_suwaka.status = NOT_STARTED
     continueRoutine = True
@@ -836,26 +834,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 # a response ends the routine
                 continueRoutine = False
         
-        # *suwaki_instrukcja* updates
-        
-        # if suwaki_instrukcja is starting this frame...
-        if suwaki_instrukcja.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            suwaki_instrukcja.frameNStart = frameN  # exact frame index
-            suwaki_instrukcja.tStart = t  # local t and not account for scr refresh
-            suwaki_instrukcja.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(suwaki_instrukcja, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'suwaki_instrukcja.started')
-            # update status
-            suwaki_instrukcja.status = STARTED
-            suwaki_instrukcja.setAutoDraw(True)
-        
-        # if suwaki_instrukcja is active this frame...
-        if suwaki_instrukcja.status == STARTED:
-            # update params
-            pass
-        
         # *textbox_3* updates
         
         # if textbox_3 is starting this frame...
@@ -873,6 +851,26 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         
         # if textbox_3 is active this frame...
         if textbox_3.status == STARTED:
+            # update params
+            pass
+        
+        # *suwaki_interpretacja* updates
+        
+        # if suwaki_interpretacja is starting this frame...
+        if suwaki_interpretacja.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            suwaki_interpretacja.frameNStart = frameN  # exact frame index
+            suwaki_interpretacja.tStart = t  # local t and not account for scr refresh
+            suwaki_interpretacja.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(suwaki_interpretacja, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'suwaki_interpretacja.started')
+            # update status
+            suwaki_interpretacja.status = STARTED
+            suwaki_interpretacja.setAutoDraw(True)
+        
+        # if suwaki_interpretacja is active this frame...
+        if suwaki_interpretacja.status == STARTED:
             # update params
             pass
         
@@ -1132,7 +1130,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *pilot_label_text* updates
         
         # if pilot_label_text is starting this frame...
-        if pilot_label_text.status == NOT_STARTED and tThisFlip >= 0.7-frameTolerance:
+        if pilot_label_text.status == NOT_STARTED and tThisFlip >= 0.95-frameTolerance:
             # keep track of start time/frame for later
             pilot_label_text.frameNStart = frameN  # exact frame index
             pilot_label_text.tStart = t  # local t and not account for scr refresh
@@ -1186,7 +1184,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if pilot_fiksacja1 is stopping this frame...
         if pilot_fiksacja1.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > pilot_fiksacja1.tStartRefresh + 0.5-frameTolerance:
+            if tThisFlipGlobal > pilot_fiksacja1.tStartRefresh + 0.75-frameTolerance:
                 # keep track of stop time/frame for later
                 pilot_fiksacja1.tStop = t  # not accounting for scr refresh
                 pilot_fiksacja1.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1200,7 +1198,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *pilot_suwak* updates
         
         # if pilot_suwak is starting this frame...
-        if pilot_suwak.status == NOT_STARTED and tThisFlip >= 6-frameTolerance:
+        if pilot_suwak.status == NOT_STARTED and tThisFlip >= 6.5-frameTolerance:
             # keep track of start time/frame for later
             pilot_suwak.frameNStart = frameN  # exact frame index
             pilot_suwak.tStart = t  # local t and not account for scr refresh
@@ -1224,7 +1222,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *pilot_fiksacja2* updates
         
         # if pilot_fiksacja2 is starting this frame...
-        if pilot_fiksacja2.status == NOT_STARTED and tThisFlip >= 3.9-frameTolerance:
+        if pilot_fiksacja2.status == NOT_STARTED and tThisFlip >= 4.15-frameTolerance:
             # keep track of start time/frame for later
             pilot_fiksacja2.frameNStart = frameN  # exact frame index
             pilot_fiksacja2.tStart = t  # local t and not account for scr refresh
@@ -1244,7 +1242,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if pilot_fiksacja2 is stopping this frame...
         if pilot_fiksacja2.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > pilot_fiksacja2.tStartRefresh + 0.5-frameTolerance:
+            if tThisFlipGlobal > pilot_fiksacja2.tStartRefresh + 0.75-frameTolerance:
                 # keep track of stop time/frame for later
                 pilot_fiksacja2.tStop = t  # not accounting for scr refresh
                 pilot_fiksacja2.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1258,7 +1256,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *pilot_pytanie* updates
         
         # if pilot_pytanie is starting this frame...
-        if pilot_pytanie.status == NOT_STARTED and tThisFlip >= 6-frameTolerance:
+        if pilot_pytanie.status == NOT_STARTED and tThisFlip >= 6.5-frameTolerance:
             # keep track of start time/frame for later
             pilot_pytanie.frameNStart = frameN  # exact frame index
             pilot_pytanie.tStart = t  # local t and not account for scr refresh
@@ -1278,7 +1276,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *pilot_lewa_etykieta* updates
         
         # if pilot_lewa_etykieta is starting this frame...
-        if pilot_lewa_etykieta.status == NOT_STARTED and tThisFlip >= 6-frameTolerance:
+        if pilot_lewa_etykieta.status == NOT_STARTED and tThisFlip >= 6.5-frameTolerance:
             # keep track of start time/frame for later
             pilot_lewa_etykieta.frameNStart = frameN  # exact frame index
             pilot_lewa_etykieta.tStart = t  # local t and not account for scr refresh
@@ -1298,7 +1296,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *pilot_prawa_etykieta* updates
         
         # if pilot_prawa_etykieta is starting this frame...
-        if pilot_prawa_etykieta.status == NOT_STARTED and tThisFlip >= 6-frameTolerance:
+        if pilot_prawa_etykieta.status == NOT_STARTED and tThisFlip >= 6.5-frameTolerance:
             # keep track of start time/frame for later
             pilot_prawa_etykieta.frameNStart = frameN  # exact frame index
             pilot_prawa_etykieta.tStart = t  # local t and not account for scr refresh
@@ -1318,7 +1316,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *pilot_stim_image* updates
         
         # if pilot_stim_image is starting this frame...
-        if pilot_stim_image.status == NOT_STARTED and tThisFlip >= 4.6-frameTolerance:
+        if pilot_stim_image.status == NOT_STARTED and tThisFlip >= 5.1-frameTolerance:
             # keep track of start time/frame for later
             pilot_stim_image.frameNStart = frameN  # exact frame index
             pilot_stim_image.tStart = t  # local t and not account for scr refresh
@@ -2183,92 +2181,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     if thisSession is not None:
         # if running in a Session with a Liaison client, send data up to now
         thisSession.sendExperimentData()
-    
-    # --- Prepare to start Routine "pytanie_o_metryczke" ---
-    # create an object to store info about Routine pytanie_o_metryczke
-    pytanie_o_metryczke = data.Routine(
-        name='pytanie_o_metryczke',
-        components=[],
-    )
-    pytanie_o_metryczke.status = NOT_STARTED
-    continueRoutine = True
-    # update component parameters for each repeat
-    # store start times for pytanie_o_metryczke
-    pytanie_o_metryczke.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
-    pytanie_o_metryczke.tStart = globalClock.getTime(format='float')
-    pytanie_o_metryczke.status = STARTED
-    thisExp.addData('pytanie_o_metryczke.started', pytanie_o_metryczke.tStart)
-    pytanie_o_metryczke.maxDuration = None
-    # keep track of which components have finished
-    pytanie_o_metryczkeComponents = pytanie_o_metryczke.components
-    for thisComponent in pytanie_o_metryczke.components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    frameN = -1
-    
-    # --- Run Routine "pytanie_o_metryczke" ---
-    thisExp.currentRoutine = pytanie_o_metryczke
-    pytanie_o_metryczke.forceEnded = routineForceEnded = not continueRoutine
-    while continueRoutine:
-        # get current time
-        t = routineTimer.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # check for quit (typically the Esc key)
-        if defaultKeyboard.getKeys(keyList=["escape"]):
-            thisExp.status = FINISHED
-        if thisExp.status == FINISHED or endExpNow:
-            endExperiment(thisExp, win=win)
-            return
-        # pause experiment here if requested
-        if thisExp.status == PAUSED:
-            pauseExperiment(
-                thisExp=thisExp, 
-                win=win, 
-                timers=[routineTimer, globalClock], 
-                currentRoutine=pytanie_o_metryczke,
-            )
-            # skip the frame we paused on
-            continue
-        
-        # has a Component requested the Routine to end?
-        if not continueRoutine:
-            pytanie_o_metryczke.forceEnded = routineForceEnded = True
-        # has the Routine been forcibly ended?
-        if pytanie_o_metryczke.forceEnded or routineForceEnded:
-            break
-        # has every Component finished?
-        continueRoutine = False
-        for thisComponent in pytanie_o_metryczke.components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # --- Ending Routine "pytanie_o_metryczke" ---
-    for thisComponent in pytanie_o_metryczke.components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    # store stop times for pytanie_o_metryczke
-    pytanie_o_metryczke.tStop = globalClock.getTime(format='float')
-    pytanie_o_metryczke.tStopRefresh = tThisFlipGlobal
-    thisExp.addData('pytanie_o_metryczke.stopped', pytanie_o_metryczke.tStop)
-    thisExp.nextEntry()
-    # the Routine "pytanie_o_metryczke" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # --- Prepare to start Routine "podziekowanie" ---
     # create an object to store info about Routine podziekowanie
