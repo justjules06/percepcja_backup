@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on maj 04, 2026, at 10:19
+    on maj 04, 2026, at 11:33
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -665,8 +665,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             spacja_instr.tStart = t  # local t and not account for scr refresh
             spacja_instr.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(spacja_instr, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'spacja_instr.started')
             # update status
             spacja_instr.status = STARTED
             # keyboard checking is just starting
@@ -692,8 +690,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             textbox_2.tStart = t  # local t and not account for scr refresh
             textbox_2.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(textbox_2, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textbox_2.started')
             # update status
             textbox_2.status = STARTED
             textbox_2.setAutoDraw(True)
@@ -816,8 +812,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             spacja_suwak.tStart = t  # local t and not account for scr refresh
             spacja_suwak.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(spacja_suwak, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'spacja_suwak.started')
             # update status
             spacja_suwak.status = STARTED
             # keyboard checking is just starting
@@ -843,8 +837,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             textbox_3.tStart = t  # local t and not account for scr refresh
             textbox_3.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(textbox_3, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textbox_3.started')
             # update status
             textbox_3.status = STARTED
             textbox_3.setAutoDraw(True)
@@ -863,8 +855,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             suwaki_interpretacja.tStart = t  # local t and not account for scr refresh
             suwaki_interpretacja.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(suwaki_interpretacja, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'suwaki_interpretacja.started')
             # update status
             suwaki_interpretacja.status = STARTED
             suwaki_interpretacja.setAutoDraw(True)
@@ -986,8 +976,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             spacja_trening.tStart = t  # local t and not account for scr refresh
             spacja_trening.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(spacja_trening, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'spacja_trening.started')
             # update status
             spacja_trening.status = STARTED
             # keyboard checking is just starting
@@ -1013,8 +1001,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             proba_testowa.tStart = t  # local t and not account for scr refresh
             proba_testowa.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(proba_testowa, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'proba_testowa.started')
             # update status
             proba_testowa.status = STARTED
             proba_testowa.setAutoDraw(True)
@@ -1136,8 +1122,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             pilot_label_text.tStart = t  # local t and not account for scr refresh
             pilot_label_text.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(pilot_label_text, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'pilot_label_text.started')
             # update status
             pilot_label_text.status = STARTED
             pilot_label_text.setAutoDraw(True)
@@ -1155,8 +1139,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 pilot_label_text.tStop = t  # not accounting for scr refresh
                 pilot_label_text.tStopRefresh = tThisFlipGlobal  # on global time
                 pilot_label_text.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'pilot_label_text.stopped')
                 # update status
                 pilot_label_text.status = FINISHED
                 pilot_label_text.setAutoDraw(False)
@@ -1170,8 +1152,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             pilot_fiksacja1.tStart = t  # local t and not account for scr refresh
             pilot_fiksacja1.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(pilot_fiksacja1, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'pilot_fiksacja1.started')
             # update status
             pilot_fiksacja1.status = STARTED
             pilot_fiksacja1.setAutoDraw(True)
@@ -1189,8 +1169,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 pilot_fiksacja1.tStop = t  # not accounting for scr refresh
                 pilot_fiksacja1.tStopRefresh = tThisFlipGlobal  # on global time
                 pilot_fiksacja1.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'pilot_fiksacja1.stopped')
                 # update status
                 pilot_fiksacja1.status = FINISHED
                 pilot_fiksacja1.setAutoDraw(False)
@@ -1204,8 +1182,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             pilot_suwak.tStart = t  # local t and not account for scr refresh
             pilot_suwak.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(pilot_suwak, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'pilot_suwak.started')
             # update status
             pilot_suwak.status = STARTED
             pilot_suwak.setAutoDraw(True)
@@ -1228,8 +1204,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             pilot_fiksacja2.tStart = t  # local t and not account for scr refresh
             pilot_fiksacja2.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(pilot_fiksacja2, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'pilot_fiksacja2.started')
             # update status
             pilot_fiksacja2.status = STARTED
             pilot_fiksacja2.setAutoDraw(True)
@@ -1247,8 +1221,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 pilot_fiksacja2.tStop = t  # not accounting for scr refresh
                 pilot_fiksacja2.tStopRefresh = tThisFlipGlobal  # on global time
                 pilot_fiksacja2.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'pilot_fiksacja2.stopped')
                 # update status
                 pilot_fiksacja2.status = FINISHED
                 pilot_fiksacja2.setAutoDraw(False)
@@ -1262,8 +1234,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             pilot_pytanie.tStart = t  # local t and not account for scr refresh
             pilot_pytanie.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(pilot_pytanie, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'pilot_pytanie.started')
             # update status
             pilot_pytanie.status = STARTED
             pilot_pytanie.setAutoDraw(True)
@@ -1282,8 +1252,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             pilot_lewa_etykieta.tStart = t  # local t and not account for scr refresh
             pilot_lewa_etykieta.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(pilot_lewa_etykieta, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'pilot_lewa_etykieta.started')
             # update status
             pilot_lewa_etykieta.status = STARTED
             pilot_lewa_etykieta.setAutoDraw(True)
@@ -1302,8 +1270,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             pilot_prawa_etykieta.tStart = t  # local t and not account for scr refresh
             pilot_prawa_etykieta.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(pilot_prawa_etykieta, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'pilot_prawa_etykieta.started')
             # update status
             pilot_prawa_etykieta.status = STARTED
             pilot_prawa_etykieta.setAutoDraw(True)
@@ -1322,8 +1288,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             pilot_stim_image.tStart = t  # local t and not account for scr refresh
             pilot_stim_image.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(pilot_stim_image, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'pilot_stim_image.started')
             # update status
             pilot_stim_image.status = STARTED
             pilot_stim_image.setAutoDraw(True)
@@ -1341,8 +1305,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 pilot_stim_image.tStop = t  # not accounting for scr refresh
                 pilot_stim_image.tStopRefresh = tThisFlipGlobal  # on global time
                 pilot_stim_image.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'pilot_stim_image.stopped')
                 # update status
                 pilot_stim_image.status = FINISHED
                 pilot_stim_image.setAutoDraw(False)
@@ -1392,8 +1354,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # Run 'End Routine' code from mouse_visible_5
     win.mouseVisible=False
     
-    thisExp.addData('pilot_suwak.response', pilot_suwak.getRating())
-    thisExp.addData('pilot_suwak.rt', pilot_suwak.getRT())
     thisExp.nextEntry()
     # the Routine "trial_trening" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
@@ -1454,8 +1414,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             spacja_start.tStart = t  # local t and not account for scr refresh
             spacja_start.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(spacja_start, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'spacja_start.started')
             # update status
             spacja_start.status = STARTED
             # keyboard checking is just starting
@@ -1481,8 +1439,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             start_badania.tStart = t  # local t and not account for scr refresh
             start_badania.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(start_badania, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'start_badania.started')
             # update status
             start_badania.status = STARTED
             start_badania.setAutoDraw(True)
@@ -1644,8 +1600,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 przerwa_text.tStart = t  # local t and not account for scr refresh
                 przerwa_text.tStartRefresh = tThisFlipGlobal  # on global time
                 win.timeOnFlip(przerwa_text, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'przerwa_text.started')
                 # update status
                 przerwa_text.status = STARTED
                 przerwa_text.setAutoDraw(True)
@@ -1665,8 +1619,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 spacja_przerwa.tStart = t  # local t and not account for scr refresh
                 spacja_przerwa.tStartRefresh = tThisFlipGlobal  # on global time
                 win.timeOnFlip(spacja_przerwa, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'spacja_przerwa.started')
                 # update status
                 spacja_przerwa.status = STARTED
                 # keyboard checking is just starting
@@ -1803,8 +1755,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 label_text.tStart = t  # local t and not account for scr refresh
                 label_text.tStartRefresh = tThisFlipGlobal  # on global time
                 win.timeOnFlip(label_text, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'label_text.started')
                 # update status
                 label_text.status = STARTED
                 label_text.setAutoDraw(True)
@@ -1822,8 +1772,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     label_text.tStop = t  # not accounting for scr refresh
                     label_text.tStopRefresh = tThisFlipGlobal  # on global time
                     label_text.frameNStop = frameN  # exact frame index
-                    # add timestamp to datafile
-                    thisExp.timestampOnFlip(win, 'label_text.stopped')
                     # update status
                     label_text.status = FINISHED
                     label_text.setAutoDraw(False)
@@ -1837,8 +1785,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 stim_image.tStart = t  # local t and not account for scr refresh
                 stim_image.tStartRefresh = tThisFlipGlobal  # on global time
                 win.timeOnFlip(stim_image, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'stim_image.started')
                 # update status
                 stim_image.status = STARTED
                 stim_image.setAutoDraw(True)
@@ -1856,8 +1802,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     stim_image.tStop = t  # not accounting for scr refresh
                     stim_image.tStopRefresh = tThisFlipGlobal  # on global time
                     stim_image.frameNStop = frameN  # exact frame index
-                    # add timestamp to datafile
-                    thisExp.timestampOnFlip(win, 'stim_image.stopped')
                     # update status
                     stim_image.status = FINISHED
                     stim_image.setAutoDraw(False)
@@ -1895,8 +1839,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 lewa_etykieta.tStart = t  # local t and not account for scr refresh
                 lewa_etykieta.tStartRefresh = tThisFlipGlobal  # on global time
                 win.timeOnFlip(lewa_etykieta, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'lewa_etykieta.started')
                 # update status
                 lewa_etykieta.status = STARTED
                 lewa_etykieta.setAutoDraw(True)
@@ -1915,8 +1857,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 prawa_etykieta.tStart = t  # local t and not account for scr refresh
                 prawa_etykieta.tStartRefresh = tThisFlipGlobal  # on global time
                 win.timeOnFlip(prawa_etykieta, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'prawa_etykieta.started')
                 # update status
                 prawa_etykieta.status = STARTED
                 prawa_etykieta.setAutoDraw(True)
@@ -1935,8 +1875,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 fiksacja2.tStart = t  # local t and not account for scr refresh
                 fiksacja2.tStartRefresh = tThisFlipGlobal  # on global time
                 win.timeOnFlip(fiksacja2, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'fiksacja2.started')
                 # update status
                 fiksacja2.status = STARTED
                 fiksacja2.setAutoDraw(True)
@@ -1954,8 +1892,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     fiksacja2.tStop = t  # not accounting for scr refresh
                     fiksacja2.tStopRefresh = tThisFlipGlobal  # on global time
                     fiksacja2.frameNStop = frameN  # exact frame index
-                    # add timestamp to datafile
-                    thisExp.timestampOnFlip(win, 'fiksacja2.stopped')
                     # update status
                     fiksacja2.status = FINISHED
                     fiksacja2.setAutoDraw(False)
@@ -1969,8 +1905,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 pytanie.tStart = t  # local t and not account for scr refresh
                 pytanie.tStartRefresh = tThisFlipGlobal  # on global time
                 win.timeOnFlip(pytanie, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'pytanie.started')
                 # update status
                 pytanie.status = STARTED
                 pytanie.setAutoDraw(True)
@@ -2181,6 +2115,15 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     if thisSession is not None:
         # if running in a Session with a Liaison client, send data up to now
         thisSession.sendExperimentData()
+    # get names of stimulus parameters
+    if trials.trialList in ([], [None], None):
+        params = []
+    else:
+        params = trials.trialList[0].keys()
+    # save data for this loop
+    trials.saveAsExcel(filename + '.xlsx', sheetName='trials',
+        stimOut=params,
+        dataOut=['n','all_mean','all_std', 'all_raw'])
     
     # --- Prepare to start Routine "podziekowanie" ---
     # create an object to store info about Routine podziekowanie
@@ -2304,7 +2247,7 @@ def saveData(thisExp):
     """
     filename = thisExp.dataFileName
     # these shouldn't be strictly necessary (should auto-save)
-    thisExp.saveAsWideText(filename + '.csv', delim='auto')
+    thisExp.saveAsWideText(filename + '.csv', delim='comma')
     thisExp.saveAsPickle(filename)
 
 
