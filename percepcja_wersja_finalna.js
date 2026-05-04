@@ -148,7 +148,7 @@ async function updateInfo() {
 
   
   psychoJS.experiment.dataFileName = (("." + "/") + `data/${expInfo["participant"]}_${expName}_${expInfo["date"]}`);
-  psychoJS.experiment.field_separator = '\t';
+  psychoJS.experiment.field_separator = ',';
 
 
   return Scheduler.Event.NEXT;
@@ -203,7 +203,7 @@ async function experimentInit() {
   textbox_2 = new visual.TextBox({
     win: psychoJS.window,
     name: 'textbox_2',
-    text: 'Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.\n\nTwoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu (wyrażonym w procentach) ta emocja jest nasilona. \n\n     • Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model Sztucznej Inteligencji lub uśrednione wyniki uzyskane od poprzednich uczestników badania. Przeczytaj ją dokładnie. \n\n     • W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. \n\n     • Po zniknięciu informacji w centralnej części ekranu pojawi się znak +, skup na nim wzrok. \n\n     • Zdjęcie twarzy pojawi się tylko na krótką chwilę, dlatego przy ocenie polegaj na swojej intuicji i pierwszym wrażeniu. \n\n     • Po zniknięciu zdjęcia na ekranie pojawi się suwak umieszczony pomiędzy dwiema emocjami. Twoim zadaniem jest przesunięcie wskaźnika w miejsce, które Twoim zdaniem najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Aby ruszyć wskaźnikiem suwaka nakieruj na niego kursorem i przytrzymując lewy przycisk myszy wybierz odpowiednie miejsce. \n\n     • Puszczenie wskaźnika suwaka automatycznie prześle Twoją odpowiedź. \n\nPamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. \nNa następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. \n  \nAby przejść dalej, naciśnij [SPACJĘ].\n',
+    text: 'Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.\n\nTwoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu ta emocja jest nasilona. \n\n     1. Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model AI (sztucznej inteligencji) lub uśrednione wyniki uzyskane od poprzednich uczestników badania. Przeczytaj ją dokładnie. \n\n     2. W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. \n\n     3. Po zniknięciu informacji w centralnej części ekranu pojawi się znak +, skup na nim wzrok. \n\n     4. Zdjęcie twarzy pojawi się tylko na krótką chwilę, dlatego przy ocenie polegaj na swojej intuicji i pierwszym wrażeniu. \n\n     5. Po zniknięciu zdjęcia na ekranie pojawi się suwak umieszczony pomiędzy dwiema emocjami. Twoim zadaniem jest przesunięcie wskaźnika w miejsce, które według Ciebie najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Aby ruszyć wskaźnikiem suwaka nakieruj na niego kursorem i przytrzymując lewy przycisk myszy wybierz odpowiednie miejsce. \n\n     6. Puszczenie wskaźnika suwaka automatycznie prześle Twoją odpowiedź. \n\nPamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. \nNa następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. \n  \nAby przejść dalej, naciśnij [SPACJA].\n',
     placeholder: 'Type here...',
     font: 'Arial',
     pos: [0, 0], 
@@ -213,7 +213,7 @@ async function experimentInit() {
     size: [1.8, 4],  units: 'norm', 
     ori: 0.0,
     color: (-1.0000, -1.0000, -1.0000), colorSpace: 'rgb',
-    fillColor: undefined, borderColor: undefined,
+    fillColor: (0.6549, 0.6549, 0.6549), borderColor: (0.6549, 0.6549, 0.6549),
     languageStyle: 'LTR',
     bold: false, italic: false,
     opacity: undefined,
@@ -233,7 +233,7 @@ async function experimentInit() {
   textbox_3 = new visual.TextBox({
     win: psychoJS.window,
     name: 'textbox_3',
-    text: '\n\n\n\nPo zniknięciu zdjęcia na ekranie pojawi się suwak, a na jego krańcach dwie emocje.\n\nUWAGA: przesunięcie i puszczenie suwaka automatycznie prześle Twoją odpowiedź. \n\n\n    • Pozycja suwaka nr 1 oznacza znaczną przewagę radości z nieznacznym udziałem smutku. \n\n    • Pozycja suwaka nr 2 oznacza przewagę smutku z udziałem radości.\n\n    • Pozycja suwaka nr 3 oznacza równy udział radości i smutku. \n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAby przejść dalej, naciśnij [SPACJA]',
+    text: '\n\n\n\nPo zniknięciu zdjęcia na ekranie pojawi się suwak, a na jego krańcach dwie emocje.\n\nUWAGA: przesunięcie i puszczenie wskaźnika suwaka automatycznie prześle Twoją odpowiedź. \n\n\n    • Pozycja suwaka nr 1 oznacza znaczną przewagę radości z nieznacznym udziałem smutku. \n\n    • Pozycja suwaka nr 2 oznacza przewagę smutku z udziałem radości.\n\n    • Pozycja suwaka nr 3 oznacza równy udział radości i smutku. \n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAby przejść dalej, naciśnij [SPACJA]',
     placeholder: 'Type here...',
     font: 'Arial',
     pos: [0, 0.1], 
@@ -243,7 +243,7 @@ async function experimentInit() {
     size: [1.8, 4],  units: 'norm', 
     ori: 0.0,
     color: (-1.0000, -1.0000, -1.0000), colorSpace: 'rgb',
-    fillColor: undefined, borderColor: undefined,
+    fillColor: (0.6549, 0.6549, 0.6549), borderColor: (0.6549, 0.6549, 0.6549),
     languageStyle: 'LTR',
     bold: false, italic: false,
     opacity: undefined,
@@ -276,7 +276,7 @@ async function experimentInit() {
   proba_testowa = new visual.TextStim({
     win: psychoJS.window,
     name: 'proba_testowa',
-    text: 'Próba treningowa \n\nZanim rozpocznie się właściwy eksperyment, zapraszamy do wykonania krótkiej próby treningowej. Ma ona charakter wyłącznie instruktażowy i pozwoli Ci przećwiczyć obsługę interaktywnego suwaka oraz zapoznać się z tempem zadania. Wynik tej części nie jest brany pod uwagę w końcowych wynikach badania. \n\nW ramach treningu zobaczysz jedną twarz, którą należy następnie ocenić, przesuwając suwak w odpowiednie miejsce na skali pomiędzy dwiema emocjami. Pamiętaj, aby polegać na swoim pierwszym wrażeniu. \n\nJeśli jesteś gotowy, naciśnij przycisk [SPACJA], aby rozpocząć. ',
+    text: 'Próba treningowa \n\nZanim rozpocznie się właściwy eksperyment, zapraszamy do wykonania krótkiej próby treningowej. Ma ona charakter wyłącznie instruktażowy i pozwoli Ci przećwiczyć obsługę interaktywnego suwaka oraz zapoznać się z tempem zadania. Wynik tej części nie jest brany pod uwagę w końcowych wynikach badania. \n\nW ramach treningu zobaczysz jedną twarz, którą należy następnie ocenić, przesuwając wskaźnik suwaka w odpowiednie miejsce na skali pomiędzy dwiema emocjami. Pamiętaj, aby polegać na swoim pierwszym wrażeniu. \n\nJeśli jesteś gotowy, naciśnij [SPACJA], aby rozpocząć. ',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], draggable: false, height: 0.04,  wrapWidth: 1.4, ori: 0.0,
@@ -316,7 +316,7 @@ async function experimentInit() {
     startValue: 0,
     size: [1, 0.1], pos: [0, (- 0.5)], ori: 0.0, units: 'norm',
     labels: undefined, fontSize: 0.05, ticks: [(- 50), (- 25), 0, 25, 50],
-    granularity: 0.0, style: ["SLIDER"],
+    granularity: 0.0, style: ["RATING"],
     color: new util.Color((-1.0000, 1.0000, 1.0000)), markerColor: new util.Color('Red'), lineColor: new util.Color((-1.0000, -1.0000, -1.0000)), 
     opacity: undefined, fontFamily: 'Noto Sans', bold: true, italic: false, depth: -3, 
     flip: false,
@@ -450,7 +450,7 @@ async function experimentInit() {
     startValue: 0,
     size: [1, 0.1], pos: [0, (- 0.5)], ori: 0.0, units: 'norm',
     labels: undefined, fontSize: 0.05, ticks: [(- 50), (- 25), 0, 25, 50],
-    granularity: 0.0, style: ["SLIDER"],
+    granularity: 0.0, style: ["RATING"],
     color: new util.Color((-1.0000, 1.0000, 1.0000)), markerColor: new util.Color((1.0000, -1.0000, -1.0000)), lineColor: new util.Color((-1.0000, -1.0000, -1.0000)), 
     opacity: undefined, fontFamily: 'Noto Sans', bold: true, italic: false, depth: -4, 
     flip: false,
@@ -1043,7 +1043,7 @@ function trial_treningRoutineBegin(snapshot) {
     psychoJS.window.mouseVisible = true;
     
     pilot_label_text.setOpacity(None);
-    pilot_label_text.setText('Model AI wykrył w tej twarzy 80% smutku.\n\n');
+    pilot_label_text.setText('Model AI wykrył w tej twarzy 80% radości.\n\n');
     pilot_suwak.reset()
     pilot_lewa_etykieta.setText('radość');
     pilot_prawa_etykieta.setText('smutek');
@@ -1280,8 +1280,6 @@ function trial_treningRoutineEnd(snapshot) {
     // Run 'End Routine' code from mouse_visible_5
     psychoJS.window.mouseVisible = false;
     
-    psychoJS.experiment.addData('pilot_suwak.response', pilot_suwak.getRating());
-    psychoJS.experiment.addData('pilot_suwak.rt', pilot_suwak.getRT());
     // the Routine "trial_trening" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     

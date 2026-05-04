@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on maj 04, 2026, at 18:44
+    on maj 04, 2026, at 19:59
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -371,7 +371,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
          lineSpacing=1.0, speechPoint=None,
          padding=0.0, alignment='center-left',
          anchor='center', overflow='visible',
-         fillColor=None, borderColor=None,
+         fillColor=(0.6549, 0.6549, 0.6549), borderColor=(0.6549, 0.6549, 0.6549),
          flipHoriz=False, flipVert=False, languageStyle='LTR',
          editable=False,
          name='textbox_2',
@@ -390,7 +390,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
          lineSpacing=1.0, speechPoint=None,
          padding=0.0, alignment='center',
          anchor='center', overflow='visible',
-         fillColor=None, borderColor=None,
+         fillColor=(0.6549, 0.6549, 0.6549), borderColor=(0.6549, 0.6549, 0.6549),
          flipHoriz=False, flipVert=False, languageStyle='LTR',
          editable=False,
          name='textbox_3',
@@ -616,7 +616,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     instrukcja.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     instrukcja.tStart = globalClock.getTime(format='float')
     instrukcja.status = STARTED
-    thisExp.addData('instrukcja.started', instrukcja.tStart)
     instrukcja.maxDuration = None
     # keep track of which components have finished
     instrukcjaComponents = instrukcja.components
@@ -728,7 +727,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # store stop times for instrukcja
     instrukcja.tStop = globalClock.getTime(format='float')
     instrukcja.tStopRefresh = tThisFlipGlobal
-    thisExp.addData('instrukcja.stopped', instrukcja.tStop)
     # Run 'End Routine' code from mouse_visible_2
     win.mouseVisible=False
     
@@ -763,7 +761,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     demo_suwaka.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     demo_suwaka.tStart = globalClock.getTime(format='float')
     demo_suwaka.status = STARTED
-    thisExp.addData('demo_suwaka.started', demo_suwaka.tStart)
     demo_suwaka.maxDuration = None
     # keep track of which components have finished
     demo_suwakaComponents = demo_suwaka.components
@@ -893,7 +890,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # store stop times for demo_suwaka
     demo_suwaka.tStop = globalClock.getTime(format='float')
     demo_suwaka.tStopRefresh = tThisFlipGlobal
-    thisExp.addData('demo_suwaka.stopped', demo_suwaka.tStop)
     # Run 'End Routine' code from mouse_visible_3
     win.mouseVisible=False
     
@@ -927,7 +923,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     info_trening.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     info_trening.tStart = globalClock.getTime(format='float')
     info_trening.status = STARTED
-    thisExp.addData('info_trening.started', info_trening.tStart)
     info_trening.maxDuration = None
     # keep track of which components have finished
     info_treningComponents = info_trening.components
@@ -1039,7 +1034,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # store stop times for info_trening
     info_trening.tStop = globalClock.getTime(format='float')
     info_trening.tStopRefresh = tThisFlipGlobal
-    thisExp.addData('info_trening.stopped', info_trening.tStop)
     # check responses
     if spacja_trening.keys in ['', [], None]:  # No response was made
         spacja_trening.keys = None
@@ -1074,7 +1068,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     trial_trening.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     trial_trening.tStart = globalClock.getTime(format='float')
     trial_trening.status = STARTED
-    thisExp.addData('trial_trening.started', trial_trening.tStart)
     trial_trening.maxDuration = None
     # keep track of which components have finished
     trial_treningComponents = trial_trening.components
@@ -1338,7 +1331,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # store stop times for trial_trening
     trial_trening.tStop = globalClock.getTime(format='float')
     trial_trening.tStopRefresh = tThisFlipGlobal
-    thisExp.addData('trial_trening.stopped', trial_trening.tStop)
     # Run 'End Routine' code from mouse_visible_5
     win.mouseVisible=False
     
@@ -1365,7 +1357,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     koniec_treningu.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     koniec_treningu.tStart = globalClock.getTime(format='float')
     koniec_treningu.status = STARTED
-    thisExp.addData('koniec_treningu.started', koniec_treningu.tStart)
     koniec_treningu.maxDuration = None
     # keep track of which components have finished
     koniec_treninguComponents = koniec_treningu.components
@@ -1477,7 +1468,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # store stop times for koniec_treningu
     koniec_treningu.tStop = globalClock.getTime(format='float')
     koniec_treningu.tStopRefresh = tThisFlipGlobal
-    thisExp.addData('koniec_treningu.stopped', koniec_treningu.tStop)
     # Run 'End Routine' code from mouse_visible_6
     win.mouseVisible=False
     
@@ -1549,7 +1539,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         przerwa.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         przerwa.tStart = globalClock.getTime(format='float')
         przerwa.status = STARTED
-        thisExp.addData('przerwa.started', przerwa.tStart)
         przerwa.maxDuration = None
         # keep track of which components have finished
         przerwaComponents = przerwa.components
@@ -1664,7 +1653,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # store stop times for przerwa
         przerwa.tStop = globalClock.getTime(format='float')
         przerwa.tStopRefresh = tThisFlipGlobal
-        thisExp.addData('przerwa.stopped', przerwa.tStop)
         # check responses
         if spacja_przerwa.keys in ['', [], None]:  # No response was made
             spacja_przerwa.keys = None
@@ -1704,7 +1692,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         trial.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         trial.tStart = globalClock.getTime(format='float')
         trial.status = STARTED
-        thisExp.addData('trial.started', trial.tStart)
         trial.maxDuration = None
         # keep track of which components have finished
         trialComponents = trial.components
@@ -1943,7 +1930,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # store stop times for trial
         trial.tStop = globalClock.getTime(format='float')
         trial.tStopRefresh = tThisFlipGlobal
-        thisExp.addData('trial.stopped', trial.tStop)
         # Run 'End Routine' code from mouse_visible
         win.mouseVisible=False
         
@@ -1967,7 +1953,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         oddzielenie_triali.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         oddzielenie_triali.tStart = globalClock.getTime(format='float')
         oddzielenie_triali.status = STARTED
-        thisExp.addData('oddzielenie_triali.started', oddzielenie_triali.tStart)
         oddzielenie_triali.maxDuration = None
         # keep track of which components have finished
         oddzielenie_trialiComponents = oddzielenie_triali.components
@@ -2072,7 +2057,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # store stop times for oddzielenie_triali
         oddzielenie_triali.tStop = globalClock.getTime(format='float')
         oddzielenie_triali.tStopRefresh = tThisFlipGlobal
-        thisExp.addData('oddzielenie_triali.stopped', oddzielenie_triali.tStop)
         # Run 'End Routine' code from code
         win.color='lightgrey'
         # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
@@ -2126,7 +2110,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     podziekowanie.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     podziekowanie.tStart = globalClock.getTime(format='float')
     podziekowanie.status = STARTED
-    thisExp.addData('podziekowanie.started', podziekowanie.tStart)
     podziekowanie.maxDuration = None
     # keep track of which components have finished
     podziekowanieComponents = podziekowanie.components
@@ -2214,7 +2197,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # store stop times for podziekowanie
     podziekowanie.tStop = globalClock.getTime(format='float')
     podziekowanie.tStopRefresh = tThisFlipGlobal
-    thisExp.addData('podziekowanie.stopped', podziekowanie.tStop)
     thisExp.nextEntry()
     # the Routine "podziekowanie" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
