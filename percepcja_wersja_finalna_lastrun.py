@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on maj 04, 2026, at 11:33
+    on maj 04, 2026, at 18:44
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -133,7 +133,7 @@ def setupData(expInfo, dataDir=None):
         name=expName, version=expVersion,
         extraInfo=expInfo, runtimeInfo=None,
         originPath='C:\\Users\\julia\\OneDrive\\Pulpit\\percepcja_psychopy\\percepcja_wersja_finalna_lastrun.py',
-        savePickle=True, saveWideText=True,
+        savePickle=False, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
     # store pilot mode in data file
@@ -165,18 +165,6 @@ def setupLogging(filename):
         )
     else:
         logging.console.setLevel('warning')
-    # save a log file for detail verbose info
-    logFile = logging.LogFile(filename+'.log')
-    if PILOTING:
-        logFile.setLevel(
-            prefs.piloting['pilotLoggingLevel']
-        )
-    else:
-        logFile.setLevel(
-            logging.getLevel('info')
-        )
-    
-    return logFile
 
 
 def setupWindow(expInfo=None, win=None):
@@ -374,7 +362,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "instrukcja" ---
     spacja_instr = keyboard.Keyboard(deviceName='defaultKeyboard')
     textbox_2 = visual.TextBox2(
-         win, text='Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.\n\nTwoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu ta emocja jest nasilona. \n\n     1. Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model Sztucznej Inteligencji lub uśrednione wyniki uzyskane od poprzednich uczestników badania. Przeczytaj ją dokładnie. \n\n     2. W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. \n\n     3. Po zniknięciu informacji w centralnej części ekranu pojawi się znak +, skup na nim wzrok. \n\n     4. Zdjęcie twarzy pojawi się tylko na krótką chwilę, dlatego przy ocenie polegaj na swojej intuicji i pierwszym wrażeniu. \n\n     5. Po zniknięciu zdjęcia na ekranie pojawi się suwak umieszczony pomiędzy dwiema emocjami. Twoim zadaniem jest przesunięcie wskaźnika w miejsce, które według Ciebie najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Aby ruszyć wskaźnikiem suwaka nakieruj na niego kursorem i przytrzymując lewy przycisk myszy wybierz odpowiednie miejsce. \n\n     6. Puszczenie wskaźnika suwaka automatycznie prześle Twoją odpowiedź. \n\nPamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. \nNa następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. \n  \nAby przejść dalej, naciśnij [SPACJA].\n', placeholder='Type here...', font='Arial',
+         win, text='Zanim rozpocznie się eksperyment, dokładnie zapoznaj się z instrukcją poniżej.\n\nTwoim zadaniem będzie ocena serii zdjęć przedstawiających ludzkie twarze. Ocena będzie wymagać od Ciebie zdecydowania, jaką emocję dostrzegasz na danej twarzy oraz w jakim stopniu ta emocja jest nasilona. \n\n     1. Przed zdjęciem pojawi się krótka informacja o wynikach wcześniejszych analiz dotyczących ekspresji emocji danej twarzy. Będą to dane dostarczone przez zaawansowany model AI (sztucznej inteligencji) lub uśrednione wyniki uzyskane od poprzednich uczestników badania. Przeczytaj ją dokładnie. \n\n     2. W niektórych przypadkach żadna dodatkowa informacja nie zostanie wyświetlona i od razu przejdziesz do widoku twarzy. \n\n     3. Po zniknięciu informacji w centralnej części ekranu pojawi się znak +, skup na nim wzrok. \n\n     4. Zdjęcie twarzy pojawi się tylko na krótką chwilę, dlatego przy ocenie polegaj na swojej intuicji i pierwszym wrażeniu. \n\n     5. Po zniknięciu zdjęcia na ekranie pojawi się suwak umieszczony pomiędzy dwiema emocjami. Twoim zadaniem jest przesunięcie wskaźnika w miejsce, które według Ciebie najlepiej oddaje proporcję emocji dostrzeżonych na twarzy. Aby ruszyć wskaźnikiem suwaka nakieruj na niego kursorem i przytrzymując lewy przycisk myszy wybierz odpowiednie miejsce. \n\n     6. Puszczenie wskaźnika suwaka automatycznie prześle Twoją odpowiedź. \n\nPamiętaj: nie ma złych odpowiedzi. Liczy się Twoja subiektywna ocena. \nNa następnym ekranie zostaniesz zaznajomiony z wyglądem i użyciem suwaka. \n  \nAby przejść dalej, naciśnij [SPACJA].\n', placeholder='Type here...', font='Arial',
          ori=0.0, pos=(0, 0), draggable=False, units='norm',     letterHeight=0.055,
          size=(1.8, 4), borderWidth=2.0,
          color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
@@ -1078,7 +1066,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # Run 'Begin Routine' code from mouse_visible_5
     win.mouseVisible=True
     pilot_label_text.setOpacity(None)
-    pilot_label_text.setText('Model sztucznej inteligencji wykrył w tej twarzy 80% radości.\n\n')
+    pilot_label_text.setText('Model AI wykrył w tej twarzy 80% radości.\n\n')
     pilot_suwak.reset()
     pilot_lewa_etykieta.setText('radość')
     pilot_prawa_etykieta.setText('smutek')
@@ -2248,7 +2236,6 @@ def saveData(thisExp):
     filename = thisExp.dataFileName
     # these shouldn't be strictly necessary (should auto-save)
     thisExp.saveAsWideText(filename + '.csv', delim='comma')
-    thisExp.saveAsPickle(filename)
 
 
 def endExperiment(thisExp, win=None):
@@ -2282,7 +2269,6 @@ def endExperiment(thisExp, win=None):
     # run any 'at exit' functions
     for fcn in runAtExit:
         fcn()
-    logging.flush()
 
 
 def quit(thisExp, win=None, thisSession=None):
@@ -2303,7 +2289,6 @@ def quit(thisExp, win=None, thisSession=None):
         # and win.timeOnFlip() tasks get executed before quitting
         win.flip()
         win.close()
-    logging.flush()
     if thisSession is not None:
         thisSession.stop()
     # terminate Python process
