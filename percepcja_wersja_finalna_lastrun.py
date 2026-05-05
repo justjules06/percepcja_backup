@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on maj 05, 2026, at 11:34
+    on maj 05, 2026, at 19:37
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -49,6 +49,7 @@ expInfo = {
     'session': '001',
     'wiek': '',
     'płeć': ['kobieta', 'mężczyzna','osoba niebinarna'],
+    'grupa': [1, 2, 3],
     'date|hid': data.getDateStr(),
     'expName|hid': expName,
     'expVersion|hid': expVersion,
@@ -192,7 +193,7 @@ def setupWindow(expInfo=None, win=None):
         # if not given a window to setup, make one
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
-            winType='pyglet', allowGUI=False, allowStencil=True,
+            winType='pyglet', allowGUI=True, allowStencil=True,
             monitor='testMonitor', color=(0.6549, 0.6549, 0.6549), colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
@@ -377,7 +378,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
          flipHoriz=False, flipVert=False, languageStyle='LTR',
          editable=False,
          name='textbox_2',
-         depth=-2, autoLog=True,
+         depth=-1, autoLog=True,
     )
     
     # --- Initialize components for Routine "demo_suwaka" ---
@@ -396,7 +397,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
          flipHoriz=False, flipVert=False, languageStyle='LTR',
          editable=False,
          name='textbox_3',
-         depth=-2, autoLog=True,
+         depth=-1, autoLog=True,
     )
     suwaki_interpretacja = visual.ImageStim(
         win=win,
@@ -405,7 +406,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0, -0.2), draggable=False, size=(1, 0.75),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=False, depth=-3.0)
+        texRes=128.0, interpolate=False, depth=-2.0)
     
     # --- Initialize components for Routine "info_trening" ---
     spacja_trening = keyboard.Keyboard(deviceName='defaultKeyboard')
@@ -415,7 +416,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         pos=(0, 0), draggable=False, height=0.04, wrapWidth=1.4, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-2.0);
+        depth=-1.0);
     
     # --- Initialize components for Routine "trial_trening" ---
     pilot_label_text = visual.TextStim(win=win, name='pilot_label_text',
@@ -424,49 +425,49 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-1.0);
+        depth=0.0);
     pilot_fiksacja1 = visual.TextStim(win=win, name='pilot_fiksacja1',
         text='+',
         font='Courier New',
         pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-2.0);
+        depth=-1.0);
     pilot_suwak = visual.Slider(win=win, name='pilot_suwak',
         startValue=0, size=(1, 0.1), pos=(0, -0.5), units='norm',
         labels=None, ticks=(-50,-25,  0,  25,  50), granularity=0.0,
         style='slider', styleTweaks=[], opacity=None,
         labelColor=(-1.0000, 1.0000, 1.0000), markerColor='Red', lineColor=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
         font='Noto Sans', labelHeight=0.05,
-        flip=False, ori=0.0, depth=-3, readOnly=False)
+        flip=False, ori=0.0, depth=-2, readOnly=False)
     pilot_fiksacja2 = visual.TextStim(win=win, name='pilot_fiksacja2',
         text='+',
         font='Courier New',
         pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-4.0);
+        depth=-3.0);
     pilot_pytanie = visual.TextStim(win=win, name='pilot_pytanie',
         text='Jaką emocję wyrażała ta twarz?',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-5.0);
+        depth=-4.0);
     pilot_lewa_etykieta = visual.TextStim(win=win, name='pilot_lewa_etykieta',
         text='',
         font='Arial',
         units='norm', pos=[-0.6, -0.5], draggable=False, height=0.085, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-6.0);
+        depth=-5.0);
     pilot_prawa_etykieta = visual.TextStim(win=win, name='pilot_prawa_etykieta',
         text='',
         font='Arial',
         units='norm', pos=[0.6, -0.5], draggable=False, height=0.085, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-7.0);
+        depth=-6.0);
     pilot_stim_image = visual.ImageStim(
         win=win,
         name='pilot_stim_image', 
@@ -474,7 +475,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0, 0), draggable=False, size=(0.75, 0.75),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-8.0)
+        texRes=128.0, interpolate=True, depth=-7.0)
     
     # --- Initialize components for Routine "koniec_treningu" ---
     spacja_start = keyboard.Keyboard(deviceName='defaultKeyboard')
@@ -484,7 +485,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         units='norm', pos=(0, 0), draggable=False, height=0.1, wrapWidth=1.4, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-2.0);
+        depth=-1.0);
     
     # --- Initialize components for Routine "przerwa" ---
     przerwa_text = visual.TextStim(win=win, name='przerwa_text',
@@ -505,7 +506,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.3, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-2.0);
+        depth=-1.0);
     stim_image = visual.ImageStim(
         win=win,
         name='stim_image', 
@@ -513,42 +514,42 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0, 0), draggable=False, size=(0.75, 0.75),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-3.0)
+        texRes=128.0, interpolate=True, depth=-2.0)
     suwak_badanie = visual.Slider(win=win, name='suwak_badanie',
         startValue=0, size=(1, 0.1), pos=(0, -0.5), units='norm',
         labels=None, ticks=(-50,-25, 0, 25, 50), granularity=0.0,
         style='slider', styleTweaks=[], opacity=None,
         labelColor=(-1.0000, 1.0000, 1.0000), markerColor=(1.0000, -1.0000, -1.0000), lineColor=(-1.0000, -1.0000, -1.0000), colorSpace='rgb',
         font='Noto Sans', labelHeight=0.05,
-        flip=False, ori=0.0, depth=-4, readOnly=False)
+        flip=False, ori=0.0, depth=-3, readOnly=False)
     lewa_etykieta = visual.TextStim(win=win, name='lewa_etykieta',
         text='',
         font='Arial',
         units='norm', pos=[-0.65, -0.5], draggable=False, height=0.085, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-5.0);
+        depth=-4.0);
     prawa_etykieta = visual.TextStim(win=win, name='prawa_etykieta',
         text='',
         font='Arial',
         units='norm', pos=[0.65, -0.5], draggable=False, height=0.085, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-6.0);
+        depth=-5.0);
     fiksacja2 = visual.TextStim(win=win, name='fiksacja2',
         text='+',
         font='Courier New',
         pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-7.0);
+        depth=-6.0);
     pytanie = visual.TextStim(win=win, name='pytanie',
         text='Jaką emocję wyrażała ta twarz?',
         font='Arial',
         units='norm', pos=(0, 0), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color=(-1.0000, -1.0000, -1.0000), colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-8.0);
+        depth=-7.0);
     
     # --- Initialize components for Routine "oddzielenie_triali" ---
     text = visual.TextStim(win=win, name='text',
@@ -607,8 +608,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     instrukcja.status = NOT_STARTED
     continueRoutine = True
     # update component parameters for each repeat
-    # Run 'Begin Routine' code from mouse_visible_2
-    win.mouseVisible=True
     # create starting attributes for spacja_instr
     spacja_instr.keys = []
     spacja_instr.rt = []
@@ -729,9 +728,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # store stop times for instrukcja
     instrukcja.tStop = globalClock.getTime(format='float')
     instrukcja.tStopRefresh = tThisFlipGlobal
-    # Run 'End Routine' code from mouse_visible_2
-    win.mouseVisible=False
-    
     # check responses
     if spacja_instr.keys in ['', [], None]:  # No response was made
         spacja_instr.keys = None
@@ -752,8 +748,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     demo_suwaka.status = NOT_STARTED
     continueRoutine = True
     # update component parameters for each repeat
-    # Run 'Begin Routine' code from mouse_visible_3
-    win.mouseVisible=True
     # create starting attributes for spacja_suwak
     spacja_suwak.keys = []
     spacja_suwak.rt = []
@@ -892,9 +886,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # store stop times for demo_suwaka
     demo_suwaka.tStop = globalClock.getTime(format='float')
     demo_suwaka.tStopRefresh = tThisFlipGlobal
-    # Run 'End Routine' code from mouse_visible_3
-    win.mouseVisible=False
-    
     # check responses
     if spacja_suwak.keys in ['', [], None]:  # No response was made
         spacja_suwak.keys = None
@@ -919,8 +910,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     spacja_trening.keys = []
     spacja_trening.rt = []
     _spacja_trening_allKeys = []
-    # Run 'Begin Routine' code from mouse_visible_4
-    win.mouseVisible=True
     # store start times for info_trening
     info_trening.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     info_trening.tStart = globalClock.getTime(format='float')
@@ -1043,9 +1032,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     if spacja_trening.keys != None:  # we had a response
         thisExp.addData('spacja_trening.rt', spacja_trening.rt)
         thisExp.addData('spacja_trening.duration', spacja_trening.duration)
-    # Run 'End Routine' code from mouse_visible_4
-    win.mouseVisible=False
-    
     thisExp.nextEntry()
     # the Routine "info_trening" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
@@ -1059,8 +1045,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     trial_trening.status = NOT_STARTED
     continueRoutine = True
     # update component parameters for each repeat
-    # Run 'Begin Routine' code from mouse_visible_5
-    win.mouseVisible=True
     pilot_label_text.setOpacity(None)
     pilot_label_text.setText('Model AI wykrył w tej twarzy 80% radości.')
     pilot_suwak.reset()
@@ -1333,9 +1317,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # store stop times for trial_trening
     trial_trening.tStop = globalClock.getTime(format='float')
     trial_trening.tStopRefresh = tThisFlipGlobal
-    # Run 'End Routine' code from mouse_visible_5
-    win.mouseVisible=False
-    
     thisExp.nextEntry()
     # the Routine "trial_trening" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
@@ -1349,8 +1330,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     koniec_treningu.status = NOT_STARTED
     continueRoutine = True
     # update component parameters for each repeat
-    # Run 'Begin Routine' code from mouse_visible_6
-    win.mouseVisible=True
     # create starting attributes for spacja_start
     spacja_start.keys = []
     spacja_start.rt = []
@@ -1470,9 +1449,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # store stop times for koniec_treningu
     koniec_treningu.tStop = globalClock.getTime(format='float')
     koniec_treningu.tStopRefresh = tThisFlipGlobal
-    # Run 'End Routine' code from mouse_visible_6
-    win.mouseVisible=False
-    
     # check responses
     if spacja_start.keys in ['', [], None]:  # No response was made
         spacja_start.keys = None
@@ -1491,7 +1467,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         method='sequential', 
         extraInfo=expInfo, 
         originPath=-1, 
-        trialList=data.importConditions('conditions.xlsx'), 
+        trialList=data.importConditions("conditions_" + str(expInfo['grupa']) + ".xlsx"), 
         seed=None, 
         isTrials=True, 
     )
@@ -1681,8 +1657,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         else:
             label_text.text = etykieta # Przywraca tekst z Excela
             label_text.opacity = 1
-        # Run 'Begin Routine' code from mouse_visible
-        win.mouseVisible=True
         label_text.setOpacity(None)
         label_text.setText(etykieta
         )
@@ -1792,8 +1766,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 suwak_badanie.tStart = t  # local t and not account for scr refresh
                 suwak_badanie.tStartRefresh = tThisFlipGlobal  # on global time
                 win.timeOnFlip(suwak_badanie, 'tStartRefresh')  # time at next scr refresh
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'suwak_badanie.started')
                 # update status
                 suwak_badanie.status = STARTED
                 suwak_badanie.setAutoDraw(True)
@@ -1932,9 +1904,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # store stop times for trial
         trial.tStop = globalClock.getTime(format='float')
         trial.tStopRefresh = tThisFlipGlobal
-        # Run 'End Routine' code from mouse_visible
-        win.mouseVisible=False
-        
         trials.addData('suwak_badanie.response', suwak_badanie.getRating())
         trials.addData('suwak_badanie.rt', suwak_badanie.getRT())
         # the Routine "trial" was not non-slip safe, so reset the non-slip timer
