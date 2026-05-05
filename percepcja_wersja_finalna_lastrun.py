@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.1),
-    on maj 04, 2026, at 19:59
+    on maj 05, 2026, at 11:34
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -47,6 +47,8 @@ runAtExit = []
 expInfo = {
     'participant': f"{randint(0, 999999):06.0f}",
     'session': '001',
+    'wiek': '',
+    'płeć': ['kobieta', 'mężczyzna','osoba niebinarna'],
     'date|hid': data.getDateStr(),
     'expName|hid': expName,
     'expVersion|hid': expVersion,
@@ -403,7 +405,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0, -0.2), draggable=False, size=(1, 0.75),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-3.0)
+        texRes=128.0, interpolate=False, depth=-3.0)
     
     # --- Initialize components for Routine "info_trening" ---
     spacja_trening = keyboard.Keyboard(deviceName='defaultKeyboard')
@@ -1060,7 +1062,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # Run 'Begin Routine' code from mouse_visible_5
     win.mouseVisible=True
     pilot_label_text.setOpacity(None)
-    pilot_label_text.setText('Model AI wykrył w tej twarzy 80% radości.\n\n')
+    pilot_label_text.setText('Model AI wykrył w tej twarzy 80% radości.')
     pilot_suwak.reset()
     pilot_lewa_etykieta.setText('radość')
     pilot_prawa_etykieta.setText('smutek')
